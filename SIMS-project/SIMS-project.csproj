@@ -53,8 +53,20 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Korisnici\KorisnickiNalog.cs" />
+    <Compile Include="Korisnici\Korisnik.cs" />
+    <Compile Include="Korisnici\Referent.cs" />
+    <Compile Include="NaplatnaMesta\NaplatnoMesto.cs" />
+    <Compile Include="NaplatneStanice\Mesto.cs" />
+    <Compile Include="NaplatneStanice\MestoRepository.cs" />
+    <Compile Include="NaplatneStanice\NaplatnaStanica.cs" />
+    <Compile Include="NaplatneStanice\NaplatnaStanicaRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transakcije\Transakcija.cs" />
+    <Compile Include="Transakcije\TransakcijaRepository.cs" />
+    <Compile Include="Uredjaji\DojavaOKvaru.cs" />
+    <Compile Include="Uredjaji\Uredjaj.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
