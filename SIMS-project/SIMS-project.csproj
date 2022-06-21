@@ -63,6 +63,8 @@
     <Compile Include="NaplatneStanice\NaplatnaStanicaRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tagovi\Tag.cs" />
+    <Compile Include="Tagovi\TagRepository.cs" />
     <Compile Include="Transakcije\Transakcija.cs" />
     <Compile Include="Transakcije\TransakcijaRepository.cs" />
     <Compile Include="Uredjaji\DojavaOKvaru.cs" />
