@@ -47,6 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Deonice\Cenovnik\Cenovnik.cs" />
+    <Compile Include="Deonice\Cenovnik\CenovnikRepository.cs" />
+    <Compile Include="Deonice\Cenovnik\StavkaCenovnika.cs" />
+    <Compile Include="Deonice\Deonica.cs" />
+    <Compile Include="Deonice\DeonicaRepository.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
