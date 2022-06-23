@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIMS_project.NaplatnaStanica
+namespace SIMS_project.NaplatneStanice
 {
     internal class MestoRepository
     {

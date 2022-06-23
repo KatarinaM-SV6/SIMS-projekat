@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIMS_project.NaplatneStanice
+namespace SIMS_project.Tagovi
 {
-    internal class NaplatnaStanicaRepository
+    class TagRepository
     {
     }
 }
