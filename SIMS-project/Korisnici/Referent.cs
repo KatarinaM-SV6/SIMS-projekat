@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIMS_project.NaplatneStanice
+namespace SIMS_project.Korisnici
 {
-    internal class NaplatnaStanicaRepository
-    {
-    }
+	class Referent:KorisnickiNalog
+	{
+	}
 }
