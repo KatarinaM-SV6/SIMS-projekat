@@ -32,6 +32,21 @@ namespace SIMS_project.NaplatneStanice
             return naplatneStanice.First(n => n.Id == id);
         }
 
+        public void Update(NaplatnaStanica stanica)
+        {
+            var result = from s in naplatneStanice where s.Id == stanica.Id select s;
+
+            result.First().NazivAutoputa = stanica.NazivAutoputa;
+            result.First().Mesto = stanica.Mesto;
+            result.First().NaplatnaMesta = stanica.NaplatnaMesta;
+
+            Save();
+        }
+        public NaplatnaStanica GetByMesto(String mesto)
+        {
+            return naplatneStanice.First(n => n.Mesto.Naziv == mesto);
+        }
+
         public List<NaplatnaStanica> GetAll()
         {
             return naplatneStanice.Where(n => !n.Obrisana).ToList();

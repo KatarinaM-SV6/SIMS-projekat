@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SIMS_project.NaplatneStanice
 {
-    internal class Mesto
+    public class Mesto
     {
         String _naziv;
 

@@ -14,16 +14,30 @@ namespace SIMS_project
 {
     public partial class CreateNaplatnaStanica : Form
     {
-        public CreateNaplatnaStanica()
+        NaplatnaStanica _stanica = null;
+        public CreateNaplatnaStanica(NaplatnaStanica stanica)
         {
             InitializeComponent();
+            if (stanica!=null)
+            {
+                _stanica = stanica;
+                mesto.Text = stanica.Mesto.Naziv;
+                nazivAutoputa.Text = stanica.NazivAutoputa;
+                dodajNaplatnaMesta.Checked = true;
+                splitContainer1.Panel1.Enabled = false;
+                splitContainer1.Panel2.Enabled = true;
+            }
         }
 
 
         private void button1_Click(object sender, EventArgs e)
         {
-         
-            NaplatnaStanica naplatnaStanica = new NaplatnaStanica(new Mesto(mesto.Text), new List<NaplatnoMesto>(), nazivAutoputa.Text);
+            NaplatnaStanica naplatnaStanica = _stanica;
+            if (_stanica == null)
+            {
+                naplatnaStanica = new NaplatnaStanica(new Mesto(mesto.Text), new List<NaplatnoMesto>(), nazivAutoputa.Text);
+            }
+
             if (dodajNaplatnaMesta.Checked)
             {
                 int brojMesta = Int32.Parse(brojNaplatnihMesta.Text);
@@ -34,7 +48,8 @@ namespace SIMS_project
                     {
                         naplatnoMesto = new NaplatnoMesto(j, true, true, j, new List<Uredjaj>());
                         naplatnoMesto.Uredjaji.Add(new Uredjaj("CITAC_TAGA"));
-                    } else
+                    }
+                    else
                     {
                         naplatnoMesto = new NaplatnoMesto(j, false, true, j, new List<Uredjaj>());
                     }
@@ -44,9 +59,13 @@ namespace SIMS_project
                     if (semafor.Checked) naplatnoMesto.Uredjaji.Add(new Uredjaj("SEMAFOR"));
                     naplatnaStanica.NaplatnaMesta.Add(naplatnoMesto);
                 }
-            }
-            Program.staniceRepo.Add(naplatnaStanica);
+            } 
+            if (_stanica == null)
+                Program.staniceRepo.Add(naplatnaStanica);
             Program.staniceRepo.Save();
+
+            MessageBox.Show("Uspesno ste kreirali novu naplatnu stanicu/mesto!", "Uspeh!");
+            Close();
         }
 
         private void dodajNaplatnaMesta_CheckedChanged(object sender, EventArgs e)

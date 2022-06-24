@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SIMS_project.NaplatneStanice
 {
-    internal class NaplatnoMesto
+    public class NaplatnoMesto
     {
         int _id;
         bool _imaElektronskoNaplacivanje;
@@ -28,5 +28,15 @@ namespace SIMS_project.NaplatneStanice
         public int RedniBroj { get { return _redniBroj; } set { _redniBroj = value; } }
         public List<Uredjaj> Uredjaji { get { return _uredjaji; } set { _uredjaji = value; } }
         public bool UFunkciji { get { return _uFunkciji; } set { _uFunkciji = value; } }
+
+        public override string ToString()
+        {
+            string str = "\nRedni broj: " + RedniBroj + "\nJe u funkciji: " + UFunkciji + "\nIma elektronsko naplacivanje" + ImaElektronskoNaplacivanje;
+            foreach (Uredjaj uredjaj in Uredjaji)
+            {
+                str += "\t" + uredjaj.ToString();
+            }
+            return str;
+        }
     }
 }

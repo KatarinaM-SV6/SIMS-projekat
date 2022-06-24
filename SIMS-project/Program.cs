@@ -23,7 +23,7 @@ namespace SIMS_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            test();
+            //test();
             Application.Run(new Form1());
         }
 
@@ -31,12 +31,12 @@ namespace SIMS_project
         {
             NaplatnaStanicaRepository repo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
             List<NaplatnaStanica> naplatneStanice = new List<NaplatnaStanica>();
-            for (int i = 0; i < 5; i++)
+            for (int i = 1; i < 5; i++)
             {
                 NaplatnaStanica naplatnaStanica = new NaplatnaStanica(new Mesto("Mesto" + i), new List<NaplatnoMesto>(), "A" + i);
-                for (int j = 0; j < 10; j++)
+                for (int j = 1; j < 10; j++)
                 {
-                    NaplatnoMesto naplatnoMesto = new NaplatnoMesto(i, false, true, i, new List<Uredjaj> { new Uredjaj("KAMERA"), new Uredjaj("RAMPA") });
+                    NaplatnoMesto naplatnoMesto = new NaplatnoMesto(j, false, true, j, new List<Uredjaj> { new Uredjaj("KAMERA"), new Uredjaj("RAMPA") });
                     naplatnaStanica.NaplatnaMesta.Add(naplatnoMesto);
                 }
                 naplatneStanice.Add(naplatnaStanica);

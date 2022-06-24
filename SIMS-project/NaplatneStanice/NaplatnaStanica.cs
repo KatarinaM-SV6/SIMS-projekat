@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SIMS_project.NaplatneStanice
 {
-    internal class NaplatnaStanica
+    public class NaplatnaStanica
     {
         int _id = -1;
         Mesto _mesto;
@@ -28,5 +28,10 @@ namespace SIMS_project.NaplatneStanice
         public List<NaplatnoMesto> NaplatnaMesta { get { return _naplatnaMesta;} set { _naplatnaMesta = value;} }
         public String NazivAutoputa { get { return _nazivAutoputa; } set { _nazivAutoputa = value; } }
         public bool Obrisana { get { return _obrisana;} set { _obrisana = value;} }
+
+        public override string ToString()
+        {
+            return "\nID: " + _id + ", Mesto: " + _mesto.Naziv + ", Naziv autoputa: " + _nazivAutoputa;
+        }
     }
 }

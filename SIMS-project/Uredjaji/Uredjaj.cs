@@ -17,20 +17,28 @@ namespace SIMS_project.Uredjaji
         CITAC_TABLICA
     }
 
-    internal class Uredjaj
+    public class Uredjaj
     {
         VrstaUredjaja _vrstaUredjaja;
+        bool _uFunkciji;
 
         public Uredjaj() { }
 
         public Uredjaj(String vrstaUredjaja)
         {
             _vrstaUredjaja = (VrstaUredjaja)Enum.Parse(typeof(VrstaUredjaja), vrstaUredjaja);
+            _uFunkciji = true;
         }
 
         [JsonConverter(typeof(StringEnumConverter))]
 
         public VrstaUredjaja VrstaUredjaja { get { return _vrstaUredjaja;} set { _vrstaUredjaja = value; } }
+        public bool UFunkciji { get { return _uFunkciji;} set { _uFunkciji = value;} }
+
+        public override string ToString()
+        {
+            return "\nVrsta uredjaja: " + VrstaUredjaja.ToString() + ", Radi: " + UFunkciji.ToString();
+        }
     }
 
     
