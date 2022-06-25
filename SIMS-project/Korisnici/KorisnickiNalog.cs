@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,10 +15,12 @@ namespace SIMS_project.Korisnici
 	}
 	class KorisnickiNalog
 	{
+		int _id = -1;
 		string _korisnickoIme;
 		string _lozinka;
 		TipKorisnika _tipKorisnika;
 		Korisnik _korisnik;
+		bool _obrisan;
 
 		public KorisnickiNalog() { }
 
@@ -29,9 +32,13 @@ namespace SIMS_project.Korisnici
 			_korisnik = korisnik;
 		}
 
+	        public int Id { get => _id; set => _id = value; }
 		public string KorisnickoIme { get => _korisnickoIme; set => _korisnickoIme = value; }
 		public string Lozinka { get => _lozinka; set => _lozinka = value; }
 		public TipKorisnika TipKorisnika { get => _tipKorisnika; set => _tipKorisnika = value; }
+		[JsonConverter(typeof(KorisnikJSONReferenceConverter))]
 		public Korisnik Korisnik { get => _korisnik; set => _korisnik = value; }
-	}
+	        public bool Obrisan { get => _obrisan; set => _obrisan = value; }
+    	
+    	}
 }
