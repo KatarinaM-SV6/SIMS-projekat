@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SIMS_project.NaplatneStanice;
+using SIMS_project.Uredjaji;
 
 namespace SIMS_project.view.vodjaView
 {
@@ -23,7 +24,7 @@ namespace SIMS_project.view.vodjaView
 		private void FillTable()
 		{
 			foreach (NaplatnoMesto naplatnoMesto in _naplatnaStanica.NaplatnaMesta) {
-				dataGridView1.Rows.Add(naplatnoMesto.RedniBroj, naplatnoMesto.ImaElektronskoNaplacivanje, naplatnoMesto.UFunkciji, naplatnoMesto.Uredjaji);
+				dataGridView1.Rows.Add(naplatnoMesto.RedniBroj, naplatnoMesto.ImaElektronskoNaplacivanje, naplatnoMesto.UFunkciji, naplatnoMesto.Uredjaji.Count);
 			}
 		}
 
@@ -34,7 +35,11 @@ namespace SIMS_project.view.vodjaView
 
 		private void UvidUUredjaje(object sender, EventArgs e)
 		{
-
+			if (OneRowSelected())
+			{
+				UredajiForm uredajiForm = new UredajiForm(DobaviUredjaje());
+				uredajiForm.Show();
+			}
 		}
 
 		private void UvidUprijaveKvarova(object sender, EventArgs e)
@@ -50,6 +55,26 @@ namespace SIMS_project.view.vodjaView
 		private void IzvestajTipVozila(object sender, EventArgs e)
 		{
 
+		}
+
+		private List<Uredjaj> DobaviUredjaje() {
+			string redniBrojMesta = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+			foreach (NaplatnoMesto naplatnoMesto in _naplatnaStanica.NaplatnaMesta) {
+				if (naplatnoMesto.RedniBroj == int.Parse(redniBrojMesta)) return naplatnoMesto.Uredjaji; 
+			}
+			return null;
+		}
+
+		private bool OneRowSelected()
+		{
+			int selectedRowCount =
+			dataGridView1.Rows.GetRowCount(DataGridViewElementStates.Selected);
+			if (selectedRowCount == 1) return true;
+			else
+			{
+				MessageBox.Show("Oznacite samo jedan red.", "Error");
+				return false;
+			}
 		}
 	}
 }

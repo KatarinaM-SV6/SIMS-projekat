@@ -58,7 +58,7 @@ namespace SIMS_project.view.vodjaView
 			this.dataGridView1.ReadOnly = true;
 			this.dataGridView1.RowHeadersWidth = 51;
 			this.dataGridView1.RowTemplate.Height = 24;
-			this.dataGridView1.Size = new System.Drawing.Size(554, 219);
+			this.dataGridView1.Size = new System.Drawing.Size(716, 219);
 			this.dataGridView1.TabIndex = 0;
 			// 
 			// Column1
@@ -105,7 +105,7 @@ namespace SIMS_project.view.vodjaView
 			// 
 			// button2
 			// 
-			this.button2.Location = new System.Drawing.Point(270, 331);
+			this.button2.Location = new System.Drawing.Point(345, 331);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(122, 62);
 			this.button2.TabIndex = 2;
@@ -115,7 +115,7 @@ namespace SIMS_project.view.vodjaView
 			// 
 			// button3
 			// 
-			this.button3.Location = new System.Drawing.Point(467, 331);
+			this.button3.Location = new System.Drawing.Point(622, 331);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(122, 62);
 			this.button3.TabIndex = 3;
@@ -125,7 +125,7 @@ namespace SIMS_project.view.vodjaView
 			// 
 			// button4
 			// 
-			this.button4.Location = new System.Drawing.Point(161, 425);
+			this.button4.Location = new System.Drawing.Point(204, 425);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(122, 62);
 			this.button4.TabIndex = 4;
@@ -135,7 +135,7 @@ namespace SIMS_project.view.vodjaView
 			// 
 			// button5
 			// 
-			this.button5.Location = new System.Drawing.Point(371, 425);
+			this.button5.Location = new System.Drawing.Point(492, 425);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(122, 62);
 			this.button5.TabIndex = 5;
@@ -147,7 +147,7 @@ namespace SIMS_project.view.vodjaView
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(666, 517);
+			this.ClientSize = new System.Drawing.Size(817, 517);
 			this.Controls.Add(this.button5);
 			this.Controls.Add(this.button4);
 			this.Controls.Add(this.button3);
