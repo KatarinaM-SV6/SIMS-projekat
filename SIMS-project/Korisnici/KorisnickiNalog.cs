@@ -13,7 +13,7 @@ namespace SIMS_project.Korisnici
 		REFERENT,
 		VODJA_STANICE
 	}
-	class KorisnickiNalog
+	public class KorisnickiNalog
 	{
 		int _id = -1;
 		string _korisnickoIme;

@@ -8,7 +8,7 @@ using SIMS_project.NaplatneStanice;
 
 namespace SIMS_project.Korisnici
 {
-	class Korisnik
+	public class Korisnik
 	{
 		int _id = -1;
 		string _ime;
@@ -34,6 +34,7 @@ namespace SIMS_project.Korisnici
 		public int Id { get => _id; set => _id = value; }
         public bool Obrisan { get => _obrisan; set => _obrisan = value; }
 		//[JsonConverter(typeof(PersonJSONReferenceConverter))]
+		[JsonConverter(typeof(NaplatnaStanicaJSONReferenceConverter))]
 		internal NaplatnaStanica RadnoMesto { get => _radnoMesto; set => _radnoMesto = value; }
 		[JsonConverter(typeof(KorisnickiNalogJSONReferenceConverter))]
 		internal KorisnickiNalog KorisnickiNalog { get => _korisnickiNalog; set => _korisnickiNalog = value; }

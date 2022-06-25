@@ -16,5 +16,12 @@ namespace SIMS_project
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            AdminForm adminForm = new AdminForm();
+            adminForm.ShowDialog();
+
+        }
     }
 }
