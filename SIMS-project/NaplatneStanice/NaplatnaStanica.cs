@@ -33,5 +33,11 @@ namespace SIMS_project.NaplatneStanice
         {
             return "\nID: " + _id + ", Mesto: " + _mesto.Naziv + ", Naziv autoputa: " + _nazivAutoputa;
         }
+
+        public void AddMesto(NaplatnoMesto mesto)
+        {
+            mesto.RedniBroj = NaplatnaMesta.Count > 0 ? NaplatnaMesta.Last().RedniBroj + 1 : 0;
+            NaplatnaMesta.Add(mesto);
+        }
     }
 }

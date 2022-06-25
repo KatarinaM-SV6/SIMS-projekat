@@ -20,7 +20,7 @@ namespace SIMS_project
             InitializeComponent();
             _naplatnoMesto = naplatnoMesto;
             stanica.Text = mesto;
-            id.Text = naplatnoMesto.Id.ToString();
+            id.Text = naplatnoMesto.RedniBroj.ToString();
             if (naplatnoMesto.UFunkciji)
                 Da.Checked = true;
             else

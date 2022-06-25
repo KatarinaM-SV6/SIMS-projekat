@@ -46,18 +46,18 @@ namespace SIMS_project
                     NaplatnoMesto naplatnoMesto;
                     if (j <= Int32.Parse(brojElektronskihMesta.Text))
                     {
-                        naplatnoMesto = new NaplatnoMesto(j, true, true, j, new List<Uredjaj>());
+                        naplatnoMesto = new NaplatnoMesto(true, true, new List<Uredjaj>());
                         naplatnoMesto.Uredjaji.Add(new Uredjaj("CITAC_TAGA"));
                     }
                     else
                     {
-                        naplatnoMesto = new NaplatnoMesto(j, false, true, j, new List<Uredjaj>());
+                        naplatnoMesto = new NaplatnoMesto(false, true, new List<Uredjaj>());
                     }
                     if (kamera.Checked) naplatnoMesto.Uredjaji.Add(new Uredjaj("KAMERA"));
                     if (rampa.Checked) naplatnoMesto.Uredjaji.Add(new Uredjaj("RAMPA"));
                     if (citacTablica.Checked) naplatnoMesto.Uredjaji.Add(new Uredjaj("CITAC_TABLICA"));
                     if (semafor.Checked) naplatnoMesto.Uredjaji.Add(new Uredjaj("SEMAFOR"));
-                    naplatnaStanica.NaplatnaMesta.Add(naplatnoMesto);
+                    naplatnaStanica.AddMesto(naplatnoMesto);
                 }
             } 
             if (_stanica == null)

@@ -23,7 +23,7 @@ namespace SIMS_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //test();
+            test();
             Application.Run(new Form1());
         }
 
@@ -36,8 +36,8 @@ namespace SIMS_project
                 NaplatnaStanica naplatnaStanica = new NaplatnaStanica(new Mesto("Mesto" + i), new List<NaplatnoMesto>(), "A" + i);
                 for (int j = 1; j < 10; j++)
                 {
-                    NaplatnoMesto naplatnoMesto = new NaplatnoMesto(j, false, true, j, new List<Uredjaj> { new Uredjaj("KAMERA"), new Uredjaj("RAMPA") });
-                    naplatnaStanica.NaplatnaMesta.Add(naplatnoMesto);
+                    NaplatnoMesto naplatnoMesto = new NaplatnoMesto(false, true, new List<Uredjaj> { new Uredjaj("KAMERA"), new Uredjaj("RAMPA") });
+                    naplatnaStanica.AddMesto(naplatnoMesto);
                 }
                 naplatneStanice.Add(naplatnaStanica);
                 repo.Add(naplatnaStanica);

@@ -110,7 +110,7 @@
             this.createButton.Name = "createButton";
             this.createButton.Size = new System.Drawing.Size(119, 39);
             this.createButton.TabIndex = 0;
-            this.createButton.Text = "KREIRAJ NOVU ";
+            this.createButton.Text = "KREIRAJ";
             this.createButton.UseVisualStyleBackColor = true;
             this.createButton.Click += new System.EventHandler(this.createButton_Click);
             // 
