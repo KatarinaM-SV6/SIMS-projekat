@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using SIMS_project.NaplatneStanice;
 
 namespace SIMS_project.Korisnici
@@ -28,6 +29,7 @@ namespace SIMS_project.Korisnici
 
 		public string Ime { get => _ime; set => _ime = value; }
 		public string Prezime { get => _prezime; set => _prezime = value; }
+		[JsonConverter(typeof(NaplatnaStanicaJSONReferenceConverter))]
 		internal NaplatnaStanica RadnoMesto { get => _radnoMesto; set => _radnoMesto = value; }
 		internal KorisnickiNalog KorisnickiNalog { get => _korisnickiNalog; set => _korisnickiNalog = value; }
 	}

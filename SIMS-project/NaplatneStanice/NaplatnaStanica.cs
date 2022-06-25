@@ -3,24 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using SIMS_project.Korisnici;
 
 namespace SIMS_project.NaplatneStanice
 {
-    public class NaplatnaStanica
+    internal class NaplatnaStanica
     {
         int _id = -1;
         Mesto _mesto;
         List<NaplatnoMesto> _naplatnaMesta;
         String _nazivAutoputa;
         bool _obrisana;
+        List<Korisnik> _radnici;
 
         public NaplatnaStanica() { }
         
-        public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa)
+        public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa, List<Korisnik> radnici)
         {
             _mesto = mesto;
             _naplatnaMesta = naplatnaMesta;
             _nazivAutoputa = nazivAutoputa;
+            _radnici = radnici;
         }
         
         public int Id { get { return _id; } set { _id = value; } }
@@ -28,6 +32,8 @@ namespace SIMS_project.NaplatneStanice
         public List<NaplatnoMesto> NaplatnaMesta { get { return _naplatnaMesta;} set { _naplatnaMesta = value;} }
         public String NazivAutoputa { get { return _nazivAutoputa; } set { _nazivAutoputa = value; } }
         public bool Obrisana { get { return _obrisana;} set { _obrisana = value;} }
+        [JsonConverter(typeof(KorisnikJSONReferenceConverter))]
+        public List<Korisnik> Radnici { get { return _radnici; } set { _radnici = value; } }
 
         public override string ToString()
         {
