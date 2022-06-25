@@ -1,0 +1,2597 @@
+[
+  {
+    "Id": 0,
+    "Mesto": {
+      "Naziv": "ddd"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "CITAC_TABLICA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "CITAC_TABLICA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "CITAC_TABLICA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "CITAC_TABLICA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "a9",
+    "Obrisana": true
+  },
+  {
+    "Id": 1,
+    "Mesto": {
+      "Naziv": "555"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 9,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": false
+      }
+    ],
+    "NazivAutoputa": "555",
+    "Obrisana": false
+  },
+  {
+    "Id": 2,
+    "Mesto": {
+      "Naziv": "4 3g "
+    },
+    "NaplatnaMesta": [],
+    "NazivAutoputa": "5h54",
+    "Obrisana": true
+  },
+  {
+    "Id": 3,
+    "Mesto": {
+      "Naziv": "ztntznm"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "tnjtzn",
+    "Obrisana": false
+  },
+  {
+    "Id": 4,
+    "Mesto": {
+      "Naziv": "Mesto1"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 9,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A1",
+    "Obrisana": true
+  },
+  {
+    "Id": 5,
+    "Mesto": {
+      "Naziv": "Mesto2"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 9,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A2",
+    "Obrisana": true
+  },
+  {
+    "Id": 6,
+    "Mesto": {
+      "Naziv": "Mesto3"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 9,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": true,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "CITAC_TAGA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "SEMAFOR",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A3",
+    "Obrisana": true
+  },
+  {
+    "Id": 7,
+    "Mesto": {
+      "Naziv": "Mesto4"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 9,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A4",
+    "Obrisana": true
+  },
+  {
+    "Id": 8,
+    "Mesto": {
+      "Naziv": "Mesto1"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A1",
+    "Obrisana": false
+  },
+  {
+    "Id": 9,
+    "Mesto": {
+      "Naziv": "Mesto2"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A2",
+    "Obrisana": true
+  },
+  {
+    "Id": 10,
+    "Mesto": {
+      "Naziv": "Mesto3"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A3",
+    "Obrisana": false
+  },
+  {
+    "Id": 11,
+    "Mesto": {
+      "Naziv": "Mesto4"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A4",
+    "Obrisana": false
+  },
+  {
+    "Id": 12,
+    "Mesto": {
+      "Naziv": "Mesto1"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A1",
+    "Obrisana": false
+  },
+  {
+    "Id": 13,
+    "Mesto": {
+      "Naziv": "Mesto2"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A2",
+    "Obrisana": false
+  },
+  {
+    "Id": 14,
+    "Mesto": {
+      "Naziv": "Mesto3"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A3",
+    "Obrisana": false
+  },
+  {
+    "Id": 15,
+    "Mesto": {
+      "Naziv": "Mesto4"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A4",
+    "Obrisana": false
+  },
+  {
+    "Id": 16,
+    "Mesto": {
+      "Naziv": "Mesto1"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A1",
+    "Obrisana": false
+  },
+  {
+    "Id": 17,
+    "Mesto": {
+      "Naziv": "Mesto2"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A2",
+    "Obrisana": false
+  },
+  {
+    "Id": 18,
+    "Mesto": {
+      "Naziv": "Mesto3"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A3",
+    "Obrisana": false
+  },
+  {
+    "Id": 19,
+    "Mesto": {
+      "Naziv": "Mesto4"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A4",
+    "Obrisana": false
+  }
+]
