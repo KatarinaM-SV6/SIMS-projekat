@@ -30,7 +30,31 @@ namespace SIMS_project.view.vodjaView
 
 		private void PromeniUfunciji(object sender, EventArgs e)
 		{
+			if (!OneRowSelected()) return;
+			NaplatnoMesto selektovanoMesto = DobaviSelektovanoRadnoMesto(); 
+			bool uFunkcijiNovo = true;
+			if (selektovanoMesto.UFunkciji) uFunkcijiNovo = false;
+			SacuvajPromene(selektovanoMesto, uFunkcijiNovo);
 
+		}
+
+		private void SacuvajPromene(NaplatnoMesto selektovanoMesto, bool uFunkcijiNovo)
+		{
+			DialogResult dialogResult = MessageBox.Show("Da li zelite da radnu stanicu " + selektovanoMesto.RedniBroj + " prebacite funkciju u stanje " + uFunkcijiNovo + "?", "Check", MessageBoxButtons.YesNo);
+			if (dialogResult == DialogResult.Yes)
+			{
+				selektovanoMesto.UFunkciji = uFunkcijiNovo;
+			}
+		}
+
+		private NaplatnoMesto DobaviSelektovanoRadnoMesto()
+		{
+			string redniBrojMesta = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+			foreach (NaplatnoMesto naplatnoMesto in _naplatnaStanica.NaplatnaMesta)
+			{
+				if (naplatnoMesto.RedniBroj == int.Parse(redniBrojMesta)) return naplatnoMesto;
+			}
+			return null;
 		}
 
 		private void UvidUUredjaje(object sender, EventArgs e)
