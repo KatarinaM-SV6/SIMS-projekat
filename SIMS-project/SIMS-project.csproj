@@ -104,8 +104,12 @@
     <Compile Include="UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Uredjaji\DojavaOKvaru.cs" />
+    <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaru.cs" />
+    <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruJSONReferenceConverter.cs" />
+    <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruRepository.cs" />
     <Compile Include="Uredjaji\Uredjaj.cs" />
+    <Compile Include="Uredjaji\UredjajJSONReferenceConverter.cs" />
+    <Compile Include="Uredjaji\UredjajRepository.cs" />
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +130,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Podaci\DojaveOKvaru.json" />
     <None Include="Podaci\korisnicki_nalozi.json" />
     <None Include="Podaci\korisnici.json" />
     <EmbeddedResource Include="UpdateBooth.resx">

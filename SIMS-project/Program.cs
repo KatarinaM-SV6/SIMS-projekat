@@ -15,6 +15,7 @@ namespace SIMS_project
     {
         private static readonly string podaciDir = Path.Combine("..", "..", "Podaci") + Path.DirectorySeparatorChar;
         private static readonly JsonSerializerSettings jsonPodesavanja = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.None };
+        public static KorisnikRepository korisniciRepo = new KorisnikRepository(podaciDir + "korisnici.json", jsonPodesavanja);
         public static NaplatnaStanicaRepository staniceRepo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
         /// <summary>
         /// The main entry point for the application.
@@ -22,6 +23,7 @@ namespace SIMS_project
         [STAThread]
         static void Main()
         {
+
             /*var korisniciRepo = new KorisnikRepository(podaciDir + "korisnici.json", jsonPosesavanja);
 
             korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
@@ -37,15 +39,11 @@ namespace SIMS_project
             }
             korisniciRepo.Save();
             kornalogRepo.Save();*/
-            
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            test();
             Application.Run(new Form1());
 
-            
-
-            
         }
 
         public static void test()
@@ -67,6 +65,7 @@ namespace SIMS_project
 
             Console.WriteLine(jsonString);
             repo.Save();
-        } 
+        }
+
     }
 }
