@@ -11,11 +11,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "CITAC_TABLICA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -26,11 +28,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "CITAC_TABLICA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -41,11 +45,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "CITAC_TABLICA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -56,11 +62,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "CITAC_TABLICA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -71,11 +79,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -96,15 +106,18 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -115,15 +128,18 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -134,15 +150,18 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -153,7 +172,8 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -164,7 +184,8 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -175,19 +196,23 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": false
@@ -217,7 +242,8 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -228,7 +254,8 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -239,15 +266,18 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -258,11 +288,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -273,7 +305,8 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -284,7 +317,8 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -295,7 +329,8 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -316,11 +351,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -331,11 +368,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -346,11 +385,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -361,11 +402,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -376,11 +419,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -391,11 +436,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -406,11 +453,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -421,11 +470,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -436,11 +487,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -461,11 +514,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -476,11 +531,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -491,11 +548,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -506,11 +565,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -521,11 +582,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -536,11 +599,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -551,11 +616,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -566,11 +633,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -581,11 +650,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -606,11 +677,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -621,11 +694,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -636,11 +711,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -651,11 +728,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -666,11 +745,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -681,11 +762,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -696,11 +779,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "CITAC_TAGA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "SEMAFOR",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -721,11 +806,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -736,11 +823,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -751,11 +840,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -766,11 +857,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -781,11 +874,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -796,11 +891,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -811,11 +908,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -826,11 +925,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -841,11 +942,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -866,11 +969,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -881,11 +986,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -896,11 +1003,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -911,11 +1020,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -926,11 +1037,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -941,11 +1054,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -956,11 +1071,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -971,11 +1088,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -986,11 +1105,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1011,11 +1132,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1026,11 +1149,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1041,11 +1166,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1056,11 +1183,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1071,11 +1200,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1086,11 +1217,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1101,11 +1234,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1116,11 +1251,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1131,11 +1268,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1156,11 +1295,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1171,11 +1312,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1186,11 +1329,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1201,11 +1346,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1216,11 +1363,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1231,11 +1380,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1246,11 +1397,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1261,11 +1414,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1276,11 +1431,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1301,11 +1458,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1316,11 +1475,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1331,11 +1492,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1346,11 +1509,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1361,11 +1526,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1376,11 +1543,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1391,11 +1560,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1406,11 +1577,13 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
@@ -1421,11 +1594,1969 @@
         "Uredjaji": [
           {
             "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
           },
           {
             "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A4",
+    "Obrisana": false
+  },
+  {
+    "Id": 12,
+    "Mesto": {
+      "Naziv": "Mesto1"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A1",
+    "Obrisana": false
+  },
+  {
+    "Id": 13,
+    "Mesto": {
+      "Naziv": "Mesto2"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A2",
+    "Obrisana": false
+  },
+  {
+    "Id": 14,
+    "Mesto": {
+      "Naziv": "Mesto3"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A3",
+    "Obrisana": false
+  },
+  {
+    "Id": 15,
+    "Mesto": {
+      "Naziv": "Mesto4"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A4",
+    "Obrisana": false
+  },
+  {
+    "Id": 16,
+    "Mesto": {
+      "Naziv": "Mesto1"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A1",
+    "Obrisana": false
+  },
+  {
+    "Id": 17,
+    "Mesto": {
+      "Naziv": "Mesto2"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A2",
+    "Obrisana": false
+  },
+  {
+    "Id": 18,
+    "Mesto": {
+      "Naziv": "Mesto3"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A3",
+    "Obrisana": false
+  },
+  {
+    "Id": 19,
+    "Mesto": {
+      "Naziv": "Mesto4"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A4",
+    "Obrisana": false
+  },
+  {
+    "Id": 20,
+    "Mesto": {
+      "Naziv": "Mesto1"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A1",
+    "Obrisana": false
+  },
+  {
+    "Id": 21,
+    "Mesto": {
+      "Naziv": "Mesto2"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A2",
+    "Obrisana": false
+  },
+  {
+    "Id": 22,
+    "Mesto": {
+      "Naziv": "Mesto3"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      }
+    ],
+    "NazivAutoputa": "A3",
+    "Obrisana": false
+  },
+  {
+    "Id": 23,
+    "Mesto": {
+      "Naziv": "Mesto4"
+    },
+    "NaplatnaMesta": [
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 0,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 1,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 2,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 3,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 4,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 5,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 6,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 7,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          }
+        ],
+        "UFunkciji": true
+      },
+      {
+        "ImaElektronskoNaplacivanje": false,
+        "RedniBroj": 8,
+        "Uredjaji": [
+          {
+            "VrstaUredjaja": "KAMERA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
+          },
+          {
+            "VrstaUredjaja": "RAMPA",
+            "UFunkciji": true,
+            "IdUredjaja": -1
           }
         ],
         "UFunkciji": true
