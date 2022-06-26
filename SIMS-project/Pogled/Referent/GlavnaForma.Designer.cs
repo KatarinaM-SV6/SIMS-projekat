@@ -55,12 +55,14 @@ namespace SIMS_project.Pogled.Referent
             this.naplataToolStripMenuItem.Name = "naplataToolStripMenuItem";
             this.naplataToolStripMenuItem.Size = new System.Drawing.Size(89, 29);
             this.naplataToolStripMenuItem.Text = "Naplata";
+            this.naplataToolStripMenuItem.Click += new System.EventHandler(this.NaplataToolStripMenuItem_Click);
             // 
             // dojaviKvarToolStripMenuItem
             // 
             this.dojaviKvarToolStripMenuItem.Name = "dojaviKvarToolStripMenuItem";
             this.dojaviKvarToolStripMenuItem.Size = new System.Drawing.Size(116, 29);
             this.dojaviKvarToolStripMenuItem.Text = "Dojavi kvar";
+            this.dojaviKvarToolStripMenuItem.Click += new System.EventHandler(this.DojaviKvarToolStripMenuItem_Click);
             // 
             // cbMesto
             // 

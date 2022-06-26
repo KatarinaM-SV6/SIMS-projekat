@@ -48,9 +48,7 @@ namespace SIMS_project
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            naloziRepo.GetById(1).Korisnik.RadnoMesto = staniceRepo.GetById(19);
-            Application.Run(new GlavnaForma(naloziRepo.GetById(1)));
-            //Application.Run(new Form1());
+            Application.Run(new Form1());
 
         }
 

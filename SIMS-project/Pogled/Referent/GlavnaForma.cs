@@ -40,7 +40,21 @@ namespace SIMS_project.Pogled.Referent
         {
             KeyValuePair<string, NaplatnoMesto> selectedPair = (KeyValuePair<string, NaplatnoMesto>)cbMesto.SelectedItem;
             izabranoMesto = selectedPair.Value;
-            Console.WriteLine(izabranoMesto.RedniBroj);
+        }
+
+        private void NaplataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DojaviKvarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (izabranoMesto != null)
+            {
+                DojavaKvaraForma dojavaKvaraForma = new DojavaKvaraForma(ulogovaniReferent, izabranoMesto);
+                dojavaKvaraForma.Show();
+            }
+            else MessageBox.Show("Izaberite naplatno mesto za pocetak rada.");
         }
     }
 }

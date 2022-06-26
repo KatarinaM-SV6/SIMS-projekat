@@ -29,22 +29,23 @@ namespace SIMS_project.Pogled.Referent
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbUredjaji = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbOpis = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.chbObustavi = new System.Windows.Forms.CheckBox();
+            this.btnDojavi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // cbUredjaji
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(43, 97);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(273, 28);
-            this.comboBox1.TabIndex = 0;
+            this.cbUredjaji.FormattingEnabled = true;
+            this.cbUredjaji.Location = new System.Drawing.Point(43, 97);
+            this.cbUredjaji.Name = "cbUredjaji";
+            this.cbUredjaji.Size = new System.Drawing.Size(273, 28);
+            this.cbUredjaji.TabIndex = 0;
+            this.cbUredjaji.SelectionChangeCommitted += new System.EventHandler(this.CbUredjaji_SelectionChangeCommitted);
             // 
             // label1
             // 
@@ -55,12 +56,12 @@ namespace SIMS_project.Pogled.Referent
             this.label1.TabIndex = 1;
             this.label1.Text = "Izaberite uredjaj:";
             // 
-            // textBox1
+            // tbOpis
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 207);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(273, 26);
-            this.textBox1.TabIndex = 2;
+            this.tbOpis.Location = new System.Drawing.Point(43, 207);
+            this.tbOpis.Name = "tbOpis";
+            this.tbOpis.Size = new System.Drawing.Size(273, 26);
+            this.tbOpis.TabIndex = 2;
             // 
             // label2
             // 
@@ -80,36 +81,37 @@ namespace SIMS_project.Pogled.Referent
             this.label3.TabIndex = 4;
             this.label3.Text = "Obustavi rad mesta?";
             // 
-            // checkBox1
+            // chbObustavi
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(294, 300);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(22, 21);
-            this.checkBox1.TabIndex = 5;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chbObustavi.AutoSize = true;
+            this.chbObustavi.Location = new System.Drawing.Point(294, 300);
+            this.chbObustavi.Name = "chbObustavi";
+            this.chbObustavi.Size = new System.Drawing.Size(22, 21);
+            this.chbObustavi.TabIndex = 5;
+            this.chbObustavi.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnDojavi
             // 
-            this.button1.Location = new System.Drawing.Point(163, 412);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 49);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Dojavi";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDojavi.Location = new System.Drawing.Point(127, 425);
+            this.btnDojavi.Name = "btnDojavi";
+            this.btnDojavi.Size = new System.Drawing.Size(227, 49);
+            this.btnDojavi.TabIndex = 6;
+            this.btnDojavi.Text = "Dojavi";
+            this.btnDojavi.UseVisualStyleBackColor = true;
+            this.btnDojavi.Click += new System.EventHandler(this.BtnDojavi_Click);
             // 
             // DojavaKvaraForma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 531);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.btnDojavi);
+            this.Controls.Add(this.chbObustavi);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbOpis);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbUredjaji);
             this.Name = "DojavaKvaraForma";
             this.Text = "Dojava Kvara";
             this.ResumeLayout(false);
@@ -119,12 +121,12 @@ namespace SIMS_project.Pogled.Referent
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbUredjaji;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbOpis;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox chbObustavi;
+        private System.Windows.Forms.Button btnDojavi;
     }
 }

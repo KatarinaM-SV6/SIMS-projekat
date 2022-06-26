@@ -34,13 +34,13 @@ namespace SIMS_project.Uredjaji.DojaveOKvaru
 			_naplatnaStanica = naplatnaStanica;
 		}
 
-		public DojavaOKvaru(DateTime datum, int idUredjaja, string opisKvara, bool obustaviRadMesta, bool obradjena, NaplatnaStanica naplatnaStanica)
+		public DojavaOKvaru(DateTime datum, int idUredjaja, string opisKvara, bool obustaviRadMesta, NaplatnaStanica naplatnaStanica)
 		{
 			_datum = datum;
 			IdUredjaja = idUredjaja;
 			_opisKvara = opisKvara;
 			_obustaviRadMesta = obustaviRadMesta;
-			_obradjena = obradjena;
+			_obradjena = false;
 			_naplatnaStanica = naplatnaStanica;
 		}
 
