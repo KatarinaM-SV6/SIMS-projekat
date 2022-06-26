@@ -32,13 +32,14 @@ namespace SIMS_project.Pogled.Referent
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.naplataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dojaviKvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbMesto = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.naplataToolStripMenuItem,
@@ -61,13 +62,14 @@ namespace SIMS_project.Pogled.Referent
             this.dojaviKvarToolStripMenuItem.Size = new System.Drawing.Size(116, 29);
             this.dojaviKvarToolStripMenuItem.Text = "Dojavi kvar";
             // 
-            // comboBox1
+            // cbMesto
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(41, 154);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(290, 28);
-            this.comboBox1.TabIndex = 1;
+            this.cbMesto.FormattingEnabled = true;
+            this.cbMesto.Location = new System.Drawing.Point(41, 154);
+            this.cbMesto.Name = "cbMesto";
+            this.cbMesto.Size = new System.Drawing.Size(290, 28);
+            this.cbMesto.TabIndex = 1;
+            this.cbMesto.SelectionChangeCommitted += new System.EventHandler(this.CbMesto_SelectionChangeCommitted);
             // 
             // label1
             // 
@@ -84,7 +86,7 @@ namespace SIMS_project.Pogled.Referent
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbMesto);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GlavnaForma";
@@ -101,7 +103,7 @@ namespace SIMS_project.Pogled.Referent
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem naplataToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dojaviKvarToolStripMenuItem;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbMesto;
         private System.Windows.Forms.Label label1;
     }
 }

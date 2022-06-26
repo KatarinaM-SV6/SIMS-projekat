@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using SIMS_project.NaplatneStanice;
 using SIMS_project.Uredjaji;
 using SIMS_project.Uredjaji.DojaveOKvaru;
+using SIMS_project.Pogled.Referent;
 
 namespace SIMS_project
 {
@@ -47,7 +48,9 @@ namespace SIMS_project
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            naloziRepo.GetById(1).Korisnik.RadnoMesto = staniceRepo.GetById(19);
+            Application.Run(new GlavnaForma(naloziRepo.GetById(1)));
+            //Application.Run(new Form1());
 
         }
 
