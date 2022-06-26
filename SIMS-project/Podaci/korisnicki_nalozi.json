@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 0,
+    "KorisnickoIme": "milan1",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 0,
+    "Obrisan": false
+  },
+  {
+    "Id": 1,
+    "KorisnickoIme": "jelena",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 1,
+    "Obrisan": false
+  },
+  {
+    "Id": 2,
+    "KorisnickoIme": "nikola",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 2,
+    "Obrisan": false
+  },
+  {
+    "Id": 3,
+    "KorisnickoIme": "milan2",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 3,
+    "Obrisan": false
+  }
+]

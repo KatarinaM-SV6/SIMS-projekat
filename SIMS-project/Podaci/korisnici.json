@@ -1,0 +1,26 @@
+[
+  {
+    "Ime": "Milan",
+    "Prezime": "Milovanovic",
+    "Id": 0,
+    "Obrisan": false
+  },
+  {
+    "Ime": "Jelena",
+    "Prezime": "Ristic",
+    "Id": 1,
+    "Obrisan": false
+  },
+  {
+    "Ime": "Nikola",
+    "Prezime": "Milovanovic",
+    "Id": 2,
+    "Obrisan": false
+  },
+  {
+    "Ime": "Milan",
+    "Prezime": "Krstic",
+    "Id": 3,
+    "Obrisan": false
+  }
+]
