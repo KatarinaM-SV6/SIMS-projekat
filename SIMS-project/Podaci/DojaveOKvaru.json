@@ -1,38 +1,47 @@
-﻿[
+[
   {
     "Id": 0,
-    "Datum": "20.05.2022.",
-    "Uredjaj": 1,
-    "OpisKvara": "Pokidan prekidac",
-    "ObustaviRadMesta": false,
-    "Prijavio": 1,
-    "Obradjena": false
+    "Datum": "2022-06-27T00:23:20.8873874+02:00",
+    "IdUredjaja": -1,
+    "OpisKvara": "a",
+    "ObustsaviRadMesta": false,
+    "Obradjena": false,
+    "NaplatnaStanica": 19
   },
   {
     "Id": 1,
-    "Datum": "11.06.2022.",
-    "Uredjaj": 2,
-    "OpisKvara": "Softverska greska",
-    "ObustaviRadMesta": true,
-    "Prijavio": 1,
-    "Obradjena":  true
+    "Datum": "2022-06-27T00:23:20.8873874+02:00",
+    "IdUredjaja": -1,
+    "OpisKvara": "b",
+    "ObustsaviRadMesta": false,
+    "Obradjena": true,
+    "NaplatnaStanica": 19
   },
   {
     "Id": 2,
-    "Datum": "04.04.2022.",
-    "Uredjaj": 1,
-    "OpisKvara": "Ne radi kako treba",
-    "ObustaviRadMesta": true,
-    "Prijavio": 2,
-    "Obradjena": false
+    "Datum": "2022-06-27T00:23:20.8873874+02:00",
+    "IdUredjaja": -1,
+    "OpisKvara": "ccc",
+    "ObustsaviRadMesta": true,
+    "Obradjena": false,
+    "NaplatnaStanica": 19
   },
   {
     "Id": 3,
-    "Datum": "14.06.2022.",
-    "Uredjaj": 2,
-    "OpisKvara": "Ne radi kako treba",
-    "ObustaviRadMesta": false,
-    "Prijavio": 3,
-    "Obradjena": false
+    "Datum": "2022-06-27T00:23:20.8873874+02:00",
+    "IdUredjaja": -1,
+    "OpisKvara": "d",
+    "ObustsaviRadMesta": false,
+    "Obradjena": false,
+    "NaplatnaStanica": 19
+  },
+  {
+    "Id": 4,
+    "Datum": "2022-06-27T00:23:20.8873874+02:00",
+    "IdUredjaja": -1,
+    "OpisKvara": "eee",
+    "ObustsaviRadMesta": true,
+    "Obradjena": true,
+    "NaplatnaStanica": 19
   }
 ]

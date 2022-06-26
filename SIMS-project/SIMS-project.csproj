@@ -121,7 +121,6 @@
     <Compile Include="UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Uredjaji\DojavaOKvaru.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaru.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruJSONReferenceConverter.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruRepository.cs" />

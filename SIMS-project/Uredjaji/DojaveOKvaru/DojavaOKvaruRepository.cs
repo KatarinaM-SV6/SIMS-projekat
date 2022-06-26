@@ -10,7 +10,7 @@ namespace SIMS_project.Uredjaji.DojaveOKvaru
 {
     class DojavaOKvaruRepository
     {
-        private List<DojavaOKvaru> dojave;
+        private List<DojavaOKvaru> dojave = new List<DojavaOKvaru>();
         private readonly string fNaziv;
         private readonly JsonSerializerSettings podesavanja;
 
@@ -24,7 +24,7 @@ namespace SIMS_project.Uredjaji.DojaveOKvaru
 
         public void Add(DojavaOKvaru dojava)
         {
-            dojava.Id = dojave.Count;
+            dojava.Id = dojave.Count > 0 ? dojave.Last().Id + 1 : 0;
             dojave.Add(dojava);
         }
 
