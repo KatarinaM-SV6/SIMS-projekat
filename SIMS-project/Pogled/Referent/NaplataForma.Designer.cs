@@ -40,7 +40,7 @@ namespace SIMS_project.Pogled.Referent
             this.tbId = new System.Windows.Forms.TextBox();
             this.tbMestoUlaska = new System.Windows.Forms.TextBox();
             this.tbVremeUlaska = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbBrzina = new System.Windows.Forms.TextBox();
             this.btnPokreni = new System.Windows.Forms.Button();
             this.cbTip = new System.Windows.Forms.ComboBox();
             this.tbUplacenIznos = new System.Windows.Forms.TextBox();
@@ -56,27 +56,30 @@ namespace SIMS_project.Pogled.Referent
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(38, 99);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 20);
+            this.label1.Size = new System.Drawing.Size(192, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Unesite ID sa papirica:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(38, 451);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 20);
+            this.label2.Size = new System.Drawing.Size(160, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Izaberite tip vozila:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(38, 561);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 20);
+            this.label3.Size = new System.Drawing.Size(246, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Unesite uplacen iznos (RSD):";
             // 
@@ -118,7 +121,7 @@ namespace SIMS_project.Pogled.Referent
             // 
             // tbTablice
             // 
-            this.tbTablice.Location = new System.Drawing.Point(282, 35);
+            this.tbTablice.Location = new System.Drawing.Point(310, 35);
             this.tbTablice.Name = "tbTablice";
             this.tbTablice.ReadOnly = true;
             this.tbTablice.Size = new System.Drawing.Size(157, 26);
@@ -126,14 +129,14 @@ namespace SIMS_project.Pogled.Referent
             // 
             // tbId
             // 
-            this.tbId.Location = new System.Drawing.Point(282, 93);
+            this.tbId.Location = new System.Drawing.Point(310, 93);
             this.tbId.Name = "tbId";
             this.tbId.Size = new System.Drawing.Size(157, 26);
             this.tbId.TabIndex = 8;
             // 
             // tbMestoUlaska
             // 
-            this.tbMestoUlaska.Location = new System.Drawing.Point(282, 277);
+            this.tbMestoUlaska.Location = new System.Drawing.Point(310, 277);
             this.tbMestoUlaska.Name = "tbMestoUlaska";
             this.tbMestoUlaska.ReadOnly = true;
             this.tbMestoUlaska.Size = new System.Drawing.Size(157, 26);
@@ -141,43 +144,46 @@ namespace SIMS_project.Pogled.Referent
             // 
             // tbVremeUlaska
             // 
-            this.tbVremeUlaska.Location = new System.Drawing.Point(282, 315);
+            this.tbVremeUlaska.Location = new System.Drawing.Point(310, 315);
             this.tbVremeUlaska.Name = "tbVremeUlaska";
             this.tbVremeUlaska.ReadOnly = true;
             this.tbVremeUlaska.Size = new System.Drawing.Size(157, 26);
             this.tbVremeUlaska.TabIndex = 10;
             // 
-            // textBox1
+            // tbBrzina
             // 
-            this.textBox1.Location = new System.Drawing.Point(345, 362);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(94, 26);
-            this.textBox1.TabIndex = 11;
+            this.tbBrzina.Location = new System.Drawing.Point(373, 362);
+            this.tbBrzina.Name = "tbBrzina";
+            this.tbBrzina.ReadOnly = true;
+            this.tbBrzina.Size = new System.Drawing.Size(94, 26);
+            this.tbBrzina.TabIndex = 11;
             // 
             // btnPokreni
             // 
-            this.btnPokreni.Location = new System.Drawing.Point(163, 142);
+            this.btnPokreni.Location = new System.Drawing.Point(191, 142);
             this.btnPokreni.Name = "btnPokreni";
             this.btnPokreni.Size = new System.Drawing.Size(147, 50);
             this.btnPokreni.TabIndex = 12;
             this.btnPokreni.Text = "Pokreni naplatu";
             this.btnPokreni.UseVisualStyleBackColor = true;
+            this.btnPokreni.Click += new System.EventHandler(this.BtnPokreni_Click);
             // 
             // cbTip
             // 
             this.cbTip.FormattingEnabled = true;
-            this.cbTip.Location = new System.Drawing.Point(282, 442);
+            this.cbTip.Location = new System.Drawing.Point(310, 442);
             this.cbTip.Name = "cbTip";
             this.cbTip.Size = new System.Drawing.Size(157, 28);
             this.cbTip.TabIndex = 13;
+            this.cbTip.SelectionChangeCommitted += new System.EventHandler(this.CbTip_SelectionChangeCommitted);
             // 
             // tbUplacenIznos
             // 
-            this.tbUplacenIznos.Location = new System.Drawing.Point(282, 558);
+            this.tbUplacenIznos.Location = new System.Drawing.Point(310, 558);
             this.tbUplacenIznos.Name = "tbUplacenIznos";
             this.tbUplacenIznos.Size = new System.Drawing.Size(107, 26);
             this.tbUplacenIznos.TabIndex = 14;
+            this.tbUplacenIznos.Leave += new System.EventHandler(this.TbUplacenIznos_Leave);
             // 
             // label8
             // 
@@ -190,7 +196,7 @@ namespace SIMS_project.Pogled.Referent
             // 
             // tbIznos
             // 
-            this.tbIznos.Location = new System.Drawing.Point(282, 507);
+            this.tbIznos.Location = new System.Drawing.Point(310, 507);
             this.tbIznos.Name = "tbIznos";
             this.tbIznos.ReadOnly = true;
             this.tbIznos.Size = new System.Drawing.Size(107, 26);
@@ -198,7 +204,7 @@ namespace SIMS_project.Pogled.Referent
             // 
             // tbKusur
             // 
-            this.tbKusur.Location = new System.Drawing.Point(282, 608);
+            this.tbKusur.Location = new System.Drawing.Point(310, 608);
             this.tbKusur.Name = "tbKusur";
             this.tbKusur.ReadOnly = true;
             this.tbKusur.Size = new System.Drawing.Size(107, 26);
@@ -215,12 +221,13 @@ namespace SIMS_project.Pogled.Referent
             // 
             // btnZavrsi
             // 
-            this.btnZavrsi.Location = new System.Drawing.Point(163, 680);
+            this.btnZavrsi.Location = new System.Drawing.Point(191, 680);
             this.btnZavrsi.Name = "btnZavrsi";
             this.btnZavrsi.Size = new System.Drawing.Size(147, 55);
             this.btnZavrsi.TabIndex = 19;
             this.btnZavrsi.Text = "Zavrsi naplatu";
             this.btnZavrsi.UseVisualStyleBackColor = true;
+            this.btnZavrsi.Click += new System.EventHandler(this.BtnZavrsi_Click);
             // 
             // label10
             // 
@@ -234,7 +241,7 @@ namespace SIMS_project.Pogled.Referent
             // lblTablice
             // 
             this.lblTablice.AutoSize = true;
-            this.lblTablice.Location = new System.Drawing.Point(278, 238);
+            this.lblTablice.Location = new System.Drawing.Point(306, 238);
             this.lblTablice.Name = "lblTablice";
             this.lblTablice.Size = new System.Drawing.Size(0, 20);
             this.lblTablice.TabIndex = 21;
@@ -254,7 +261,7 @@ namespace SIMS_project.Pogled.Referent
             this.Controls.Add(this.tbUplacenIznos);
             this.Controls.Add(this.cbTip);
             this.Controls.Add(this.btnPokreni);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbBrzina);
             this.Controls.Add(this.tbVremeUlaska);
             this.Controls.Add(this.tbMestoUlaska);
             this.Controls.Add(this.tbId);
@@ -286,7 +293,7 @@ namespace SIMS_project.Pogled.Referent
         private System.Windows.Forms.TextBox tbId;
         private System.Windows.Forms.TextBox tbMestoUlaska;
         private System.Windows.Forms.TextBox tbVremeUlaska;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbBrzina;
         private System.Windows.Forms.Button btnPokreni;
         private System.Windows.Forms.ComboBox cbTip;
         private System.Windows.Forms.TextBox tbUplacenIznos;
