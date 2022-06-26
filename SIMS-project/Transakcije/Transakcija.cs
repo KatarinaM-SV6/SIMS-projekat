@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SIMS_project.NaplatnaMesta;
+using SIMS_project.NaplatneStanice;
 
 namespace SIMS_project.Transakcije
 {
@@ -25,8 +25,9 @@ namespace SIMS_project.Transakcije
 		int _idTaga;
 		NaplatnoMesto _mestoUlaska;
 		NaplatnoMesto _mestoIzlaska;
+		NaplatnaStanica _stanicaIzlaska;
 
-		public Transakcija(bool valueRSD, DateTime vremeUlaska, TipVozila tipVozila, float iznos, string brojTablica, DateTime vremeIzlaska, int idTaga, NaplatnoMesto mestoUlaska, NaplatnoMesto mestoIzlaska)
+		public Transakcija(bool valueRSD, DateTime vremeUlaska, TipVozila tipVozila, float iznos, string brojTablica, DateTime vremeIzlaska, int idTaga, NaplatnoMesto mestoUlaska, NaplatnoMesto mestoIzlaska, NaplatnaStanica naplatnaStanica)
 		{
 			_valueRSD = valueRSD;
 			_vremeUlaska = vremeUlaska;
@@ -37,6 +38,7 @@ namespace SIMS_project.Transakcije
 			_idTaga = idTaga;
 			_mestoUlaska = mestoUlaska;
 			_mestoIzlaska = mestoIzlaska;
+			_stanicaIzlaska = naplatnaStanica;
 		}
 
 		Transakcija() { }
@@ -48,7 +50,8 @@ namespace SIMS_project.Transakcije
 		public string BrojTablica { get => _brojTablica; set => _brojTablica = value; }
 		public DateTime VremeIzlaska { get => _vremeIzlaska; set => _vremeIzlaska = value; }
 		public int IdTaga { get => _idTaga; set => _idTaga = value; }
-		internal NaplatnoMesto MestoUlaska { get => _mestoUlaska; set => _mestoUlaska = value; }
+        public NaplatnaStanica StanicaIzlaska { get => _stanicaIzlaska; set => _stanicaIzlaska = value; }
+        internal NaplatnoMesto MestoUlaska { get => _mestoUlaska; set => _mestoUlaska = value; }
 		internal NaplatnoMesto MestoIzlaska { get => _mestoIzlaska; set => _mestoIzlaska = value; }
 	}
 }

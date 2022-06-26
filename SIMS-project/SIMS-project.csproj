@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,19 +55,34 @@
     <Compile Include="Deonice\Cenovnik\StavkaCenovnika.cs" />
     <Compile Include="Deonice\Deonica.cs" />
     <Compile Include="Deonice\DeonicaRepository.cs" />
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateNaplatnaStanica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNaplatnaStanica.Designer.cs">
+      <DependentUpon>CreateNaplatnaStanica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Korisnici\KorisnickiNalogJSONReferenceConverter.cs" />
+    <Compile Include="Korisnici\KorisnikJSONReferenceConverter.cs" />
+    <Compile Include="Korisnici\KorisnickiNalogRepository.cs" />
+    <Compile Include="Korisnici\KorisnikRepository.cs" />
     <Compile Include="Korisnici\KorisnickiNalog.cs" />
     <Compile Include="Korisnici\Korisnik.cs" />
-    <Compile Include="Korisnici\Referent.cs" />
-    <Compile Include="NaplatnaMesta\NaplatnoMesto.cs" />
     <Compile Include="NaplatneStanice\Mesto.cs" />
     <Compile Include="NaplatneStanice\MestoRepository.cs" />
     <Compile Include="NaplatneStanice\NaplatnaStanica.cs" />
+    <Compile Include="NaplatneStanice\NaplatnaStanicaJSONReferenceConverter.cs" />
     <Compile Include="NaplatneStanice\NaplatnaStanicaRepository.cs" />
     <Compile Include="Pogled\Referent\DojavaKvaraForma.cs">
       <SubType>Form</SubType>
@@ -84,13 +102,29 @@
     <Compile Include="Pogled\Referent\NaplataForma.Designer.cs">
       <DependentUpon>NaplataForma.cs</DependentUpon>
     </Compile>
+    <Compile Include="NaplatneStanice\NaplatnoMesto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tagovi\Tag.cs" />
     <Compile Include="Tagovi\TagRepository.cs" />
     <Compile Include="Transakcije\Transakcija.cs" />
     <Compile Include="Transakcije\TransakcijaRepository.cs" />
+    <Compile Include="UpdateBooth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBooth.Designer.cs">
+      <DependentUpon>UpdateBooth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateForm.Designer.cs">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Uredjaji\DojavaOKvaru.cs" />
+    <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaru.cs" />
+    <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruJSONReferenceConverter.cs" />
+    <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruRepository.cs" />
     <Compile Include="Uredjaji\Uredjaj.cs" />
     <EmbeddedResource Include="Pogled\Referent\DojavaKvaraForma.resx">
       <DependentUpon>DojavaKvaraForma.cs</DependentUpon>
@@ -101,6 +135,33 @@
     <EmbeddedResource Include="Pogled\Referent\NaplataForma.resx">
       <DependentUpon>NaplataForma.cs</DependentUpon>
     </EmbeddedResource>
+    <Compile Include="view\vodjaView\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\vodjaView\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\vodjaView\PrijaveKvarovaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\vodjaView\PrijaveKvarovaForm.Designer.cs">
+      <DependentUpon>PrijaveKvarovaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\vodjaView\UredajiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\vodjaView\UredajiForm.Designer.cs">
+      <DependentUpon>UredajiForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNaplatnaStanica.resx">
+      <DependentUpon>CreateNaplatnaStanica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -109,7 +170,26 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="view\vodjaView\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\vodjaView\UredajiForm.resx">
+      <DependentUpon>UredajiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Podaci\DojaveOKvaru.json" />
+    <None Include="Podaci\korisnicki_nalozi.json" />
+    <None Include="Podaci\korisnici.json" />
+    <EmbeddedResource Include="UpdateBooth.resx">
+      <DependentUpon>UpdateBooth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Podaci\NaplatneStanice.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,5 +203,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

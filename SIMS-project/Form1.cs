@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SIMS_project.view.vodjaView;
 
 namespace SIMS_project
 {
@@ -15,6 +16,16 @@ namespace SIMS_project
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            AdminForm adminForm = new AdminForm();
+            adminForm.ShowDialog();
+
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+
         }
     }
 }
