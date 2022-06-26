@@ -15,7 +15,7 @@ namespace SIMS_project.NaplatneStanice
         List<NaplatnoMesto> _naplatnaMesta;
         String _nazivAutoputa;
         bool _obrisana;
-        List<Korisnik> _radnici;
+        //List<Korisnik> _radnici = new List<Korisnik>();
 
         public NaplatnaStanica() { }
         
@@ -24,7 +24,7 @@ namespace SIMS_project.NaplatneStanice
             _mesto = mesto;
             _naplatnaMesta = naplatnaMesta;
             _nazivAutoputa = nazivAutoputa;
-            _radnici = radnici;
+            //_radnici = radnici;
         }
 
         public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa)
@@ -39,8 +39,8 @@ namespace SIMS_project.NaplatneStanice
         public List<NaplatnoMesto> NaplatnaMesta { get { return _naplatnaMesta;} set { _naplatnaMesta = value;} }
         public String NazivAutoputa { get { return _nazivAutoputa; } set { _nazivAutoputa = value; } }
         public bool Obrisana { get { return _obrisana;} set { _obrisana = value;} }
-        [JsonConverter(typeof(KorisnikJSONReferenceConverter))]
-        public List<Korisnik> Radnici { get { return _radnici; } set { _radnici = value; } }
+        //[JsonConverter(typeof(KorisnikJSONReferenceConverter))]
+        //public List<Korisnik> Radnici { get { return _radnici; } set { _radnici = value; } }
 
         public override string ToString()
         {

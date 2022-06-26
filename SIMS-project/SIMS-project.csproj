@@ -79,7 +79,6 @@
     <Compile Include="Korisnici\KorisnikRepository.cs" />
     <Compile Include="Korisnici\KorisnickiNalog.cs" />
     <Compile Include="Korisnici\Korisnik.cs" />
-    <Compile Include="Korisnici\Referent.cs" />
     <Compile Include="NaplatneStanice\Mesto.cs" />
     <Compile Include="NaplatneStanice\MestoRepository.cs" />
     <Compile Include="NaplatneStanice\NaplatnaStanica.cs" />
@@ -108,8 +107,6 @@
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruJSONReferenceConverter.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruRepository.cs" />
     <Compile Include="Uredjaji\Uredjaj.cs" />
-    <Compile Include="Uredjaji\UredjajJSONReferenceConverter.cs" />
-    <Compile Include="Uredjaji\UredjajRepository.cs" />
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>

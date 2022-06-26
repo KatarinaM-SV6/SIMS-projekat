@@ -42,6 +42,7 @@ namespace SIMS_project
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            test();
             Application.Run(new Form1());
 
         }
