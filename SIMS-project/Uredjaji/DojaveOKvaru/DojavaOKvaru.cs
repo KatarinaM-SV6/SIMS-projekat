@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SIMS_project.Korisnici;
+using SIMS_project.NaplatneStanice;
 
 namespace SIMS_project.Uredjaji.DojaveOKvaru
 {
@@ -14,21 +15,21 @@ namespace SIMS_project.Uredjaji.DojaveOKvaru
 		Uredjaj _uredjaj;
 		string _opisKvara;
 		bool _obustaviRadMesta;
-		KorisnickiNalog _prijavio;
 		bool _obradjena;
+		NaplatnaStanica _naplatnaStanica;
 
 		public DojavaOKvaru()
 		{
 		}
 
-		public DojavaOKvaru(int id, DateTime datum, Uredjaj uredjaj, string opisKvara, bool obustaviRadMesta, KorisnickiNalog prijavio, bool obradjena)
+		public DojavaOKvaru(int id, DateTime datum, Uredjaj uredjaj, string opisKvara, bool obustaviRadMesta,  bool obradjena, NaplatnaStanica naplatnaStanica)
 		{
 			_datum = datum;
 			_uredjaj = uredjaj;
 			_opisKvara = opisKvara;
 			_obustaviRadMesta = obustaviRadMesta;
-			_prijavio = prijavio;
 			_obradjena = obradjena;
+			_naplatnaStanica = naplatnaStanica;
 		}
 
         public int Id { get => _id; set => _id = value; }
@@ -36,7 +37,7 @@ namespace SIMS_project.Uredjaji.DojaveOKvaru
         public Uredjaj Uredjaj { get => _uredjaj; set => _uredjaj = value; }
 		public string OpisKvara { get => _opisKvara; set => _opisKvara = value; }
 		public bool ObustsaviRadMesta { get => _obustaviRadMesta; set => _obustaviRadMesta = value; }
-		public KorisnickiNalog Prijavio { get => _prijavio; set => _prijavio = value; }
         public bool Obradjena { get => _obradjena; set => _obradjena = value; }
+        public NaplatnaStanica NaplatnaStanica { get => _naplatnaStanica; set => _naplatnaStanica = value; }
     }
 }

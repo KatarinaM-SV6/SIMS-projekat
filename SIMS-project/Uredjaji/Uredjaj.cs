@@ -19,6 +19,7 @@ namespace SIMS_project.Uredjaji
 
     public class Uredjaj
     {
+        int _idUredjaja = -1;
         VrstaUredjaja _vrstaUredjaja;
         bool _uFunkciji;
 
@@ -34,6 +35,8 @@ namespace SIMS_project.Uredjaji
 
         public VrstaUredjaja VrstaUredjaja { get { return _vrstaUredjaja;} set { _vrstaUredjaja = value; } }
         public bool UFunkciji { get { return _uFunkciji;} set { _uFunkciji = value;} }
+
+        public int IdUredjaja { get => _idUredjaja; set => _idUredjaja = value; }
 
         public override string ToString()
         {
