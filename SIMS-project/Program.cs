@@ -10,6 +10,7 @@ using SIMS_project.NaplatneStanice;
 using SIMS_project.Uredjaji;
 using SIMS_project.Uredjaji.DojaveOKvaru;
 using SIMS_project.Pogled.Referent;
+using SIMS_project.Deonice;
 
 namespace SIMS_project
 {
@@ -21,7 +22,7 @@ namespace SIMS_project
         public static KorisnickiNalogRepository naloziRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
         public static NaplatnaStanicaRepository staniceRepo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
         public static DojavaOKvaruRepository dojaveRepo = new DojavaOKvaruRepository(podaciDir + "DojaveOKvaru.json", jsonPodesavanja);
-
+        public static DeonicaRepository deoniceRepo = new DeonicaRepository(podaciDir + "Deonice.json", jsonPodesavanja);
 
         /// <summary>
         /// The main entry point for the application.
