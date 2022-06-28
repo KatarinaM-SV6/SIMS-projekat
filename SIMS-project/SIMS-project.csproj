@@ -54,6 +54,7 @@
     <Compile Include="Deonice\Cenovnik\CenovnikRepository.cs" />
     <Compile Include="Deonice\Cenovnik\StavkaCenovnika.cs" />
     <Compile Include="Deonice\Deonica.cs" />
+    <Compile Include="Deonice\DeonicaJSONReferenceConverter.cs" />
     <Compile Include="Deonice\DeonicaRepository.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -73,6 +74,24 @@
     <Compile Include="NaplatneStanice\NaplatnaStanica.cs" />
     <Compile Include="NaplatneStanice\NaplatnaStanicaJSONReferenceConverter.cs" />
     <Compile Include="NaplatneStanice\NaplatnaStanicaRepository.cs" />
+    <Compile Include="view\referentView\DojavaKvaraForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\referentView\DojavaKvaraForma.Designer.cs">
+      <DependentUpon>DojavaKvaraForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\referentView\GlavnaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\referentView\GlavnaForma.Designer.cs">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\referentView\NaplataForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\referentView\NaplataForma.Designer.cs">
+      <DependentUpon>NaplataForma.cs</DependentUpon>
+    </Compile>
     <Compile Include="NaplatneStanice\NaplatnoMesto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,11 +100,19 @@
     <Compile Include="Transakcije\Transakcija.cs" />
     <Compile Include="Transakcije\TransakcijaJSONReferenceConverter.cs" />
     <Compile Include="Transakcije\TransakcijaRepository.cs" />
-    <Compile Include="Uredjaji\DojavaOKvaru.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaru.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruJSONReferenceConverter.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruRepository.cs" />
     <Compile Include="Uredjaji\Uredjaj.cs" />
+    <EmbeddedResource Include="view\referentView\DojavaKvaraForma.resx">
+      <DependentUpon>DojavaKvaraForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\referentView\GlavnaForma.resx">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\referentView\NaplataForma.resx">
+      <DependentUpon>NaplataForma.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="view\adminView\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +187,7 @@
       <DependentUpon>UredajiForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Podaci\Deonice.json" />
     <None Include="Podaci\DojaveOKvaru.json" />
     <None Include="Podaci\korisnicki_nalozi.json" />
     <None Include="Podaci\korisnici.json" />
@@ -178,6 +206,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Pogled\Referent\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
