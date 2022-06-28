@@ -30,7 +30,7 @@ namespace SIMS_project
                 NaplatneStanice.Items.Add(naplatnaStanica);
             }
             KorisnickiNaloziLB.Items.Clear();
-            List<KorisnickiNalog> korisnickiNalozi = Program.korisnickinalogRepo.GetAll();
+            List<KorisnickiNalog> korisnickiNalozi = Program.korisnickiNalogRepo.GetAll();
             foreach (var nalog in korisnickiNalozi)
             {
                 KorisnickiNaloziLB.Items.Add(nalog);
@@ -107,7 +107,7 @@ namespace SIMS_project
             nalog.Korisnik.RadnoMesto = stanica;
             stanica.VodjaStanice = nalog.Korisnik;
 
-            Program.korisnickinalogRepo.Save();
+            Program.korisnickiNalogRepo.Save();
             Program.korisniciRepo.Save();
             Program.staniceRepo.Save();
 
@@ -120,7 +120,7 @@ namespace SIMS_project
 
         private void load()
         {
-            List<KorisnickiNalog> korisnici = Program.korisnickinalogRepo.GetAll();
+            List<KorisnickiNalog> korisnici = Program.korisnickiNalogRepo.GetAll();
             foreach (KorisnickiNalog radnik in korisnici)
             {
                 if (radnik.TipKorisnika == TipKorisnika.VODJA_STANICE || radnik.TipKorisnika == TipKorisnika.REFERENT)
@@ -148,7 +148,7 @@ namespace SIMS_project
         {
             if (KorisnickiNaloziLB.SelectedItem != null)
             {
-                Program.korisnickinalogRepo.Remove((KorisnickiNalog)KorisnickiNaloziLB.SelectedItem);
+                Program.korisnickiNalogRepo.Remove((KorisnickiNalog)KorisnickiNaloziLB.SelectedItem);
                 AdminForm_Load();
             }
         }

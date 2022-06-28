@@ -1,34 +1,47 @@
 [
   {
+    "$id": "1",
     "Id": 0,
-    "KorisnickoIme": "milan1",
+    "KorisnickoIme": "MilanMilovanovic",
     "Lozinka": "123",
     "TipKorisnika": 2,
     "Korisnik": 0,
     "Obrisan": false
   },
   {
+    "$id": "2",
     "Id": 1,
-    "KorisnickoIme": "jelena",
+    "KorisnickoIme": "JelenaRistic",
     "Lozinka": "123",
     "TipKorisnika": 1,
     "Korisnik": 1,
     "Obrisan": false
   },
   {
+    "$id": "3",
     "Id": 2,
-    "KorisnickoIme": "nikola",
+    "KorisnickoIme": "NikolaMilovanovic",
     "Lozinka": "123",
     "TipKorisnika": 0,
     "Korisnik": 2,
     "Obrisan": false
   },
   {
+    "$id": "4",
     "Id": 3,
-    "KorisnickoIme": "milan2",
+    "KorisnickoIme": "MilanKrstic",
     "Lozinka": "123",
     "TipKorisnika": 2,
     "Korisnik": 3,
+    "Obrisan": false
+  },
+  {
+    "$id": "5",
+    "Id": 4,
+    "KorisnickoIme": "SandraPopovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 4,
     "Obrisan": false
   }
 ]

@@ -27,5 +27,10 @@ namespace SIMS_project
             mainForm.Show();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

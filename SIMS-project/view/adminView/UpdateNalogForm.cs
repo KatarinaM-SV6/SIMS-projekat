@@ -34,11 +34,11 @@ namespace SIMS_project.view.adminView
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            KorisnickiNalog nalog = Program.korisnickinalogRepo.GetById(_nalog.Id);
+            KorisnickiNalog nalog = Program.korisnickiNalogRepo.GetById(_nalog.Id);
             if (nalog != null)
             {
                 string korisnickoIme = textBox1.Text;
-                if (Program.korisnickinalogRepo.GetByUsername(korisnickoIme).Count() != 0)
+                if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
                 { 
                     MessageBox.Show("Korisnicko ime je zauzeto");
                     return;
@@ -50,7 +50,7 @@ namespace SIMS_project.view.adminView
                 nalog.TipKorisnika = (TipKorisnika)comboBox1.SelectedItem;
                 nalog.Korisnik.RadnoMesto = (NaplatnaStanica)comboBox2.SelectedItem;
             
-                Program.korisnickinalogRepo.Save();
+                Program.korisnickiNalogRepo.Save();
                 Program.korisniciRepo.Save();
             }
             
@@ -58,12 +58,12 @@ namespace SIMS_project.view.adminView
 
         private void button2_Click(object sender, EventArgs e)
         {
-            KorisnickiNalog nalog = Program.korisnickinalogRepo.GetById(_nalog.Id);
+            KorisnickiNalog nalog = Program.korisnickiNalogRepo.GetById(_nalog.Id);
             if (nalog == null)
             {
                 nalog = new KorisnickiNalog();
                 string korisnickoIme = textBox1.Text;
-                if (Program.korisnickinalogRepo.GetByUsername(korisnickoIme).Count() != 0)
+                if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
                 {
                     MessageBox.Show("Korisnicko ime je zauzeto");
                     return;
@@ -76,10 +76,10 @@ namespace SIMS_project.view.adminView
                 nalog.TipKorisnika = (TipKorisnika)comboBox1.SelectedItem;
                 nalog.Korisnik.RadnoMesto = (NaplatnaStanica)comboBox2.SelectedItem;
                 
-                Program.korisnickinalogRepo.Add(nalog);
+                Program.korisnickiNalogRepo.Add(nalog);
                 Program.korisniciRepo.Add(nalog.Korisnik);
 
-                Program.korisnickinalogRepo.Save();
+                Program.korisnickiNalogRepo.Save();
                 Program.korisniciRepo.Save();
             }
             else
