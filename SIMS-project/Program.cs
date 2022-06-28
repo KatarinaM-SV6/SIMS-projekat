@@ -9,7 +9,6 @@ using System.Windows.Forms;
 using SIMS_project.NaplatneStanice;
 using SIMS_project.Uredjaji;
 using SIMS_project.Uredjaji.DojaveOKvaru;
-using SIMS_project.Pogled.Referent;
 using SIMS_project.Deonice;
 
 namespace SIMS_project
@@ -47,13 +46,6 @@ namespace SIMS_project
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //testDojava();
-            foreach (DojavaOKvaru d in dojaveRepo.GetAll())
-            {
-                Console.WriteLine(d.Id);
-                Console.WriteLine(d.Uredjaj.IdUredjaja);
-                Console.WriteLine();
-            }
             Application.Run(new Form1());
 
         }

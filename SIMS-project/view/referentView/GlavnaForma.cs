@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SIMS_project.Pogled.Referent
+namespace SIMS_project.view.referentView
 {
     public partial class GlavnaForma : Form
     {

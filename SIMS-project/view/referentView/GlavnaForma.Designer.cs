@@ -1,5 +1,5 @@
 ﻿
-namespace SIMS_project.Pogled.Referent
+namespace SIMS_project.view.referentView
 {
     partial class GlavnaForma
     {
