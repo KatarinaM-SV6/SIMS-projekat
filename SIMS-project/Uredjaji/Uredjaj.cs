@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System;
+using static System.Guid;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,7 @@ namespace SIMS_project.Uredjaji
 
     public class Uredjaj
     {
-        int _idUredjaja = -1;
+        String _idUredjaja = "-1";
         VrstaUredjaja _vrstaUredjaja;
         bool _uFunkciji;
 
@@ -27,6 +28,7 @@ namespace SIMS_project.Uredjaji
 
         public Uredjaj(String vrstaUredjaja)
         {
+            _idUredjaja= Guid.NewGuid().ToString("N");
             _vrstaUredjaja = (VrstaUredjaja)Enum.Parse(typeof(VrstaUredjaja), vrstaUredjaja);
             _uFunkciji = true;
         }
@@ -36,11 +38,11 @@ namespace SIMS_project.Uredjaji
         public VrstaUredjaja VrstaUredjaja { get { return _vrstaUredjaja;} set { _vrstaUredjaja = value; } }
         public bool UFunkciji { get { return _uFunkciji;} set { _uFunkciji = value;} }
 
-        public int IdUredjaja { get => _idUredjaja; set => _idUredjaja = value; }
+        public String IdUredjaja { get => _idUredjaja; set => _idUredjaja = value; }
 
         public override string ToString()
         {
-            return "\nVrsta uredjaja: " + VrstaUredjaja.ToString() + ", Radi: " + UFunkciji.ToString();
+            return "\nId: " + IdUredjaja + "\nVrsta uredjaja: " + VrstaUredjaja.ToString() + ", Radi: " + UFunkciji.ToString();
         }
     }
 

@@ -38,7 +38,7 @@ namespace SIMS_project.Korisnici
 		public TipKorisnika TipKorisnika { get => _tipKorisnika; set => _tipKorisnika = value; }
 		[JsonConverter(typeof(KorisnikJSONReferenceConverter))]
 		public Korisnik Korisnik { get => _korisnik; set => _korisnik = value; }
-	        public bool Obrisan { get => _obrisan; set => _obrisan = value; }
+	    public bool Obrisan { get => _obrisan; set => _obrisan = value; }
     	
     	}
 }

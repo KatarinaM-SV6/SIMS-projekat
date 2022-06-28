@@ -21,13 +21,14 @@ namespace SIMS_project.Korisnici
 		{
 		}
 
-		public Korisnik(string ime, string prezime, KorisnickiNalog korisnickiNalog = null, NaplatnaStanica radnoMesto=null)
+		public Korisnik(string ime, string prezime, KorisnickiNalog korisnickiNalog=null, NaplatnaStanica radnoMesto=null)
 		{
 			_ime = ime;
 			_prezime = prezime;
 			_radnoMesto = radnoMesto;
 			_korisnickiNalog = korisnickiNalog;
 		}
+
 
 		public string Ime { get => _ime; set => _ime = value; }
 		public string Prezime { get => _prezime; set => _prezime = value; }

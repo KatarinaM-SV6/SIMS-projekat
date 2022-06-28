@@ -63,5 +63,10 @@ namespace SIMS_project
             load();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            _stanica.Mesto = new Mesto(mesto.Text);
+            _stanica.NazivAutoputa = nazivAutoputa.Text;
+        }
     }
 }

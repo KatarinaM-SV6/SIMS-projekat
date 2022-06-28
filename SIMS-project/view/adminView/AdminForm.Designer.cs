@@ -36,14 +36,23 @@
             this.updateButton = new System.Windows.Forms.Button();
             this.createButton = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.radnici = new System.Windows.Forms.ComboBox();
+            this.stanice = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.poruka = new System.Windows.Forms.Label();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabControl
             // 
             this.TabControl.Controls.Add(this.tabPage1);
             this.TabControl.Controls.Add(this.tabPage2);
+            this.TabControl.Controls.Add(this.tabPage3);
             this.TabControl.Location = new System.Drawing.Point(13, 13);
             this.TabControl.Name = "TabControl";
             this.TabControl.SelectedIndex = 0;
@@ -124,6 +133,81 @@
             this.tabPage2.Text = "CRUD Korisnicki nalozi";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.poruka);
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.stanice);
+            this.tabPage3.Controls.Add(this.radnici);
+            this.tabPage3.Controls.Add(this.label3);
+            this.tabPage3.Controls.Add(this.label2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(497, 301);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Postavljanje vodja stanica";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage3.Enter += new System.EventHandler(this.tabPage3_Enter);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(84, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Radnici";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(335, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Stanice";
+            // 
+            // radnici
+            // 
+            this.radnici.DisplayMember = "korisnickoIme";
+            this.radnici.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radnici.FormattingEnabled = true;
+            this.radnici.Location = new System.Drawing.Point(45, 53);
+            this.radnici.Name = "radnici";
+            this.radnici.Size = new System.Drawing.Size(155, 28);
+            this.radnici.TabIndex = 2;
+            // 
+            // stanice
+            // 
+            this.stanice.DisplayMember = "Mesto";
+            this.stanice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stanice.FormattingEnabled = true;
+            this.stanice.Location = new System.Drawing.Point(289, 53);
+            this.stanice.Name = "stanice";
+            this.stanice.Size = new System.Drawing.Size(149, 28);
+            this.stanice.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(156, 189);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(164, 31);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "POSTAVI VODJU";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // poruka
+            // 
+            this.poruka.AutoSize = true;
+            this.poruka.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.poruka.Location = new System.Drawing.Point(83, 130);
+            this.poruka.Name = "poruka";
+            this.poruka.Size = new System.Drawing.Size(0, 25);
+            this.poruka.TabIndex = 5;
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -136,6 +220,8 @@
             this.TabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -150,5 +236,12 @@
         private System.Windows.Forms.Button updateButton;
         private System.Windows.Forms.ListBox NaplatneStanice;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox stanice;
+        private System.Windows.Forms.ComboBox radnici;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label poruka;
     }
 }
