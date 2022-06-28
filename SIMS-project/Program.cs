@@ -17,7 +17,7 @@ namespace SIMS_project
         private static readonly JsonSerializerSettings jsonPodesavanja = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.None };
         public static KorisnikRepository korisniciRepo = new KorisnikRepository(podaciDir + "korisnici.json", jsonPodesavanja);
         public static NaplatnaStanicaRepository staniceRepo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
-        public static KorisnickiNalogRepository kornalogRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
+        public static KorisnickiNalogRepository korisnickinalogRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -25,7 +25,7 @@ namespace SIMS_project
         static void Main()
         {
 
-            korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
+            /*korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
             korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
             korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
             korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
@@ -33,12 +33,12 @@ namespace SIMS_project
             foreach (var k in korisniciRepo.GetAll())
             {
                 KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
-                kornalogRepo.Add(nalog);
+                korisnickinalogRepo.Add(nalog);
                 k.KorisnickiNalog = nalog;
             }
             korisniciRepo.Save();
-            kornalogRepo.Save();
-            
+            korisnickinalogRepo.Save();
+            */
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             test();

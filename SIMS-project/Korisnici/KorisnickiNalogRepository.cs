@@ -7,6 +7,13 @@ using System.Threading.Tasks;
 
 namespace SIMS_project.Korisnici
 {
+    public class InvalidLoginAttemptException : Exception
+    {
+        public InvalidLoginAttemptException(string errorMessage) : base($"Neuspesno logovanje: {errorMessage}.")
+        {
+
+        }
+    }
     internal class KorisnickiNalogRepository
     {
         public static List<KorisnickiNalog> korisnickiNalozi;
@@ -19,6 +26,19 @@ namespace SIMS_project.Korisnici
             podesavanja = jPodesavanja;
             KorisnickiNalogJSONReferenceConverter.Repo = this;
             korisnickiNalozi = JsonConvert.DeserializeObject<List<KorisnickiNalog>>(File.ReadAllText(fNaziv), podesavanja);
+        }
+
+        public KorisnickiNalog AttemptLogin(string korisnickoIme, string lozinka)
+        {
+            foreach (KorisnickiNalog kn in GetAll())
+            {
+                if (kn.KorisnickoIme == korisnickoIme && kn.Lozinka == lozinka)
+                {
+                    return kn;
+                }
+            }
+
+            throw new InvalidLoginAttemptException("Neispravni kreencijali");
         }
 
         public void Add(KorisnickiNalog nalog)
@@ -47,6 +67,9 @@ namespace SIMS_project.Korisnici
             File.WriteAllText(fNaziv, JsonConvert.SerializeObject(korisnickiNalozi, Formatting.Indented, podesavanja));
         }
 
-        
+        public List<KorisnickiNalog> GetByUsername(string korisnickoIme)
+        {
+            return GetAll().Where(n => n.KorisnickoIme == korisnickoIme).ToList();
+        }
     }
 }

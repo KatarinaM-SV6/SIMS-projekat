@@ -109,6 +109,12 @@
     <Compile Include="view\adminView\UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\adminView\UpdateNalogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\adminView\UpdateNalogForm.Designer.cs">
+      <DependentUpon>UpdateNalogForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\vodjaView\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\adminView\UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\adminView\UpdateNalogForm.resx">
+      <DependentUpon>UpdateNalogForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\vodjaView\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

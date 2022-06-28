@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SIMS_project.Korisnici;
 using SIMS_project.NaplatneStanice;
+using SIMS_project.view.adminView;
 
 namespace SIMS_project
 {
@@ -27,6 +28,12 @@ namespace SIMS_project
             foreach (NaplatnaStanica naplatnaStanica in naplatneStanice)
             {
                 NaplatneStanice.Items.Add(naplatnaStanica);
+            }
+            KorisnickiNaloziLB.Items.Clear();
+            List<KorisnickiNalog> korisnickiNalozi = Program.korisnickinalogRepo.GetAll();
+            foreach (var nalog in korisnickiNalozi)
+            {
+                KorisnickiNaloziLB.Items.Add(nalog);
             }
         }
 
@@ -100,7 +107,7 @@ namespace SIMS_project
             nalog.Korisnik.RadnoMesto = stanica;
             stanica.VodjaStanice = nalog.Korisnik;
 
-            Program.kornalogRepo.Save();
+            Program.korisnickinalogRepo.Save();
             Program.korisniciRepo.Save();
             Program.staniceRepo.Save();
 
@@ -113,7 +120,7 @@ namespace SIMS_project
 
         private void load()
         {
-            List<KorisnickiNalog> korisnici = Program.kornalogRepo.GetAll();
+            List<KorisnickiNalog> korisnici = Program.korisnickinalogRepo.GetAll();
             foreach (KorisnickiNalog radnik in korisnici)
             {
                 if (radnik.TipKorisnika == TipKorisnika.VODJA_STANICE || radnik.TipKorisnika == TipKorisnika.REFERENT)
@@ -127,5 +134,29 @@ namespace SIMS_project
             }
             
         }
+
+        private void updateNalogBt_Click(object sender, EventArgs e)
+        {
+            if (KorisnickiNaloziLB.SelectedItem != null)
+            {
+                UpdateNalogForm updateNalogForm = new UpdateNalogForm((KorisnickiNalog)KorisnickiNaloziLB.SelectedItem);
+                updateNalogForm.Show();
+            }
+        }
+
+        private void deleteNalogBt_Click(object sender, EventArgs e)
+        {
+            if (KorisnickiNaloziLB.SelectedItem != null)
+            {
+                Program.korisnickinalogRepo.Remove((KorisnickiNalog)KorisnickiNaloziLB.SelectedItem);
+                AdminForm_Load();
+            }
+        }
+
+        private void createNalogBt_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
