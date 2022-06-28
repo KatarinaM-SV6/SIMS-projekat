@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using SIMS_project.NaplatneStanice;
 
 namespace SIMS_project.Transakcije
@@ -45,12 +47,14 @@ namespace SIMS_project.Transakcije
 
 		public bool ValueRSD { get => _valueRSD; set => _valueRSD = value; }
 		public DateTime VremeUlaska { get => _vremeUlaska; set => _vremeUlaska = value; }
+		[JsonConverter(typeof(StringEnumConverter))]
 		public TipVozila TipVozila { get => _tipVozila; set => _tipVozila = value; }
 		public float Iznos { get => _iznos; set => _iznos = value; }
 		public string BrojTablica { get => _brojTablica; set => _brojTablica = value; }
 		public DateTime VremeIzlaska { get => _vremeIzlaska; set => _vremeIzlaska = value; }
-		public int IdTaga { get => _idTaga; set => _idTaga = value; }
-        public NaplatnaStanica StanicaIzlaska { get => _stanicaIzlaska; set => _stanicaIzlaska = value; }
+		public int Id { get => _idTaga; set => _idTaga = value; }
+		[JsonConverter(typeof(NaplatnaStanicaJSONReferenceConverter))]
+		public NaplatnaStanica StanicaIzlaska { get => _stanicaIzlaska; set => _stanicaIzlaska = value; }
         internal NaplatnoMesto MestoUlaska { get => _mestoUlaska; set => _mestoUlaska = value; }
 		internal NaplatnoMesto MestoIzlaska { get => _mestoIzlaska; set => _mestoIzlaska = value; }
 	}

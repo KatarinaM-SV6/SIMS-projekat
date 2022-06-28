@@ -98,6 +98,7 @@
     <Compile Include="Tagovi\Tag.cs" />
     <Compile Include="Tagovi\TagRepository.cs" />
     <Compile Include="Transakcije\Transakcija.cs" />
+    <Compile Include="Transakcije\TransakcijaJSONReferenceConverter.cs" />
     <Compile Include="Transakcije\TransakcijaRepository.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaru.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaruJSONReferenceConverter.cs" />

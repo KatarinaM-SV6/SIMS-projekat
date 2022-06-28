@@ -118,5 +118,29 @@
     "Prezime": "Krstic",
     "Id": 19,
     "Obrisan": false
+  },
+  {
+    "Ime": "Milan",
+    "Prezime": "Milovanovic",
+    "Id": 20,
+    "Obrisan": false
+  },
+  {
+    "Ime": "Jelena",
+    "Prezime": "Ristic",
+    "Id": 21,
+    "Obrisan": false
+  },
+  {
+    "Ime": "Nikola",
+    "Prezime": "Milovanovic",
+    "Id": 22,
+    "Obrisan": false
+  },
+  {
+    "Ime": "Milan",
+    "Prezime": "Krstic",
+    "Id": 23,
+    "Obrisan": false
   }
 ]
