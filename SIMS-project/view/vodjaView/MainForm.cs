@@ -74,12 +74,14 @@ namespace SIMS_project.view.vodjaView
 
 		private void IzvestajPromet(object sender, EventArgs e)
 		{
-
+			IzvestajForm izvestajForm = new IzvestajForm("i", _naplatnaStanica);
+			izvestajForm.Show();
 		}
 
 		private void IzvestajTipVozila(object sender, EventArgs e)
 		{
-
+			IzvestajForm izvestajForm = new IzvestajForm("t", _naplatnaStanica);
+			izvestajForm.Show();
 		}
 
 		private List<Uredjaj> DobaviUredjaje() {

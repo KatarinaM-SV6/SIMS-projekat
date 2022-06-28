@@ -10,6 +10,7 @@ using SIMS_project.NaplatneStanice;
 using SIMS_project.Uredjaji;
 using SIMS_project.Uredjaji.DojaveOKvaru;
 using SIMS_project.Deonice;
+using SIMS_project.Transakcije;
 
 namespace SIMS_project
 {
@@ -23,28 +24,28 @@ namespace SIMS_project
         public static DojavaOKvaruRepository dojaveRepo = new DojavaOKvaruRepository(podaciDir + "DojaveOKvaru.json", jsonPodesavanja);
         public static DeonicaRepository deoniceRepo = new DeonicaRepository(podaciDir + "Deonice.json", jsonPodesavanja);
         public static KorisnickiNalogRepository kornalogRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
-       
+        public static TransakcijaRepository transakcijaRepo = new TransakcijaRepository(podaciDir + "Transakcije.json", jsonPodesavanja);
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
+            /* korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
+             korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
+             korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
+             korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
 
-           /* korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
-            korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
-            korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
-            korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
+             foreach (var k in korisniciRepo.GetAll())
+             {
+                 KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
+                 kornalogRepo.Add(nalog);
+                 k.KorisnickiNalog = nalog;
+             }
+             korisniciRepo.Save();
+             kornalogRepo.Save(); */
 
-            foreach (var k in korisniciRepo.GetAll())
-            {
-                KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
-                kornalogRepo.Add(nalog);
-                k.KorisnickiNalog = nalog;
-            }
-            korisniciRepo.Save();
-            kornalogRepo.Save(); */
-            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
