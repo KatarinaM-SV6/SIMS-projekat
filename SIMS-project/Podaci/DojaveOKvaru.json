@@ -1,56 +1,67 @@
 [
   {
     "Id": 0,
-    "Datum": "2022-06-27T00:23:20.8873874+02:00",
-    "IdUredjaja": -1,
+    "Datum": "2022-06-28T17:54:51.9900009+02:00",
     "OpisKvara": "a",
     "ObustsaviRadMesta": false,
     "Obradjena": false,
-    "NaplatnaStanica": 19
+    "NaplatnaStanica": 0,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
   },
   {
     "Id": 1,
-    "Datum": "2022-06-27T00:23:20.8873874+02:00",
-    "IdUredjaja": -1,
+    "Datum": "2022-06-28T17:54:52.0040015+02:00",
     "OpisKvara": "b",
     "ObustsaviRadMesta": false,
     "Obradjena": true,
-    "NaplatnaStanica": 19
+    "NaplatnaStanica": 1,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
   },
   {
     "Id": 2,
-    "Datum": "2022-06-27T00:23:20.8873874+02:00",
-    "IdUredjaja": -1,
+    "Datum": "2022-06-28T17:54:52.0040015+02:00",
     "OpisKvara": "ccc",
     "ObustsaviRadMesta": true,
     "Obradjena": false,
-    "NaplatnaStanica": 19
+    "NaplatnaStanica": 2,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
   },
   {
     "Id": 3,
-    "Datum": "2022-06-27T00:23:20.8873874+02:00",
-    "IdUredjaja": -1,
+    "Datum": "2022-06-28T17:54:52.0040015+02:00",
     "OpisKvara": "d",
     "ObustsaviRadMesta": false,
     "Obradjena": false,
-    "NaplatnaStanica": 19
+    "NaplatnaStanica": 3,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
   },
   {
     "Id": 4,
-    "Datum": "2022-06-27T00:23:20.8873874+02:00",
-    "IdUredjaja": -1,
+    "Datum": "2022-06-28T17:55:09.9466889+02:00",
     "OpisKvara": "eee",
     "ObustsaviRadMesta": true,
     "Obradjena": true,
-    "NaplatnaStanica": 19
-  },
-  {
-    "Id": 5,
-    "Datum": "2022-06-27T01:35:30.1024551+02:00",
-    "IdUredjaja": -1,
-    "OpisKvara": "ne slika",
-    "ObustsaviRadMesta": false,
-    "Obradjena": false,
-    "NaplatnaStanica": 19
+    "NaplatnaStanica": 2,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
   }
 ]

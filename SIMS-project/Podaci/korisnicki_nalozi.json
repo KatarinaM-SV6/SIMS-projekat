@@ -19,7 +19,7 @@
     "Id": 2,
     "KorisnickoIme": "nikola",
     "Lozinka": "123",
-    "TipKorisnika": 2,
+    "TipKorisnika": 3,
     "Korisnik": 2,
     "Obrisan": false
   },
@@ -29,6 +29,486 @@
     "Lozinka": "123",
     "TipKorisnika": 2,
     "Korisnik": 3,
+    "Obrisan": false
+  },
+  {
+    "Id": 4,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 0,
+    "Obrisan": false
+  },
+  {
+    "Id": 5,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 1,
+    "Obrisan": false
+  },
+  {
+    "Id": 6,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 3,
+    "Korisnik": 2,
+    "Obrisan": false
+  },
+  {
+    "Id": 7,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 3,
+    "Obrisan": false
+  },
+  {
+    "Id": 8,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 0,
+    "Obrisan": false
+  },
+  {
+    "Id": 9,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 1,
+    "Obrisan": false
+  },
+  {
+    "Id": 10,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 2,
+    "Obrisan": false
+  },
+  {
+    "Id": 11,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 3,
+    "Obrisan": false
+  },
+  {
+    "Id": 12,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 4,
+    "Obrisan": false
+  },
+  {
+    "Id": 13,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 5,
+    "Obrisan": false
+  },
+  {
+    "Id": 14,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 6,
+    "Obrisan": false
+  },
+  {
+    "Id": 15,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 7,
+    "Obrisan": false
+  },
+  {
+    "Id": 16,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 0,
+    "Obrisan": false
+  },
+  {
+    "Id": 17,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 1,
+    "Obrisan": false
+  },
+  {
+    "Id": 18,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 2,
+    "Obrisan": false
+  },
+  {
+    "Id": 19,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 3,
+    "Obrisan": false
+  },
+  {
+    "Id": 20,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 4,
+    "Obrisan": false
+  },
+  {
+    "Id": 21,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 5,
+    "Obrisan": false
+  },
+  {
+    "Id": 22,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 6,
+    "Obrisan": false
+  },
+  {
+    "Id": 23,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 7,
+    "Obrisan": false
+  },
+  {
+    "Id": 24,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 8,
+    "Obrisan": false
+  },
+  {
+    "Id": 25,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 9,
+    "Obrisan": false
+  },
+  {
+    "Id": 26,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 3,
+    "Korisnik": 10,
+    "Obrisan": false
+  },
+  {
+    "Id": 27,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 11,
+    "Obrisan": false
+  },
+  {
+    "Id": 28,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 0,
+    "Obrisan": false
+  },
+  {
+    "Id": 29,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 1,
+    "Obrisan": false
+  },
+  {
+    "Id": 30,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 2,
+    "Obrisan": false
+  },
+  {
+    "Id": 31,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 3,
+    "Obrisan": false
+  },
+  {
+    "Id": 32,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 4,
+    "Obrisan": false
+  },
+  {
+    "Id": 33,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 5,
+    "Obrisan": false
+  },
+  {
+    "Id": 34,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 6,
+    "Obrisan": false
+  },
+  {
+    "Id": 35,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 7,
+    "Obrisan": false
+  },
+  {
+    "Id": 36,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 8,
+    "Obrisan": false
+  },
+  {
+    "Id": 37,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 9,
+    "Obrisan": false
+  },
+  {
+    "Id": 38,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 10,
+    "Obrisan": false
+  },
+  {
+    "Id": 39,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 11,
+    "Obrisan": false
+  },
+  {
+    "Id": 40,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 12,
+    "Obrisan": false
+  },
+  {
+    "Id": 41,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 13,
+    "Obrisan": false
+  },
+  {
+    "Id": 42,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 14,
+    "Obrisan": false
+  },
+  {
+    "Id": 43,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 15,
+    "Obrisan": false
+  },
+  {
+    "Id": 44,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 0,
+    "Obrisan": false
+  },
+  {
+    "Id": 45,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 1,
+    "Obrisan": false
+  },
+  {
+    "Id": 46,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 2,
+    "Obrisan": false
+  },
+  {
+    "Id": 47,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 3,
+    "Obrisan": false
+  },
+  {
+    "Id": 48,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 4,
+    "Obrisan": false
+  },
+  {
+    "Id": 49,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 5,
+    "Obrisan": false
+  },
+  {
+    "Id": 50,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 6,
+    "Obrisan": false
+  },
+  {
+    "Id": 51,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 7,
+    "Obrisan": false
+  },
+  {
+    "Id": 52,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 8,
+    "Obrisan": false
+  },
+  {
+    "Id": 53,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 9,
+    "Obrisan": false
+  },
+  {
+    "Id": 54,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 10,
+    "Obrisan": false
+  },
+  {
+    "Id": 55,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 11,
+    "Obrisan": false
+  },
+  {
+    "Id": 56,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 12,
+    "Obrisan": false
+  },
+  {
+    "Id": 57,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 13,
+    "Obrisan": false
+  },
+  {
+    "Id": 58,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 14,
+    "Obrisan": false
+  },
+  {
+    "Id": 59,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 15,
+    "Obrisan": false
+  },
+  {
+    "Id": 60,
+    "KorisnickoIme": "MilanMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 16,
+    "Obrisan": false
+  },
+  {
+    "Id": 61,
+    "KorisnickoIme": "JelenaRistic",
+    "Lozinka": "123",
+    "TipKorisnika": 3,
+    "Korisnik": 17,
+    "Obrisan": false
+  },
+  {
+    "Id": 62,
+    "KorisnickoIme": "NikolaMilovanovic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 18,
+    "Obrisan": false
+  },
+  {
+    "Id": 63,
+    "KorisnickoIme": "MilanKrstic",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 19,
     "Obrisan": false
   }
 ]

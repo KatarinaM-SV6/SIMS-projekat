@@ -49,7 +49,7 @@ namespace SIMS_project.Pogled.Referent
         {
             if (izabranUredjaj != null)
             {
-                Program.dojaveRepo.Add(new Uredjaji.DojaveOKvaru.DojavaOKvaru(DateTime.Now, izabranUredjaj.IdUredjaja, tbOpis.Text, chbObustavi.Checked, ulogovaniReferent.Korisnik.RadnoMesto));
+                Program.dojaveRepo.Add(new Uredjaji.DojaveOKvaru.DojavaOKvaru(DateTime.Now, izabranUredjaj, tbOpis.Text, chbObustavi.Checked, ulogovaniReferent.Korisnik.RadnoMesto));
                 MessageBox.Show("Uspesno poslata dojava.");
             }
             else MessageBox.Show("Izaberite uredjaj.");

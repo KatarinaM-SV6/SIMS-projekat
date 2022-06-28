@@ -15,16 +15,18 @@ namespace SIMS_project.NaplatneStanice
         List<NaplatnoMesto> _naplatnaMesta;
         String _nazivAutoputa;
         bool _obrisana;
-        //List<Korisnik> _radnici = new List<Korisnik>();
+        List<Korisnik> _radnici;
+        Korisnik _vodjaStanice;
 
         public NaplatnaStanica() { }
         
-        public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa, List<Korisnik> radnici)
+        public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa, List<Korisnik> radnici, Korisnik vodjaStanice)
         {
             _mesto = mesto;
             _naplatnaMesta = naplatnaMesta;
             _nazivAutoputa = nazivAutoputa;
-            //_radnici = radnici;
+            _radnici = radnici;
+            _vodjaStanice = vodjaStanice;
         }
 
         public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa)
@@ -32,6 +34,8 @@ namespace SIMS_project.NaplatneStanice
             _mesto = mesto;
             _naplatnaMesta = naplatnaMesta;
             _nazivAutoputa = nazivAutoputa;
+            _radnici = new List<Korisnik>();
+            _vodjaStanice = null;
         }
 
         public int Id { get { return _id; } set { _id = value; } }
@@ -39,8 +43,10 @@ namespace SIMS_project.NaplatneStanice
         public List<NaplatnoMesto> NaplatnaMesta { get { return _naplatnaMesta;} set { _naplatnaMesta = value;} }
         public String NazivAutoputa { get { return _nazivAutoputa; } set { _nazivAutoputa = value; } }
         public bool Obrisana { get { return _obrisana;} set { _obrisana = value;} }
-        //[JsonConverter(typeof(KorisnikJSONReferenceConverter))]
-        //public List<Korisnik> Radnici { get { return _radnici; } set { _radnici = value; } }
+        [JsonConverter(typeof(KorisnikListJSONConverter))]
+        public List<Korisnik> Radnici { get { return _radnici; } set { _radnici = value; } }
+        [JsonConverter(typeof(KorisnikJSONReferenceConverter))]
+        public Korisnik VodjaStanice { get { return _vodjaStanice;} set { _vodjaStanice = value;} }
 
         public override string ToString()
         {

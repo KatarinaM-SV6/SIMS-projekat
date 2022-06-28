@@ -3,18 +3,18 @@
     "Id": 0,
     "Kilometraza": 40,
     "MestoUlaska": 1,
-    "MestoIzlaska": 3
+    "MestoIzlaska": 1
   },
   {
     "Id": 1,
     "Kilometraza": 54,
-    "MestoUlaska": 8,
-    "MestoIzlaska": 10
+    "MestoUlaska": 1,
+    "MestoIzlaska": 1
   },
   {
     "Id": 2,
     "Kilometraza": 99,
-    "MestoUlaska": 3,
-    "MestoIzlaska": 10
+    "MestoUlaska": 1,
+    "MestoIzlaska": 1
   }
 ]

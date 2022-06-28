@@ -14,7 +14,7 @@ namespace SIMS_project.view.vodjaView
 {
 	public partial class MainForm : Form
 	{
-		private NaplatnaStanica _naplatnaStanica = Program.staniceRepo.GetByMesto("555");
+		private NaplatnaStanica _naplatnaStanica = Program.staniceRepo.GetByMesto("Mesto1");
 		public MainForm()
 		{
 			InitializeComponent();
