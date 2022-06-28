@@ -33,6 +33,11 @@ namespace SIMS_project.Deonice
             return deonice;
         }
 
+        public Deonica GetById(int id)
+        {
+            return deonice.First(n => n.Id == id);
+        }
+
         public void Save()
         {
             File.WriteAllText(fNaziv, JsonConvert.SerializeObject(deonice, Formatting.Indented, podesavanja));

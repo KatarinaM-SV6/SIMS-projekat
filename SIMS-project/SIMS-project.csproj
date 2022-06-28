@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Deonice\Cenovnik\Cenovnik.cs" />
+    <Compile Include="Deonice\Cenovnik\CenovnikJSONReferenceConverter.cs" />
     <Compile Include="Deonice\Cenovnik\CenovnikRepository.cs" />
     <Compile Include="Deonice\Cenovnik\StavkaCenovnika.cs" />
     <Compile Include="Deonice\Deonica.cs" />
@@ -187,12 +188,14 @@
       <DependentUpon>UredajiForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Podaci\Cenovnici.json" />
     <None Include="Podaci\Deonice.json" />
     <None Include="Podaci\DojaveOKvaru.json" />
     <None Include="Podaci\korisnicki_nalozi.json" />
     <None Include="Podaci\korisnici.json" />
     <None Include="packages.config" />
     <None Include="Podaci\NaplatneStanice.json" />
+    <None Include="Podaci\Transakcije.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -206,8 +209,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pogled\Referent\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
