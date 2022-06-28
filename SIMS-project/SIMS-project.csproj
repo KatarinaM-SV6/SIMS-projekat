@@ -183,6 +183,9 @@
     <EmbeddedResource Include="view\vodjaView\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\vodjaView\PrijaveKvarovaForm.resx">
+      <DependentUpon>PrijaveKvarovaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\vodjaView\UredajiForm.resx">
       <DependentUpon>UredajiForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -206,8 +209,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pogled\Referent\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

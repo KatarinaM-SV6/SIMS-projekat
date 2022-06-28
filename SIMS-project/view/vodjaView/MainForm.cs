@@ -68,7 +68,8 @@ namespace SIMS_project.view.vodjaView
 
 		private void UvidUprijaveKvarova(object sender, EventArgs e)
 		{
-			PrijaveKvarovaForm prijaveKvarova = new PrijaveKvarovaForm();
+			PrijaveKvarovaForm prijaveKvarova = new PrijaveKvarovaForm(_naplatnaStanica);
+			prijaveKvarova.Show();
 		}
 
 		private void IzvestajPromet(object sender, EventArgs e)
