@@ -7,7 +7,7 @@
     "BrojTablica": "fff",
     "VremeIzlaska": "2022-06-28T19:55:16.0537355+02:00",
     "Id": 0,
-    "StanicaIzlaska": 1,
+    "StanicaIzlaska": 0,
     "MestoUlaska": {
       "ImaElektronskoNaplacivanje": false,
       "RedniBroj": 0,
@@ -51,7 +51,7 @@
     "BrojTablica": "fff",
     "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
     "Id": 1,
-    "StanicaIzlaska": 1,
+    "StanicaIzlaska": 0,
     "MestoUlaska": {
       "ImaElektronskoNaplacivanje": false,
       "RedniBroj": 0,
@@ -95,7 +95,7 @@
     "BrojTablica": "fff",
     "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
     "Id": 2,
-    "StanicaIzlaska": 1,
+    "StanicaIzlaska": 0,
     "MestoUlaska": {
       "ImaElektronskoNaplacivanje": false,
       "RedniBroj": 0,
@@ -139,7 +139,7 @@
     "BrojTablica": "fff",
     "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
     "Id": 3,
-    "StanicaIzlaska": 1,
+    "StanicaIzlaska": 0,
     "MestoUlaska": {
       "ImaElektronskoNaplacivanje": false,
       "RedniBroj": 0,
@@ -183,7 +183,7 @@
     "BrojTablica": "fff",
     "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
     "Id": 4,
-    "StanicaIzlaska": 1,
+    "StanicaIzlaska": 0,
     "MestoUlaska": {
       "ImaElektronskoNaplacivanje": false,
       "RedniBroj": 0,
@@ -222,12 +222,12 @@
   {
     "ValueRSD": true,
     "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
-    "TipVozila": "I",
+    "TipVozila": "IV",
     "Iznos": 500.0,
     "BrojTablica": "fff",
     "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
     "Id": 5,
-    "StanicaIzlaska": 1,
+    "StanicaIzlaska": 0,
     "MestoUlaska": {
       "ImaElektronskoNaplacivanje": false,
       "RedniBroj": 0,
@@ -310,7 +310,7 @@
   {
     "ValueRSD": true,
     "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
-    "TipVozila": "I",
+    "TipVozila": "IV",
     "Iznos": 500.0,
     "BrojTablica": "fff",
     "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
