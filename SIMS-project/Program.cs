@@ -53,6 +53,7 @@ namespace SIMS_project
             for (int i = 1; i < 5; i++)
             {
                 NaplatnaStanica naplatnaStanica = new NaplatnaStanica(new Mesto("Mesto" + i), new List<NaplatnoMesto>(), "A" + i);
+                naplatnaStanica.VodjaStanice = korisniciRepo.GetById(1);
                 for (int j = 1; j < 5; j++)
                 {
                     NaplatnoMesto naplatnoMesto = new NaplatnoMesto(false, true, new List<Uredjaj> { new Uredjaj("KAMERA"), new Uredjaj("RAMPA") });

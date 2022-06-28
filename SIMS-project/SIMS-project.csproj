@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SIMS_project</RootNamespace>
     <AssemblyName>SIMS-project</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -79,6 +79,7 @@
     <Compile Include="Tagovi\Tag.cs" />
     <Compile Include="Tagovi\TagRepository.cs" />
     <Compile Include="Transakcije\Transakcija.cs" />
+    <Compile Include="Transakcije\TransakcijaJSONReferenceConverter.cs" />
     <Compile Include="Transakcije\TransakcijaRepository.cs" />
     <Compile Include="Uredjaji\DojavaOKvaru.cs" />
     <Compile Include="Uredjaji\DojaveOKvaru\DojavaOKvaru.cs" />
