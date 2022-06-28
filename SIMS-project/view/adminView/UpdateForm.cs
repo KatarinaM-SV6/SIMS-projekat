@@ -67,6 +67,8 @@ namespace SIMS_project
         {
             _stanica.Mesto = new Mesto(mesto.Text);
             _stanica.NazivAutoputa = nazivAutoputa.Text;
+            MessageBox.Show("Uspesno ste ažurirali naplatno mesto!", "Uspeh!");
+            Close();
         }
     }
 }
