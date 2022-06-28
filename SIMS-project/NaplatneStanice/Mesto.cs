@@ -16,5 +16,10 @@ namespace SIMS_project.NaplatneStanice
         }
 
         public String Naziv { get { return _naziv; } set { _naziv = value; } }
+
+        public override string ToString()
+        {
+            return _naziv;
+        }
     }
 }

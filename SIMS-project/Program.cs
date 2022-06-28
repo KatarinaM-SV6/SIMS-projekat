@@ -17,6 +17,7 @@ namespace SIMS_project
         private static readonly JsonSerializerSettings jsonPodesavanja = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.None };
         public static KorisnikRepository korisniciRepo = new KorisnikRepository(podaciDir + "korisnici.json", jsonPodesavanja);
         public static NaplatnaStanicaRepository staniceRepo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
+        public static KorisnickiNalogRepository kornalogRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -24,22 +25,20 @@ namespace SIMS_project
         static void Main()
         {
 
-            /*var korisniciRepo = new KorisnikRepository(podaciDir + "korisnici.json", jsonPosesavanja);
-
             korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
             korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
             korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
             korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
 
-            var kornalogRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPosesavanja);
-
             foreach (var k in korisniciRepo.GetAll())
             {
-                kornalogRepo.Add(new KorisnickiNalog(k.Ime+k.Prezime, "123", TipKorisnika.REFERENT, k));
+                KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
+                kornalogRepo.Add(nalog);
+                k.KorisnickiNalog = nalog;
             }
             korisniciRepo.Save();
-            kornalogRepo.Save();*/
-
+            kornalogRepo.Save();
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             test();
@@ -54,7 +53,7 @@ namespace SIMS_project
             for (int i = 1; i < 5; i++)
             {
                 NaplatnaStanica naplatnaStanica = new NaplatnaStanica(new Mesto("Mesto" + i), new List<NaplatnoMesto>(), "A" + i);
-                for (int j = 1; j < 10; j++)
+                for (int j = 1; j < 5; j++)
                 {
                     NaplatnoMesto naplatnoMesto = new NaplatnoMesto(false, true, new List<Uredjaj> { new Uredjaj("KAMERA"), new Uredjaj("RAMPA") });
                     naplatnaStanica.AddMesto(naplatnoMesto);
