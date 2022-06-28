@@ -84,9 +84,11 @@ namespace SIMS_project.view.vodjaView
 			// 
 			// izvestajTextBox
 			// 
+			this.izvestajTextBox.AllowDrop = true;
 			this.izvestajTextBox.Location = new System.Drawing.Point(334, 114);
 			this.izvestajTextBox.Multiline = true;
 			this.izvestajTextBox.Name = "izvestajTextBox";
+			this.izvestajTextBox.ReadOnly = true;
 			this.izvestajTextBox.Size = new System.Drawing.Size(428, 307);
 			this.izvestajTextBox.TabIndex = 5;
 			// 
