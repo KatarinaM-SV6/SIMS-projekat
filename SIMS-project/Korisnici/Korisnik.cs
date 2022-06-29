@@ -13,14 +13,20 @@ namespace SIMS_project.Korisnici
 		int _id = -1;
 		string _ime;
 		string _prezime;
-		NaplatnaStanica _radnoMesto;
+		NaplatnaStanica _radnoMesto = null;
 		bool _obrisan;
 
 		public Korisnik()
 		{
 		}
 
-		public Korisnik(string ime, string prezime, KorisnickiNalog korisnickiNalog, NaplatnaStanica radnoMesto)
+		public Korisnik(string ime, string prezime)
+		{
+			_ime = ime;
+			_prezime = prezime;
+		}
+
+		public Korisnik(string ime, string prezime, NaplatnaStanica radnoMesto)
 		{
 			_ime = ime;
 			_prezime = prezime;

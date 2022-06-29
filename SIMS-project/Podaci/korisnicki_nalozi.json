@@ -1,6 +1,5 @@
 [
   {
-    "$id": "1",
     "Id": 0,
     "KorisnickoIme": "MilanMilovanovic",
     "Lozinka": "123",
@@ -9,7 +8,6 @@
     "Obrisan": false
   },
   {
-    "$id": "2",
     "Id": 1,
     "KorisnickoIme": "JelenaRistic",
     "Lozinka": "123",
@@ -18,7 +16,6 @@
     "Obrisan": false
   },
   {
-    "$id": "3",
     "Id": 2,
     "KorisnickoIme": "NikolaMilovanovic",
     "Lozinka": "123",
@@ -27,7 +24,6 @@
     "Obrisan": false
   },
   {
-    "$id": "4",
     "Id": 3,
     "KorisnickoIme": "MilanKrstic",
     "Lozinka": "123",
@@ -36,7 +32,6 @@
     "Obrisan": false
   },
   {
-    "$id": "5",
     "Id": 4,
     "KorisnickoIme": "SandraPopovic",
     "Lozinka": "123",

@@ -1,6 +1,5 @@
 [
   {
-    "$id": "1",
     "Ime": "Milan",
     "Prezime": "Milovanovic",
     "Id": 0,
@@ -8,7 +7,6 @@
     "RadnoMesto": 0
   },
   {
-    "$id": "2",
     "Ime": "Jelena",
     "Prezime": "Ristic",
     "Id": 1,
@@ -16,7 +14,6 @@
     "RadnoMesto": 1
   },
   {
-    "$id": "3",
     "Ime": "Nikola",
     "Prezime": "Milovanovic",
     "Id": 2,
@@ -24,7 +21,6 @@
     "RadnoMesto": 2
   },
   {
-    "$id": "4",
     "Ime": "Milan",
     "Prezime": "Krstic",
     "Id": 3,
@@ -32,11 +28,9 @@
     "RadnoMesto": 3
   },
   {
-    "$id": "5",
     "Ime": "Sandra",
     "Prezime": "Popovic",
     "Id": 4,
-    "Obrisan": false,
-    "RadnoMesto": 4
+    "Obrisan": false
   }
 ]

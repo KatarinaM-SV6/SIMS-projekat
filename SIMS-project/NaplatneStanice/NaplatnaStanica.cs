@@ -15,27 +15,16 @@ namespace SIMS_project.NaplatneStanice
         List<NaplatnoMesto> _naplatnaMesta;
         String _nazivAutoputa;
         bool _obrisana;
-        List<Korisnik> _radnici;
-        Korisnik _vodjaStanice;
+        int _vodjaStanice = -1;
 
         public NaplatnaStanica() { }
         
-        public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa, List<Korisnik> radnici, Korisnik vodjaStanice)
+        public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa,  Korisnik vodjaStanice)
         {
             _mesto = mesto;
             _naplatnaMesta = naplatnaMesta;
             _nazivAutoputa = nazivAutoputa;
-            _radnici = radnici;
-            _vodjaStanice = vodjaStanice;
-        }
-
-        public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa, Korisnik vodjaStanice)
-        {
-            _mesto = mesto;
-            _naplatnaMesta = naplatnaMesta;
-            _nazivAutoputa = nazivAutoputa;
-            _radnici = new List<Korisnik>();
-            _vodjaStanice = vodjaStanice;
+            _vodjaStanice = VodjaStanice;
         }
 
         public NaplatnaStanica(Mesto mesto, List<NaplatnoMesto> naplatnaMesta, String nazivAutoputa)
@@ -43,8 +32,7 @@ namespace SIMS_project.NaplatneStanice
             _mesto = mesto;
             _naplatnaMesta = naplatnaMesta;
             _nazivAutoputa = nazivAutoputa;
-            _radnici = new List<Korisnik>();
-            _vodjaStanice = new Korisnik();
+            _vodjaStanice = 0;
         }
 
         public int Id { get { return _id; } set { _id = value; } }
@@ -52,9 +40,7 @@ namespace SIMS_project.NaplatneStanice
         public List<NaplatnoMesto> NaplatnaMesta { get { return _naplatnaMesta;} set { _naplatnaMesta = value;} }
         public String NazivAutoputa { get { return _nazivAutoputa; } set { _nazivAutoputa = value; } }
         public bool Obrisana { get { return _obrisana;} set { _obrisana = value;} }
-        [JsonConverter(typeof(KorisnikListJSONConverter))]
-        public List<Korisnik> Radnici { get { return _radnici; } set { _radnici = value; } }
-        public Korisnik VodjaStanice { get { return _vodjaStanice;} set { _vodjaStanice = value;} }
+        public int VodjaStanice { get { return _vodjaStanice;} set { _vodjaStanice = value;} }
 
         public override string ToString()
         {

@@ -1,0 +1,354 @@
+[
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0537355+02:00",
+    "TipVozila": "I",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0537355+02:00",
+    "Id": 0,
+    "StanicaIzlaska": 0,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "TipVozila": "I",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "Id": 1,
+    "StanicaIzlaska": 0,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "TipVozila": "I",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "Id": 2,
+    "StanicaIzlaska": 0,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "TipVozila": "I",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "Id": 3,
+    "StanicaIzlaska": 0,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "TipVozila": "I",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "Id": 4,
+    "StanicaIzlaska": 0,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "TipVozila": "IV",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "Id": 5,
+    "StanicaIzlaska": 0,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "TipVozila": "I",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "Id": 6,
+    "StanicaIzlaska": 1,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": true,
+    "VremeUlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "TipVozila": "IV",
+    "Iznos": 500.0,
+    "BrojTablica": "fff",
+    "VremeIzlaska": "2022-06-28T19:55:16.0557371+02:00",
+    "Id": 7,
+    "StanicaIzlaska": 1,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    }
+  }
+]
