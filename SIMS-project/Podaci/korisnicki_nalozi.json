@@ -35,8 +35,32 @@
     "Id": 4,
     "KorisnickoIme": "SandraPopovic",
     "Lozinka": "123",
-    "TipKorisnika": 2,
+    "TipKorisnika": 1,
     "Korisnik": 4,
+    "Obrisan": false
+  },
+  {
+    "Id": 5,
+    "KorisnickoIme": "nikola",
+    "Lozinka": "123",
+    "TipKorisnika": 0,
+    "Korisnik": 5,
+    "Obrisan": false
+  },
+  {
+    "Id": 6,
+    "KorisnickoIme": "petar",
+    "Lozinka": "123",
+    "TipKorisnika": 1,
+    "Korisnik": 6,
+    "Obrisan": false
+  },
+  {
+    "Id": 7,
+    "KorisnickoIme": "nikolina",
+    "Lozinka": "123",
+    "TipKorisnika": 2,
+    "Korisnik": 7,
     "Obrisan": false
   }
 ]

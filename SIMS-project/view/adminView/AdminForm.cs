@@ -30,7 +30,7 @@ namespace SIMS_project
                 NaplatneStanice.Items.Add(naplatnaStanica);
             }
             KorisnickiNaloziLB.Items.Clear();
-            List<KorisnickiNalog> korisnickiNalozi = Program.korisnickiNalogRepo.GetAll();
+            List<KorisnickiNalog> korisnickiNalozi = Program.naloziRepo.GetAll();
             foreach (var nalog in korisnickiNalozi)
             {
                 KorisnickiNaloziLB.Items.Add(nalog);
@@ -149,12 +149,19 @@ namespace SIMS_project
             if (KorisnickiNaloziLB.SelectedItem != null)
             {
                 KorisnickiNalog nalog = (KorisnickiNalog)KorisnickiNaloziLB.SelectedItem;
-                if (nalog.Korisnik.RadnoMesto.VodjaStanice == nalog.Korisnik)
-                    nalog.Korisnik.RadnoMesto.VodjaStanice = null;
+                if (nalog.Korisnik.RadnoMesto.VodjaStanice == nalog.Korisnik.Id)
+                {
+                    NaplatnaStanica stanica = Program.staniceRepo.GetById(nalog.Korisnik.RadnoMesto.Id);   
+                    if (stanica != null)
+                    {
+                        stanica.VodjaStanice = -1;
+                    }
+                }
 
-
-                nalog.Korisnik.RadnoMesto.Radnici.Remove(nalog.Korisnik);
-                Program.korisnickiNalogRepo.Remove(nalog);
+                Program.korisniciRepo.Remove(nalog.Korisnik);
+                Program.naloziRepo.Remove(nalog);
+                Program.korisniciRepo.Save();
+                Program.naloziRepo.Save();
                 AdminForm_Load();
             }
         }
@@ -165,5 +172,12 @@ namespace SIMS_project
             createNalogForm.Show();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Closed += (s, args) => this.Close();
+            login.Show();
+        }
     }
 }

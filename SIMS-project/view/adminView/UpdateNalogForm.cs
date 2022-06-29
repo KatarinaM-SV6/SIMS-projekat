@@ -44,15 +44,19 @@ namespace SIMS_project.view.adminView
         // update button
         private void button1_Click(object sender, EventArgs e)
         {
-            KorisnickiNalog nalog = Program.korisnickiNalogRepo.GetById(_nalog.Id);
+            KorisnickiNalog nalog = Program.naloziRepo.GetById(_nalog.Id);
             if (nalog != null)
             {
                 string korisnickoIme = textBox1.Text;
                 if (korisnickoIme == nalog.KorisnickoIme) { }
-                else if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
+                else if (Program.naloziRepo.GetByUsername(korisnickoIme).Count() != 0)
                 { 
                     MessageBox.Show("Korisnicko ime je zauzeto");
                     return;
+                }
+                if (nalog.TipKorisnika == TipKorisnika.VODJA_STANICE && (TipKorisnika)comboBox1.SelectedItem != nalog.TipKorisnika)
+                {
+                    nalog.Korisnik.RadnoMesto.VodjaStanice = -1;
                 }
                 nalog.KorisnickoIme = korisnickoIme;
                 nalog.Lozinka = textBox2.Text;
@@ -63,22 +67,18 @@ namespace SIMS_project.view.adminView
 
                 if (nalog.TipKorisnika == TipKorisnika.ADMINISTRATOR)
                     nalog.Korisnik.RadnoMesto = null;
-                else if (nalog.Korisnik.RadnoMesto != (NaplatnaStanica)comboBox2.SelectedItem) 
+                else 
                 {
-                    nalog.Korisnik.RadnoMesto.Radnici.Remove(nalog.Korisnik);
-                }
                     nalog.Korisnik.RadnoMesto = (NaplatnaStanica)comboBox2.SelectedItem;
-                
-                    
+                }                  
 
                 if (nalog.Korisnik.RadnoMesto != null)
                 {
                     NaplatnaStanica stanica = (NaplatnaStanica)comboBox2.SelectedItem;
                     if (nalog.TipKorisnika == TipKorisnika.VODJA_STANICE)
-                        stanica.VodjaStanice = nalog.Korisnik;
-                    stanica.Radnici.Add(nalog.Korisnik);
+                        stanica.VodjaStanice = nalog.Korisnik.Id;
                 }
-                Program.korisnickiNalogRepo.Save();
+                Program.naloziRepo.Save();
                 Program.korisniciRepo.Save();
                 Program.staniceRepo.Save();
                 this.Close();
@@ -90,7 +90,7 @@ namespace SIMS_project.view.adminView
         { 
             KorisnickiNalog nalog = new KorisnickiNalog();
             string korisnickoIme = textBox1.Text;
-            if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
+            if (Program.naloziRepo.GetByUsername(korisnickoIme).Count() != 0)
             {
                 MessageBox.Show("Korisnicko ime je zauzeto");
                 return;
@@ -106,17 +106,16 @@ namespace SIMS_project.view.adminView
             else
                 nalog.Korisnik.RadnoMesto = (NaplatnaStanica)comboBox2.SelectedItem;
                 
-            Program.korisnickiNalogRepo.Add(nalog);
+            Program.naloziRepo.Add(nalog);
             Program.korisniciRepo.Add(nalog.Korisnik);
             if(nalog.Korisnik.RadnoMesto != null)
             {
                 NaplatnaStanica stanica = (NaplatnaStanica)comboBox2.SelectedItem;
                 if (nalog.TipKorisnika == TipKorisnika.VODJA_STANICE)
-                    stanica.VodjaStanice = nalog.Korisnik;
-                stanica.Radnici.Add(nalog.Korisnik);
+                    stanica.VodjaStanice = nalog.Korisnik.Id;
             }
 
-            Program.korisnickiNalogRepo.Save();
+            Program.naloziRepo.Save();
             Program.korisniciRepo.Save();
             Program.staniceRepo.Save();
             this.Close();

@@ -103,5 +103,13 @@ namespace SIMS_project.view.vodjaView
 				return false;
 			}
 		}
-	}
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+			this.Hide();
+			Login login = new Login();
+			login.Closed += (s, args) => this.Close();
+			login.Show();
+		}
+    }
 }
