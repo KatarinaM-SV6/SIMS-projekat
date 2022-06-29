@@ -55,7 +55,7 @@ namespace SIMS_project.Transakcije
 		public int Id { get => _idTaga; set => _idTaga = value; }
 		[JsonConverter(typeof(NaplatnaStanicaJSONReferenceConverter))]
 		public NaplatnaStanica StanicaIzlaska { get => _stanicaIzlaska; set => _stanicaIzlaska = value; }
-        internal NaplatnoMesto MestoUlaska { get => _mestoUlaska; set => _mestoUlaska = value; }
-		internal NaplatnoMesto MestoIzlaska { get => _mestoIzlaska; set => _mestoIzlaska = value; }
+        public NaplatnoMesto MestoUlaska { get => _mestoUlaska; set => _mestoUlaska = value; }
+		public NaplatnoMesto MestoIzlaska { get => _mestoIzlaska; set => _mestoIzlaska = value; }
 	}
 }
