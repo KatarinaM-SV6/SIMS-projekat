@@ -2,6 +2,7 @@
 using SIMS_project.Korisnici;
 using SIMS_project.NaplatneStanice;
 using SIMS_project.Transakcije;
+using SIMS_project.Uredjaji;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +27,9 @@ namespace SIMS_project.view.referentView
             ulogovaniReferent = referent;
             naplatnoMesto = mesto;
             InitializeComponent();
+            lblMesto.Text = "Naplatno mesto sa rednim brojem " + naplatnoMesto.RedniBroj.ToString();
             btnZavrsi.Enabled = false;
+            DisplayUredjajiTableData();
             SetTbTablice();
             FillCBTip();
         }
@@ -37,6 +40,14 @@ namespace SIMS_project.view.referentView
             {
                 cbTip.Items.Add(tip.ToString());
                 cbTip.SelectedItem = tip.ToString();   
+            }
+        }
+
+        private void DisplayUredjajiTableData()
+        {
+            foreach (Uredjaj u in naplatnoMesto.Uredjaji)
+            {
+                dataGridViewUredjaji.Rows.Add(u.VrstaUredjaja.ToString(), u.UFunkciji);
             }
         }
 
