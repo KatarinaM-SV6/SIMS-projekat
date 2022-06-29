@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SIMS_project.NaplatneStanice;
 using SIMS_project.Uredjaji;
+using SIMS_project.Korisnici;
 
 namespace SIMS_project
 {
@@ -27,6 +28,10 @@ namespace SIMS_project
                 splitContainer1.Panel1.Enabled = false;
                 splitContainer1.Panel2.Enabled = true;
             }
+            foreach (Korisnik radnik in Program.korisniciRepo.GetAll())
+            {
+                vodje.Items.Add(radnik);
+            }
         }
 
 
@@ -35,7 +40,7 @@ namespace SIMS_project
             NaplatnaStanica naplatnaStanica = _stanica;
             if (_stanica == null)
             {
-                naplatnaStanica = new NaplatnaStanica(new Mesto(mesto.Text), new List<NaplatnoMesto>(), nazivAutoputa.Text);
+                naplatnaStanica = new NaplatnaStanica(new Mesto(mesto.Text), new List<NaplatnoMesto>(), nazivAutoputa.Text, vodje.SelectedItem as Korisnik);
             }
 
             if (dodajNaplatnaMesta.Checked)

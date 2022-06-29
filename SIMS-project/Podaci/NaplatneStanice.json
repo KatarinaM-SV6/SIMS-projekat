@@ -12,12 +12,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "e9bc57bff087455cbf2b1296df498d48"
+            "IdUredjaja": "8f2590f73f7b40d2a2559df66d4c147d"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "9c686205596641b99a97192a026e7034"
+            "IdUredjaja": "03dcd6c3dd48413896cf2c832085712f"
           }
         ],
         "UFunkciji": true
@@ -29,12 +29,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "cc5f02193cf44c54b9136f6a5c125f79"
+            "IdUredjaja": "5f454f57d26842df8902298936bb7518"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "a618d407696841adae46fac9c5946f20"
+            "IdUredjaja": "422243ee22c448508b67c4c2319639c3"
           }
         ],
         "UFunkciji": true
@@ -46,12 +46,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "01f8a611c9c24f81be7e778aa85e309f"
+            "IdUredjaja": "f757f830498e40c2bb78e57a5910f10f"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "ef8890e0eba04a6eb92be0cc5e172585"
+            "IdUredjaja": "77b461e03e3845e7b0c2dc2fdce4cfa3"
           }
         ],
         "UFunkciji": true
@@ -63,12 +63,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "253e9962d68c44328fd9170b611429d8"
+            "IdUredjaja": "e03233506f2848c88523e967948378c9"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "479b74beb9344d07b9e4243ddf0f0128"
+            "IdUredjaja": "761ba2b0053e41fb858e60d563cc0189"
           }
         ],
         "UFunkciji": true
@@ -76,7 +76,6 @@
     ],
     "NazivAutoputa": "A1",
     "Obrisana": false,
-    "Radnici": [],
     "VodjaStanice": 1
   },
   {
@@ -92,12 +91,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+            "IdUredjaja": "56b3b245390f4ad588198237aabf62cd"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+            "IdUredjaja": "29594e313a8544daac497c49af64ab78"
           }
         ],
         "UFunkciji": true
@@ -109,12 +108,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "6ceec2c5d9af46aba0236b7cf3df56b7"
+            "IdUredjaja": "715ed55ee38f4e92b1bdabdf2a6a3ff6"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "bd80b60219f6442d839b91f8731ff6eb"
+            "IdUredjaja": "00c2c3c6423e4d459290a7bbe688a22a"
           }
         ],
         "UFunkciji": true
@@ -126,12 +125,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "cc80fdb31d7a458ab4bb3ddb120718f3"
+            "IdUredjaja": "1e2601f69c42442bb8715972ede563c8"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "5fc00fc2f3c248b68754ef46c0f82c98"
+            "IdUredjaja": "df348462b6814ba6b15ffa3c415a3e53"
           }
         ],
         "UFunkciji": true
@@ -143,12 +142,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "16b3801839fe4cd1b0eb1e357b5d057e"
+            "IdUredjaja": "8b20e57347ee42c8a2ed7f5ac12fd80f"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "59e3377ee2b445e8997518cf810e637c"
+            "IdUredjaja": "f73f6feea673420ca0844c0d2ffe570d"
           }
         ],
         "UFunkciji": true
@@ -156,8 +155,7 @@
     ],
     "NazivAutoputa": "A2",
     "Obrisana": false,
-    "Radnici": [],
-    "VodjaStanice": 1
+    "VodjaStanice": 2
   },
   {
     "Id": 2,
@@ -172,12 +170,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "519ff526b9c748b99bc6002e22eb19f3"
+            "IdUredjaja": "6c4048eb5b634b27bc1011786ba74e2f"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "224881e41f794965aca8449f174eb3e1"
+            "IdUredjaja": "988121731a8343c5a9724f7bf5fd936d"
           }
         ],
         "UFunkciji": true
@@ -189,12 +187,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "42498b32bd694c2c93881d5a609be1f9"
+            "IdUredjaja": "74f3f9d48d644511a8bf7660e43d7b2f"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "3988cd32ce1b446aa2a0b91ff7e7cc27"
+            "IdUredjaja": "162392bef72a4f0898d6ff30d52ba69c"
           }
         ],
         "UFunkciji": true
@@ -206,12 +204,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "8e978767dec547258e2c0397501b8cde"
+            "IdUredjaja": "5c921d61dc6a449e92fb76140d71a677"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "abfb8c3f87714730b11ac5c43603f061"
+            "IdUredjaja": "45fb2c7f79e840bcb704aa3c0b1d9ce6"
           }
         ],
         "UFunkciji": true
@@ -223,12 +221,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "cd8ac55bb7134c938a263bb5dea38579"
+            "IdUredjaja": "50aa8ce5872f4a868ef0c2e43413b7c8"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "a414ab07c3054553935746737d09cd4f"
+            "IdUredjaja": "d835064a414b4620951601fb076a07a0"
           }
         ],
         "UFunkciji": true
@@ -236,8 +234,7 @@
     ],
     "NazivAutoputa": "A3",
     "Obrisana": false,
-    "Radnici": [],
-    "VodjaStanice": 1
+    "VodjaStanice": 3
   },
   {
     "Id": 3,
@@ -252,12 +249,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "652f300d858443b282452b5697580a94"
+            "IdUredjaja": "6a6e3ec60a6043f086125be2b55906cf"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "97ff74176b144279addcca2ebc76d21e"
+            "IdUredjaja": "6afb7fe72f2e42ea8dfbb85836430a2e"
           }
         ],
         "UFunkciji": true
@@ -269,12 +266,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "0e185e7b812f448ebf18acd0100c331e"
+            "IdUredjaja": "e2840993d7a14e9687378ada80e4ff01"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "35d5af0da40743a2a6a8546f9458ad61"
+            "IdUredjaja": "9ac4998b7f2841b0b3f0ac104c74b348"
           }
         ],
         "UFunkciji": true
@@ -286,12 +283,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "9be4315aa9d3438995f38fdf7e7071d6"
+            "IdUredjaja": "05ee3304607d4b6092b6e849c321ed8a"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "4a0dabc23b43431f92e4ccc46c6a9272"
+            "IdUredjaja": "f801436a5eda498fb68c0fb319c11bf7"
           }
         ],
         "UFunkciji": true
@@ -303,12 +300,12 @@
           {
             "VrstaUredjaja": "KAMERA",
             "UFunkciji": true,
-            "IdUredjaja": "a52c94b6f92b4bcb8efce2cb0ac233c4"
+            "IdUredjaja": "b34ef223fb6542809791fd93837d1c77"
           },
           {
             "VrstaUredjaja": "RAMPA",
             "UFunkciji": true,
-            "IdUredjaja": "f258b67133f046938c38f5801756bbc9"
+            "IdUredjaja": "fa9ccce049f246b492a7818a08164bc2"
           }
         ],
         "UFunkciji": true
@@ -316,327 +313,6 @@
     ],
     "NazivAutoputa": "A4",
     "Obrisana": false,
-    "Radnici": [],
-    "VodjaStanice": 1
-  },
-  {
-    "Id": 4,
-    "Mesto": {
-      "Naziv": "Mesto1"
-    },
-    "NaplatnaMesta": [
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 0,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "183c08d1a4a64b38aceb4132d82a6c6d"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "ddfc0a463980488196d0d37d69986b57"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 1,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "1f8d93e936da4c73ac79b1b4f6cf8241"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "8fa2f168797b42eeb34b0887cedcca4a"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 2,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "660c3b59b5f34bcaa669b7387ff2c5db"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "e10565bafe654d219f1db713edb0d1a8"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 3,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "6ef2a3fe4e664bef8d7898708d95537c"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "083c0f542e09492d80c7adc7f63a58ea"
-          }
-        ],
-        "UFunkciji": true
-      }
-    ],
-    "NazivAutoputa": "A1",
-    "Obrisana": false,
-    "Radnici": [],
-    "VodjaStanice": 1
-  },
-  {
-    "Id": 5,
-    "Mesto": {
-      "Naziv": "Mesto2"
-    },
-    "NaplatnaMesta": [
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 0,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "eaa0e653cabd4db2a35c260cbe907f1d"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "8caff15518004dc7b257eea6a7275cfc"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 1,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "302c264ec62f4c0192212e19f6740d8f"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "04d5a33bb8d74767a3d9b398bed18dce"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 2,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "f60bf0954b5b4d91a90d459d47bc3178"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "1b4e7873d632461b80de8e89434daa6e"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 3,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "9489b748b8974ee19082cef2f3d248c1"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "b1cbace5c82e46cdb3251d9779497d59"
-          }
-        ],
-        "UFunkciji": true
-      }
-    ],
-    "NazivAutoputa": "A2",
-    "Obrisana": false,
-    "Radnici": [],
-    "VodjaStanice": 1
-  },
-  {
-    "Id": 6,
-    "Mesto": {
-      "Naziv": "Mesto3"
-    },
-    "NaplatnaMesta": [
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 0,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "d179f85aef6c4901b166c26e84e3348a"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "8c423094951749e286497603bad7e836"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 1,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "406e81534e234db390378daf79516812"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "98e622c3280c45d381308f39b97bc4bc"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 2,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "fb7bd80490c749d78dec389dcf1f91d7"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "385c561cd26941b38c6fbb0512b95c9d"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 3,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "c30a1526a1ff44ae91bc688a79bf472a"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "7ad85e30dafa4fa2a17ca6932189773b"
-          }
-        ],
-        "UFunkciji": true
-      }
-    ],
-    "NazivAutoputa": "A3",
-    "Obrisana": false,
-    "Radnici": [],
-    "VodjaStanice": 1
-  },
-  {
-    "Id": 7,
-    "Mesto": {
-      "Naziv": "Mesto4"
-    },
-    "NaplatnaMesta": [
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 0,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "a575e77c0bf64e7285f3eea4c98800f1"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "e44485153fed4e5ba69dbc10bc694b5d"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 1,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "a66685fda2bd49b1bff31320f4f50b34"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "08c4f9556af7474fb01de6edd068088c"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 2,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "f2f6a61ae13f4f24b2d05ea450e09c0b"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "c7fe313ef6d54954840c05273b79c183"
-          }
-        ],
-        "UFunkciji": true
-      },
-      {
-        "ImaElektronskoNaplacivanje": false,
-        "RedniBroj": 3,
-        "Uredjaji": [
-          {
-            "VrstaUredjaja": "KAMERA",
-            "UFunkciji": true,
-            "IdUredjaja": "baca2de7f9ad47ba9c350ef2a83b75e1"
-          },
-          {
-            "VrstaUredjaja": "RAMPA",
-            "UFunkciji": true,
-            "IdUredjaja": "12b329e5af4e44d08da5d8e681ee5a99"
-          }
-        ],
-        "UFunkciji": true
-      }
-    ],
-    "NazivAutoputa": "A4",
-    "Obrisana": false,
-    "Radnici": [],
-    "VodjaStanice": 1
+    "VodjaStanice": 4
   }
 ]

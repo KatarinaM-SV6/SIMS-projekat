@@ -3,144 +3,34 @@
     "Ime": "Milan",
     "Prezime": "Milovanovic",
     "Id": 0,
-    "Obrisan": false
+    "Obrisan": false,
+    "RadnoMesto": 0
   },
   {
     "Ime": "Jelena",
     "Prezime": "Ristic",
     "Id": 1,
-    "Obrisan": false
+    "Obrisan": false,
+    "RadnoMesto": 1
   },
   {
     "Ime": "Nikola",
     "Prezime": "Milovanovic",
     "Id": 2,
-    "Obrisan": false
+    "Obrisan": false,
+    "RadnoMesto": 2
   },
   {
     "Ime": "Milan",
     "Prezime": "Krstic",
     "Id": 3,
-    "Obrisan": false
+    "Obrisan": false,
+    "RadnoMesto": 3
   },
   {
-    "Ime": "Milan",
-    "Prezime": "Milovanovic",
+    "Ime": "Sandra",
+    "Prezime": "Popovic",
     "Id": 4,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Jelena",
-    "Prezime": "Ristic",
-    "Id": 5,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Nikola",
-    "Prezime": "Milovanovic",
-    "Id": 6,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Krstic",
-    "Id": 7,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Milovanovic",
-    "Id": 8,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Jelena",
-    "Prezime": "Ristic",
-    "Id": 9,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Nikola",
-    "Prezime": "Milovanovic",
-    "Id": 10,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Krstic",
-    "Id": 11,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Milovanovic",
-    "Id": 12,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Jelena",
-    "Prezime": "Ristic",
-    "Id": 13,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Nikola",
-    "Prezime": "Milovanovic",
-    "Id": 14,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Krstic",
-    "Id": 15,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Milovanovic",
-    "Id": 16,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Jelena",
-    "Prezime": "Ristic",
-    "Id": 17,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Nikola",
-    "Prezime": "Milovanovic",
-    "Id": 18,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Krstic",
-    "Id": 19,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Milovanovic",
-    "Id": 20,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Jelena",
-    "Prezime": "Ristic",
-    "Id": 21,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Nikola",
-    "Prezime": "Milovanovic",
-    "Id": 22,
-    "Obrisan": false
-  },
-  {
-    "Ime": "Milan",
-    "Prezime": "Krstic",
-    "Id": 23,
     "Obrisan": false
   }
 ]

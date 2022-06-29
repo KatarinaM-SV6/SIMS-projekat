@@ -13,20 +13,24 @@ namespace SIMS_project.Korisnici
 		int _id = -1;
 		string _ime;
 		string _prezime;
-		NaplatnaStanica _radnoMesto;
-		KorisnickiNalog _korisnickiNalog;
+		NaplatnaStanica _radnoMesto = null;
 		bool _obrisan;
 
 		public Korisnik()
 		{
 		}
 
-		public Korisnik(string ime, string prezime, KorisnickiNalog korisnickiNalog=null, NaplatnaStanica radnoMesto=null)
+		public Korisnik(string ime, string prezime)
+		{
+			_ime = ime;
+			_prezime = prezime;
+		}
+
+		public Korisnik(string ime, string prezime, NaplatnaStanica radnoMesto)
 		{
 			_ime = ime;
 			_prezime = prezime;
 			_radnoMesto = radnoMesto;
-			_korisnickiNalog = korisnickiNalog;
 		}
 
 
@@ -36,13 +40,11 @@ namespace SIMS_project.Korisnici
         public bool Obrisan { get => _obrisan; set => _obrisan = value; }
 		//[JsonConverter(typeof(PersonJSONReferenceConverter))]
 		[JsonConverter(typeof(NaplatnaStanicaJSONReferenceConverter))]
-		internal NaplatnaStanica RadnoMesto { get => _radnoMesto; set => _radnoMesto = value; }
-		[JsonConverter(typeof(KorisnickiNalogJSONReferenceConverter))]
-		internal KorisnickiNalog KorisnickiNalog { get => _korisnickiNalog; set => _korisnickiNalog = value; }
-
+		public NaplatnaStanica RadnoMesto { get => _radnoMesto; set => _radnoMesto = value; }
+	
 		public override string ToString()
         {
-			return $"Korisnik [ Id = {Id}, Ime = {Ime}, Prezime = {Prezime}]";
+			return $"{Ime} {Prezime}";
         }
 	}
 }

@@ -20,7 +20,7 @@ namespace SIMS_project.Transakcije
             podesavanja = jPodesavanja;
             TransakcijaJSONReferenceConverter.Repo = this;
             transakcije = JsonConvert.DeserializeObject<List<Transakcija>>(File.ReadAllText(fNaziv), podesavanja);
-            ZapocniTransakcije();
+            //ZapocniTransakcije();
         }
 
         public void Add(Transakcija stanica)

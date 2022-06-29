@@ -24,6 +24,13 @@ namespace SIMS_project.Korisnici
 
 		public KorisnickiNalog() { }
 
+		public KorisnickiNalog(string korisnickoIme, string lozinka, TipKorisnika tipKorisnika)
+		{
+			_korisnickoIme = korisnickoIme;
+			_lozinka = lozinka;
+			_tipKorisnika = tipKorisnika;
+		}
+
 		public KorisnickiNalog(string korisnickoIme, string lozinka, TipKorisnika tipKorisnika, Korisnik korisnik)
 		{
 			_korisnickoIme = korisnickoIme;
@@ -32,7 +39,7 @@ namespace SIMS_project.Korisnici
 			_korisnik = korisnik;
 		}
 
-	        public int Id { get => _id; set => _id = value; }
+		public int Id { get => _id; set => _id = value; }
 		public string KorisnickoIme { get => _korisnickoIme; set => _korisnickoIme = value; }
 		public string Lozinka { get => _lozinka; set => _lozinka = value; }
 		public TipKorisnika TipKorisnika { get => _tipKorisnika; set => _tipKorisnika = value; }

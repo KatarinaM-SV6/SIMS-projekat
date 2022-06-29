@@ -18,14 +18,14 @@ namespace SIMS_project
     static class Program
     {
         private static readonly string podaciDir = Path.Combine("..", "..", "Podaci") + Path.DirectorySeparatorChar;
-        private static readonly JsonSerializerSettings jsonPodesavanja = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.None };
+
+        private static readonly JsonSerializerSettings jsonPodesavanja = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
+        public static NaplatnaStanicaRepository staniceRepo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
         public static KorisnikRepository korisniciRepo = new KorisnikRepository(podaciDir + "korisnici.json", jsonPodesavanja);
         public static KorisnickiNalogRepository naloziRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
-        public static NaplatnaStanicaRepository staniceRepo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
         public static DojavaOKvaruRepository dojaveRepo = new DojavaOKvaruRepository(podaciDir + "DojaveOKvaru.json", jsonPodesavanja);
         public static DeonicaRepository deoniceRepo = new DeonicaRepository(podaciDir + "Deonice.json", jsonPodesavanja);
         public static CenovnikRepository cenovnikRepo = new CenovnikRepository(podaciDir + "Cenovnici.json", jsonPodesavanja);
-        public static KorisnickiNalogRepository kornalogRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
         public static TransakcijaRepository transakcijaRepo = new TransakcijaRepository(podaciDir + "Transakcije.json", jsonPodesavanja);
 
         /// <summary>
@@ -35,11 +35,15 @@ namespace SIMS_project
         static void Main()
         {
 
+            //generateKorisnici();
+            //generateStanice();
+            //korisniciRepo.Save();
+            //naloziRepo.Save();
+            //staniceRepo.Save();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Cenovnik c = cenovnikRepo.GetAll()[0];
             c.KrajVazenja = DateTime.Now.AddDays(2);
-            naloziRepo.GetById(1).Korisnik.RadnoMesto = staniceRepo.GetById(1);
             Application.Run(new view.referentView.GlavnaForma(naloziRepo.GetById(1)));
             //Application.Run(new Form1());
             transakcijaRepo.Save();
@@ -47,25 +51,39 @@ namespace SIMS_project
             staniceRepo.Save();
         }
 
-        public static void test()
+        public static void generateStanice()
         {
             List<NaplatnaStanica> naplatneStanice = new List<NaplatnaStanica>();
             for (int i = 1; i < 5; i++)
             {
                 NaplatnaStanica naplatnaStanica = new NaplatnaStanica(new Mesto("Mesto" + i), new List<NaplatnoMesto>(), "A" + i);
-                naplatnaStanica.VodjaStanice = korisniciRepo.GetById(1);
+                naplatnaStanica.VodjaStanice = i;
+
+                Korisnik radnik = korisniciRepo.GetById(i - 1);
+                radnik.RadnoMesto = naplatnaStanica;
                 for (int j = 1; j < 5; j++)
                 {
                     NaplatnoMesto naplatnoMesto = new NaplatnoMesto(false, true, new List<Uredjaj> { new Uredjaj("KAMERA"), new Uredjaj("RAMPA") });
                     naplatnaStanica.AddMesto(naplatnoMesto);
                 }
-                naplatneStanice.Add(naplatnaStanica);
                 staniceRepo.Add(naplatnaStanica);
             }
-            string jsonString = JsonConvert.SerializeObject(naplatneStanice, Formatting.Indented);
+        }
 
-            Console.WriteLine(jsonString);
-            staniceRepo.Save();
+        public static void generateKorisnici()
+        {
+            korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
+            korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
+            korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
+            korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
+            korisniciRepo.Add(new Korisnik("Sandra", "Popovic"));
+
+            foreach (var k in korisniciRepo.GetAll())
+            {
+                KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
+                naloziRepo.Add(nalog);
+            }
+
         }
 
     }

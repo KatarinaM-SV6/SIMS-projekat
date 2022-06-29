@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.dodajNaplatnaMesta = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.mesto = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,7 +47,8 @@
             this.brojNaplatnihMesta = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.dodajNaplatnaMesta = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.vodje = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -56,19 +58,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(55, 29);
+            this.label1.Location = new System.Drawing.Point(55, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 0;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(21, 29);
+            this.splitContainer1.Location = new System.Drawing.Point(21, 12);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.vodje);
+            this.splitContainer1.Panel1.Controls.Add(this.label7);
             this.splitContainer1.Panel1.Controls.Add(this.dodajNaplatnaMesta);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.mesto);
@@ -89,15 +93,26 @@
             this.splitContainer1.Panel2.Controls.Add(this.brojNaplatnihMesta);
             this.splitContainer1.Panel2.Controls.Add(this.label5);
             this.splitContainer1.Panel2.Enabled = false;
-            this.splitContainer1.Size = new System.Drawing.Size(401, 341);
-            this.splitContainer1.SplitterDistance = 158;
+            this.splitContainer1.Size = new System.Drawing.Size(401, 399);
+            this.splitContainer1.SplitterDistance = 204;
             this.splitContainer1.TabIndex = 1;
+            // 
+            // dodajNaplatnaMesta
+            // 
+            this.dodajNaplatnaMesta.AutoSize = true;
+            this.dodajNaplatnaMesta.Location = new System.Drawing.Point(76, 171);
+            this.dodajNaplatnaMesta.Name = "dodajNaplatnaMesta";
+            this.dodajNaplatnaMesta.Size = new System.Drawing.Size(246, 20);
+            this.dodajNaplatnaMesta.TabIndex = 8;
+            this.dodajNaplatnaMesta.Text = "ŽELIM DODATI NAPLATNA MESTA";
+            this.dodajNaplatnaMesta.UseVisualStyleBackColor = true;
+            this.dodajNaplatnaMesta.CheckedChanged += new System.EventHandler(this.dodajNaplatnaMesta_CheckedChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(94, 11);
+            this.label4.Location = new System.Drawing.Point(94, 10);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(222, 22);
             this.label4.TabIndex = 7;
@@ -231,7 +246,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(80, 400);
+            this.button1.Location = new System.Drawing.Point(80, 441);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(257, 23);
             this.button1.TabIndex = 5;
@@ -239,22 +254,29 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // dodajNaplatnaMesta
+            // label7
             // 
-            this.dodajNaplatnaMesta.AutoSize = true;
-            this.dodajNaplatnaMesta.Location = new System.Drawing.Point(84, 116);
-            this.dodajNaplatnaMesta.Name = "dodajNaplatnaMesta";
-            this.dodajNaplatnaMesta.Size = new System.Drawing.Size(246, 20);
-            this.dodajNaplatnaMesta.TabIndex = 8;
-            this.dodajNaplatnaMesta.Text = "ŽELIM DODATI NAPLATNA MESTA";
-            this.dodajNaplatnaMesta.UseVisualStyleBackColor = true;
-            this.dodajNaplatnaMesta.CheckedChanged += new System.EventHandler(this.dodajNaplatnaMesta_CheckedChanged);
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(153, 104);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 18);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Vodja stanice";
+            // 
+            // vodje
+            // 
+            this.vodje.FormattingEnabled = true;
+            this.vodje.Location = new System.Drawing.Point(138, 125);
+            this.vodje.Name = "vodje";
+            this.vodje.Size = new System.Drawing.Size(121, 24);
+            this.vodje.TabIndex = 10;
             // 
             // CreateNaplatnaStanica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 456);
+            this.ClientSize = new System.Drawing.Size(434, 511);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.label1);
@@ -292,5 +314,7 @@
         private System.Windows.Forms.Label kreiranjeNapMesta;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckBox dodajNaplatnaMesta;
+        private System.Windows.Forms.ComboBox vodje;
+        private System.Windows.Forms.Label label7;
     }
 }

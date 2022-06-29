@@ -98,9 +98,9 @@ namespace SIMS_project
         {
             nalog.TipKorisnika = TipKorisnika.VODJA_STANICE;
             nalog.Korisnik.RadnoMesto = stanica;
-            stanica.VodjaStanice = nalog.Korisnik;
+            stanica.VodjaStanice = nalog.Korisnik.Id;
 
-            Program.kornalogRepo.Save();
+            Program.naloziRepo.Save();
             Program.korisniciRepo.Save();
             Program.staniceRepo.Save();
 
@@ -113,7 +113,7 @@ namespace SIMS_project
 
         private void load()
         {
-            List<KorisnickiNalog> korisnici = Program.kornalogRepo.GetAll();
+            List<KorisnickiNalog> korisnici = Program.naloziRepo.GetAll();
             foreach (KorisnickiNalog radnik in korisnici)
             {
                 if (radnik.TipKorisnika == TipKorisnika.VODJA_STANICE || radnik.TipKorisnika == TipKorisnika.REFERENT)
