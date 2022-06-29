@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using SIMS_project.NaplatneStanice;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -33,9 +34,23 @@ namespace SIMS_project.Deonice
             return deonice;
         }
 
+        public Deonica GetById(int id)
+        {
+            return deonice.First(n => n.Id == id);
+        }
+
         public void Save()
         {
             File.WriteAllText(fNaziv, JsonConvert.SerializeObject(deonice, Formatting.Indented, podesavanja));
+        }
+
+        public Deonica PronadjiPoStanicama(NaplatnaStanica ulazak, NaplatnaStanica izlazak)
+        {
+            foreach (Deonica d in deonice)
+            {
+                if (d.MestoUlaska.Id == ulazak.Id && d.MestoIzlaska.Id == izlazak.Id) return d;
+            }
+            return null;
         }
     }
 }

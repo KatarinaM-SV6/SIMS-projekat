@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using System.Threading.Tasks;
+using SIMS_project.Uredjaji;
 
 namespace SIMS_project.NaplatneStanice
 {
-    internal class NaplatnaStanicaRepository
+    public class NaplatnaStanicaRepository
     {
         public static List<NaplatnaStanica> naplatneStanice;
         private readonly string fNaziv;
@@ -60,6 +61,22 @@ namespace SIMS_project.NaplatneStanice
         public void Save()
         {
             File.WriteAllText(fNaziv, JsonConvert.SerializeObject(naplatneStanice, Formatting.Indented, podesavanja));
+        }
+
+        public NaplatnaStanica PronadjiPoNaplatnomMestu(NaplatnoMesto naplatnoMesto)
+        {
+            foreach (NaplatnaStanica stanica in naplatneStanice)
+            {
+                foreach (NaplatnoMesto mesto in stanica.NaplatnaMesta)
+                {
+                    Uredjaj uredjaj = mesto.Uredjaji[0];
+                    if (naplatnoMesto.Uredjaji.Any(u => u.IdUredjaja == uredjaj.IdUredjaja))
+                    {
+                        return stanica;
+                    }
+                }
+            }
+            return null;
         }
 
 

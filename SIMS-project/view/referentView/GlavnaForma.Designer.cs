@@ -39,14 +39,14 @@ namespace SIMS_project.view.referentView
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.naplataToolStripMenuItem,
             this.dojaviKvarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 33);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(12, 4, 0, 4);
+            this.menuStrip1.Size = new System.Drawing.Size(668, 37);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -67,30 +67,34 @@ namespace SIMS_project.view.referentView
             // cbMesto
             // 
             this.cbMesto.FormattingEnabled = true;
-            this.cbMesto.Location = new System.Drawing.Point(41, 154);
+            this.cbMesto.Location = new System.Drawing.Point(184, 127);
+            this.cbMesto.Margin = new System.Windows.Forms.Padding(4);
             this.cbMesto.Name = "cbMesto";
-            this.cbMesto.Size = new System.Drawing.Size(290, 28);
+            this.cbMesto.Size = new System.Drawing.Size(289, 33);
             this.cbMesto.TabIndex = 1;
             this.cbMesto.SelectionChangeCommitted += new System.EventHandler(this.CbMesto_SelectionChangeCommitted);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 110);
+            this.label1.Location = new System.Drawing.Point(97, 79);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(363, 20);
+            this.label1.Size = new System.Drawing.Size(446, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Izbor naplatnog mesta na kom radite u ovoj smeni:";
             // 
             // GlavnaForma
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(668, 394);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbMesto);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GlavnaForma";
             this.Text = "Referent - Glavna Forma";
             this.menuStrip1.ResumeLayout(false);

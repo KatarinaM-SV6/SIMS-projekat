@@ -32,7 +32,7 @@ namespace SIMS_project.view.referentView
             List<KeyValuePair<string, Uredjaj>> data = new List<KeyValuePair<string, Uredjaj>>();
             foreach (Uredjaj uredjaj in naplatnoMesto.Uredjaji)
             {
-                data.Add(new KeyValuePair<string, Uredjaj>(uredjaj.VrstaUredjaja.ToString() + " sa Id " + uredjaj.IdUredjaja, uredjaj));
+                data.Add(new KeyValuePair<string, Uredjaj>(uredjaj.VrstaUredjaja.ToString(), uredjaj));
             }
             cbUredjaji.DataSource = new BindingSource(data, null);
             cbUredjaji.DisplayMember = "Key";
@@ -50,6 +50,7 @@ namespace SIMS_project.view.referentView
             if (izabranUredjaj != null)
             {
                 Program.dojaveRepo.Add(new Uredjaji.DojaveOKvaru.DojavaOKvaru(DateTime.Now, izabranUredjaj, tbOpis.Text, chbObustavi.Checked, ulogovaniReferent.Korisnik.RadnoMesto));
+                naplatnoMesto.UFunkciji = chbObustavi.Checked;
                 MessageBox.Show("Uspesno poslata dojava.");
             }
             else MessageBox.Show("Izaberite uredjaj.");

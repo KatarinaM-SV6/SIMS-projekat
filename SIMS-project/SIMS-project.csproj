@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Deonice\Cenovnik\Cenovnik.cs" />
+    <Compile Include="Deonice\Cenovnik\CenovnikJSONReferenceConverter.cs" />
     <Compile Include="Deonice\Cenovnik\CenovnikRepository.cs" />
     <Compile Include="Deonice\Cenovnik\StavkaCenovnika.cs" />
     <Compile Include="Deonice\Deonica.cs" />
@@ -199,6 +200,7 @@
       <DependentUpon>UredajiForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Podaci\Cenovnici.json" />
     <None Include="Podaci\Deonice.json" />
     <None Include="Podaci\DojaveOKvaru.json" />
     <None Include="Podaci\korisnicki_nalozi.json" />

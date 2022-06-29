@@ -25,6 +25,6 @@ namespace SIMS_project.Deonice.Cenovnik
         public float CenaRSD { get => cenaRSD; set => cenaRSD = value; }
         public float CenaEUR { get => cenaEUR; set => cenaEUR = value; }
         public TipVozila TipVozila { get => tipVozila; set => tipVozila = value; }
-        internal Deonica Deonica { get => deonica; set => deonica = value; }
+        public Deonica Deonica { get => deonica; set => deonica = value; }
     }
 }

@@ -11,6 +11,7 @@ using SIMS_project.Uredjaji;
 using SIMS_project.Uredjaji.DojaveOKvaru;
 using SIMS_project.Deonice;
 using SIMS_project.Transakcije;
+using SIMS_project.Deonice.Cenovnik;
 
 namespace SIMS_project
 {
@@ -23,6 +24,7 @@ namespace SIMS_project
         public static NaplatnaStanicaRepository staniceRepo = new NaplatnaStanicaRepository(podaciDir + "NaplatneStanice.json", jsonPodesavanja);
         public static DojavaOKvaruRepository dojaveRepo = new DojavaOKvaruRepository(podaciDir + "DojaveOKvaru.json", jsonPodesavanja);
         public static DeonicaRepository deoniceRepo = new DeonicaRepository(podaciDir + "Deonice.json", jsonPodesavanja);
+        public static CenovnikRepository cenovnikRepo = new CenovnikRepository(podaciDir + "Cenovnici.json", jsonPodesavanja);
         public static KorisnickiNalogRepository kornalogRepo = new KorisnickiNalogRepository(podaciDir + "korisnicki_nalozi.json", jsonPodesavanja);
         public static TransakcijaRepository transakcijaRepo = new TransakcijaRepository(podaciDir + "Transakcije.json", jsonPodesavanja);
 
@@ -32,24 +34,17 @@ namespace SIMS_project
         [STAThread]
         static void Main()
         {
-            /* korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
-             korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
-             korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
-             korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
-
-             foreach (var k in korisniciRepo.GetAll())
-             {
-                 KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
-                 kornalogRepo.Add(nalog);
-                 k.KorisnickiNalog = nalog;
-             }
-             korisniciRepo.Save();
-             kornalogRepo.Save(); */
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-
+            Cenovnik c = cenovnikRepo.GetAll()[0];
+            c.KrajVazenja = DateTime.Now.AddDays(2);
+            naloziRepo.GetById(1).Korisnik.RadnoMesto = staniceRepo.GetById(1);
+            Application.Run(new view.referentView.GlavnaForma(naloziRepo.GetById(1)));
+            //Application.Run(new Form1());
+            transakcijaRepo.Save();
+            dojaveRepo.Save();
+            staniceRepo.Save();
         }
 
         public static void test()
@@ -71,20 +66,6 @@ namespace SIMS_project
 
             Console.WriteLine(jsonString);
             staniceRepo.Save();
-        }
-
-        public static void testDojava ()
-        {
-            List<DojavaOKvaru> dojave = new List<DojavaOKvaru>();
-            Uredjaj u = new Uredjaj(VrstaUredjaja.KAMERA.ToString());
-            dojaveRepo.Add(new DojavaOKvaru(DateTime.Now, u, "a", false, false, staniceRepo.GetById(0)));
-            dojaveRepo.Add(new DojavaOKvaru(DateTime.Now, u, "b", false, true, staniceRepo.GetById(1)));
-            dojaveRepo.Add(new DojavaOKvaru(DateTime.Now, u, "ccc", true, false, staniceRepo.GetById(2)));
-            dojaveRepo.Add(new DojavaOKvaru(DateTime.Now, u, "d", false, false, staniceRepo.GetById(3)));
-            dojaveRepo.Add(new DojavaOKvaru(DateTime.Now, u, "eee", true, true, staniceRepo.GetById(2)));
-            Console.WriteLine(KorisnickiNalogJSONReferenceConverter.Repo == null);
-            Console.WriteLine(KorisnikJSONReferenceConverter.Repo == null);
-            dojaveRepo.Save();
         }
 
     }
