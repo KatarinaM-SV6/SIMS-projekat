@@ -85,5 +85,16 @@ namespace SIMS_project.Transakcije
             zapoceteTransakcije.Add(t);
         }
 
+        public string GetRandomTablice()
+        {
+            if (zapoceteTransakcije.Count > 0)
+            {
+                Random rd = new Random();
+                int index = rd.Next(0, zapoceteTransakcije.Count);
+                return zapoceteTransakcije[index].BrojTablica;
+            }
+            return "";
+        }
+
     }
 }

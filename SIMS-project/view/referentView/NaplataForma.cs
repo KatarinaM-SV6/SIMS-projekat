@@ -27,7 +27,7 @@ namespace SIMS_project.view.referentView
             naplatnoMesto = mesto;
             InitializeComponent();
             btnZavrsi.Enabled = false;
-            // Postavi broj tablica pristiglog vozila
+            SetTbTablice();
             FillCBTip();
         }
 
@@ -39,6 +39,19 @@ namespace SIMS_project.view.referentView
                 cbTip.SelectedItem = tip.ToString();   
             }
         }
+
+        private void SetTbTablice()
+        {
+            string tablice = Program.transakcijaRepo.GetRandomTablice();
+            if (tablice != "") tbTablice.Text = tablice;
+            else
+            {
+                MessageBox.Show("Nema vozila na naplatnom mestu.");
+                this.Dispose();
+            }
+
+        }
+
         private void BtnPokreni_Click(object sender, EventArgs e)
         {
             try

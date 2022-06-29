@@ -34,24 +34,30 @@ namespace SIMS_project
         static void Main()
         {
 
-           /* korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
-            korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
-            korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
-            korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
+            /* korisniciRepo.Add(new Korisnik("Milan", "Milovanovic"));
+             korisniciRepo.Add(new Korisnik("Jelena", "Ristic"));
+             korisniciRepo.Add(new Korisnik("Nikola", "Milovanovic"));
+             korisniciRepo.Add(new Korisnik("Milan", "Krstic"));
 
-            foreach (var k in korisniciRepo.GetAll())
-            {
-                KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
-                kornalogRepo.Add(nalog);
-                k.KorisnickiNalog = nalog;
-            }
-            korisniciRepo.Save();
-            kornalogRepo.Save(); */
-            
+             foreach (var k in korisniciRepo.GetAll())
+             {
+                 KorisnickiNalog nalog = new KorisnickiNalog(k.Ime + k.Prezime, "123", TipKorisnika.REFERENT, k);
+                 kornalogRepo.Add(nalog);
+                 k.KorisnickiNalog = nalog;
+             }
+             korisniciRepo.Save();
+             kornalogRepo.Save(); */
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Cenovnik c = cenovnikRepo.GetAll()[0];
+            c.KrajVazenja = DateTime.Now.AddDays(2);
+            naloziRepo.GetById(1).Korisnik.RadnoMesto = staniceRepo.GetById(1);
+            Application.Run(new view.referentView.GlavnaForma(naloziRepo.GetById(1)));
             //Application.Run(new Form1());
             transakcijaRepo.Save();
+            dojaveRepo.Save();
+            staniceRepo.Save();
         }
 
         public static void test()
