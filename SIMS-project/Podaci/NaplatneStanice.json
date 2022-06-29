@@ -76,7 +76,7 @@
     ],
     "NazivAutoputa": "A1",
     "Obrisana": false,
-    "VodjaStanice": 1
+    "VodjaStanice": -1
   },
   {
     "Id": 1,
@@ -313,6 +313,6 @@
     ],
     "NazivAutoputa": "A4",
     "Obrisana": false,
-    "VodjaStanice": 4
+    "VodjaStanice": -1
   }
 ]

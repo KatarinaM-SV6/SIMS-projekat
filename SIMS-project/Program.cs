@@ -33,21 +33,18 @@ namespace SIMS_project
         /// </summary>
         [STAThread]
         static void Main()
-        {
-
-            //generateKorisnici();
-            //generateStanice();
-            //korisniciRepo.Save();
-            //naloziRepo.Save();
-            //staniceRepo.Save();
+        {           
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Cenovnik c = cenovnikRepo.GetAll()[0];
             c.KrajVazenja = DateTime.Now.AddDays(2);
-            Application.Run(new view.referentView.GlavnaForma(naloziRepo.GetById(1)));
-            //Application.Run(new Form1());
+            Application.Run(new Login());
+            
             transakcijaRepo.Save();
             dojaveRepo.Save();
+            staniceRepo.Save();
+            korisniciRepo.Save();
+            naloziRepo.Save();
             staniceRepo.Save();
         }
 

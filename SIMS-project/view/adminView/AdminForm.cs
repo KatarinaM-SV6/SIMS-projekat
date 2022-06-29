@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SIMS_project.Korisnici;
 using SIMS_project.NaplatneStanice;
+using SIMS_project.view.adminView;
 
 namespace SIMS_project
 {
@@ -27,6 +28,12 @@ namespace SIMS_project
             foreach (NaplatnaStanica naplatnaStanica in naplatneStanice)
             {
                 NaplatneStanice.Items.Add(naplatnaStanica);
+            }
+            KorisnickiNaloziLB.Items.Clear();
+            List<KorisnickiNalog> korisnickiNalozi = Program.naloziRepo.GetAll();
+            foreach (var nalog in korisnickiNalozi)
+            {
+                KorisnickiNaloziLB.Items.Add(nalog);
             }
         }
 
@@ -126,6 +133,51 @@ namespace SIMS_project
                 stanice.Items.Add(stanica);
             }
             
+        }
+
+        private void updateNalogBt_Click(object sender, EventArgs e)
+        {
+            if (KorisnickiNaloziLB.SelectedItem != null)
+            {
+                UpdateNalogForm updateNalogForm = new UpdateNalogForm((KorisnickiNalog)KorisnickiNaloziLB.SelectedItem);
+                updateNalogForm.Show();
+            }
+        }
+
+        private void deleteNalogBt_Click(object sender, EventArgs e)
+        {
+            if (KorisnickiNaloziLB.SelectedItem != null)
+            {
+                KorisnickiNalog nalog = (KorisnickiNalog)KorisnickiNaloziLB.SelectedItem;
+                if (nalog.Korisnik.RadnoMesto.VodjaStanice == nalog.Korisnik.Id)
+                {
+                    NaplatnaStanica stanica = Program.staniceRepo.GetById(nalog.Korisnik.RadnoMesto.Id);   
+                    if (stanica != null)
+                    {
+                        stanica.VodjaStanice = -1;
+                    }
+                }
+
+                Program.korisniciRepo.Remove(nalog.Korisnik);
+                Program.naloziRepo.Remove(nalog);
+                Program.korisniciRepo.Save();
+                Program.naloziRepo.Save();
+                AdminForm_Load();
+            }
+        }
+
+        private void createNalogBt_Click(object sender, EventArgs e)
+        {
+            UpdateNalogForm createNalogForm = new UpdateNalogForm(null);
+            createNalogForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Closed += (s, args) => this.Close();
+            login.Show();
         }
     }
 }

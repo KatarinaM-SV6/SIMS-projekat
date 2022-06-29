@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace SIMS_project.Korisnici
 {
 	public enum TipKorisnika { 
-		PRODAVAC,
 		ADMINISTRATOR,
 		REFERENT,
 		VODJA_STANICE
@@ -46,6 +45,9 @@ namespace SIMS_project.Korisnici
 		[JsonConverter(typeof(KorisnikJSONReferenceConverter))]
 		public Korisnik Korisnik { get => _korisnik; set => _korisnik = value; }
 	    public bool Obrisan { get => _obrisan; set => _obrisan = value; }
-    	
-    	}
+		public override string ToString()
+		{
+			return $"ID: {_id} KorisnickoIme: {KorisnickoIme} Tip korisnika: {TipKorisnika.ToString()} Ime: {Korisnik.Ime} Prezime: {Korisnik.Prezime}";
+		}
+	}
 }

@@ -57,11 +57,11 @@
     <Compile Include="Deonice\Deonica.cs" />
     <Compile Include="Deonice\DeonicaJSONReferenceConverter.cs" />
     <Compile Include="Deonice\DeonicaRepository.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Korisnici\KorisnickiNalogJSONReferenceConverter.cs" />
     <Compile Include="Korisnici\KorisnikJSONReferenceConverter.cs" />
@@ -143,6 +143,12 @@
     <Compile Include="view\vodjaView\IzvestajForm.Designer.cs">
       <DependentUpon>IzvestajForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\adminView\UpdateNalogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\adminView\UpdateNalogForm.Designer.cs">
+      <DependentUpon>UpdateNalogForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\vodjaView\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,8 +167,8 @@
     <Compile Include="view\vodjaView\UredajiForm.Designer.cs">
       <DependentUpon>UredajiForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -188,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\vodjaView\IzvestajForm.resx">
       <DependentUpon>IzvestajForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\adminView\UpdateNalogForm.resx">
+      <DependentUpon>UpdateNalogForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\vodjaView\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

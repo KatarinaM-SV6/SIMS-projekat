@@ -61,5 +61,13 @@ namespace SIMS_project.view.referentView
             }
             else MessageBox.Show("Izaberite naplatno mesto za pocetak rada.");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Closed += (s, args) => this.Close();
+            login.Show();
+        }
     }
 }
