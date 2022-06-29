@@ -37,8 +37,7 @@ namespace SIMS_project.Korisnici
                     return kn;
                 }
             }
-
-            throw new InvalidLoginAttemptException("Neispravni kreencijali");
+            return null;
         }
 
         public void Add(KorisnickiNalog nalog)

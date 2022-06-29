@@ -149,7 +149,7 @@ namespace SIMS_project
             if (KorisnickiNaloziLB.SelectedItem != null)
             {
                 KorisnickiNalog nalog = (KorisnickiNalog)KorisnickiNaloziLB.SelectedItem;
-                if (nalog.Korisnik.RadnoMesto.VodjaStanice == nalog.Korisnik.Id)
+                if (nalog.Korisnik.RadnoMesto != null && nalog.Korisnik.RadnoMesto.VodjaStanice == nalog.Korisnik.Id)
                 {
                     NaplatnaStanica stanica = Program.staniceRepo.GetById(nalog.Korisnik.RadnoMesto.Id);   
                     if (stanica != null)
