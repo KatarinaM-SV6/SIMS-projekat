@@ -50,8 +50,8 @@ namespace SIMS_project
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-
+            //Application.Run(new Form1());
+            transakcijaRepo.Save();
         }
 
         public static void test()

@@ -24,12 +24,12 @@ namespace SIMS_project.Transakcije
 		float _iznos;
 		string _brojTablica;
 		DateTime _vremeIzlaska;
-		int _idTaga;
+		int _id;
 		NaplatnoMesto _mestoUlaska;
 		NaplatnoMesto _mestoIzlaska;
 		NaplatnaStanica _stanicaIzlaska;
 
-		public Transakcija(bool valueRSD, DateTime vremeUlaska, TipVozila tipVozila, float iznos, string brojTablica, DateTime vremeIzlaska, int idTaga, NaplatnoMesto mestoUlaska, NaplatnoMesto mestoIzlaska, NaplatnaStanica naplatnaStanica)
+		public Transakcija(bool valueRSD, DateTime vremeUlaska, TipVozila tipVozila, float iznos, string brojTablica, DateTime vremeIzlaska, int id, NaplatnoMesto mestoUlaska, NaplatnoMesto mestoIzlaska, NaplatnaStanica naplatnaStanica)
 		{
 			_valueRSD = valueRSD;
 			_vremeUlaska = vremeUlaska;
@@ -37,10 +37,17 @@ namespace SIMS_project.Transakcije
 			_iznos = iznos;
 			_brojTablica = brojTablica;
 			_vremeIzlaska = vremeIzlaska;
-			_idTaga = idTaga;
+			_id = id;
 			_mestoUlaska = mestoUlaska;
 			_mestoIzlaska = mestoIzlaska;
 			_stanicaIzlaska = naplatnaStanica;
+		}
+
+		public Transakcija(DateTime vremeUlaska, string brojTablica, NaplatnoMesto mestoUlaska)
+        {
+			_vremeUlaska = vremeUlaska;
+			_brojTablica = brojTablica;
+			_mestoUlaska = mestoUlaska;
 		}
 
 		Transakcija() { }
@@ -52,7 +59,7 @@ namespace SIMS_project.Transakcije
 		public float Iznos { get => _iznos; set => _iznos = value; }
 		public string BrojTablica { get => _brojTablica; set => _brojTablica = value; }
 		public DateTime VremeIzlaska { get => _vremeIzlaska; set => _vremeIzlaska = value; }
-		public int Id { get => _idTaga; set => _idTaga = value; }
+		public int Id { get => _id; set => _id = value; }
 		[JsonConverter(typeof(NaplatnaStanicaJSONReferenceConverter))]
 		public NaplatnaStanica StanicaIzlaska { get => _stanicaIzlaska; set => _stanicaIzlaska = value; }
         public NaplatnoMesto MestoUlaska { get => _mestoUlaska; set => _mestoUlaska = value; }

@@ -1,5 +1,6 @@
 ﻿using SIMS_project.Uredjaji;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SIMS_project.NaplatneStanice
 {
@@ -29,5 +30,6 @@ namespace SIMS_project.NaplatneStanice
         {
             return "Redni broj: " + RedniBroj + ", U funkciji: " + UFunkciji + ", Elektronsko naplacivanje" + ImaElektronskoNaplacivanje;
         }
+
     }
 }

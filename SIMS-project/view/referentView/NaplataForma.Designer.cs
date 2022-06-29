@@ -67,7 +67,7 @@ namespace SIMS_project.view.referentView
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 451);
+            this.label2.Location = new System.Drawing.Point(38, 422);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 20);
             this.label2.TabIndex = 1;
@@ -77,7 +77,7 @@ namespace SIMS_project.view.referentView
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(38, 561);
+            this.label3.Location = new System.Drawing.Point(38, 532);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(246, 20);
             this.label3.TabIndex = 2;
@@ -95,7 +95,7 @@ namespace SIMS_project.view.referentView
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(38, 280);
+            this.label5.Location = new System.Drawing.Point(38, 264);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 20);
             this.label5.TabIndex = 4;
@@ -104,7 +104,7 @@ namespace SIMS_project.view.referentView
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(38, 321);
+            this.label6.Location = new System.Drawing.Point(38, 305);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(110, 20);
             this.label6.TabIndex = 5;
@@ -113,7 +113,7 @@ namespace SIMS_project.view.referentView
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(38, 368);
+            this.label7.Location = new System.Drawing.Point(38, 352);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(236, 20);
             this.label7.TabIndex = 6;
@@ -136,7 +136,7 @@ namespace SIMS_project.view.referentView
             // 
             // tbMestoUlaska
             // 
-            this.tbMestoUlaska.Location = new System.Drawing.Point(310, 277);
+            this.tbMestoUlaska.Location = new System.Drawing.Point(310, 261);
             this.tbMestoUlaska.Name = "tbMestoUlaska";
             this.tbMestoUlaska.ReadOnly = true;
             this.tbMestoUlaska.Size = new System.Drawing.Size(157, 26);
@@ -144,7 +144,7 @@ namespace SIMS_project.view.referentView
             // 
             // tbVremeUlaska
             // 
-            this.tbVremeUlaska.Location = new System.Drawing.Point(310, 315);
+            this.tbVremeUlaska.Location = new System.Drawing.Point(310, 299);
             this.tbVremeUlaska.Name = "tbVremeUlaska";
             this.tbVremeUlaska.ReadOnly = true;
             this.tbVremeUlaska.Size = new System.Drawing.Size(157, 26);
@@ -152,7 +152,7 @@ namespace SIMS_project.view.referentView
             // 
             // tbBrzina
             // 
-            this.tbBrzina.Location = new System.Drawing.Point(373, 362);
+            this.tbBrzina.Location = new System.Drawing.Point(373, 346);
             this.tbBrzina.Name = "tbBrzina";
             this.tbBrzina.ReadOnly = true;
             this.tbBrzina.Size = new System.Drawing.Size(94, 26);
@@ -160,7 +160,7 @@ namespace SIMS_project.view.referentView
             // 
             // btnPokreni
             // 
-            this.btnPokreni.Location = new System.Drawing.Point(191, 142);
+            this.btnPokreni.Location = new System.Drawing.Point(191, 137);
             this.btnPokreni.Name = "btnPokreni";
             this.btnPokreni.Size = new System.Drawing.Size(147, 50);
             this.btnPokreni.TabIndex = 12;
@@ -171,7 +171,7 @@ namespace SIMS_project.view.referentView
             // cbTip
             // 
             this.cbTip.FormattingEnabled = true;
-            this.cbTip.Location = new System.Drawing.Point(310, 442);
+            this.cbTip.Location = new System.Drawing.Point(310, 419);
             this.cbTip.Name = "cbTip";
             this.cbTip.Size = new System.Drawing.Size(157, 28);
             this.cbTip.TabIndex = 13;
@@ -179,7 +179,7 @@ namespace SIMS_project.view.referentView
             // 
             // tbUplacenIznos
             // 
-            this.tbUplacenIznos.Location = new System.Drawing.Point(310, 558);
+            this.tbUplacenIznos.Location = new System.Drawing.Point(310, 529);
             this.tbUplacenIznos.Name = "tbUplacenIznos";
             this.tbUplacenIznos.Size = new System.Drawing.Size(107, 26);
             this.tbUplacenIznos.TabIndex = 14;
@@ -188,7 +188,7 @@ namespace SIMS_project.view.referentView
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(38, 513);
+            this.label8.Location = new System.Drawing.Point(38, 484);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(163, 20);
             this.label8.TabIndex = 15;
@@ -196,7 +196,7 @@ namespace SIMS_project.view.referentView
             // 
             // tbIznos
             // 
-            this.tbIznos.Location = new System.Drawing.Point(310, 507);
+            this.tbIznos.Location = new System.Drawing.Point(310, 478);
             this.tbIznos.Name = "tbIznos";
             this.tbIznos.ReadOnly = true;
             this.tbIznos.Size = new System.Drawing.Size(107, 26);
@@ -204,7 +204,7 @@ namespace SIMS_project.view.referentView
             // 
             // tbKusur
             // 
-            this.tbKusur.Location = new System.Drawing.Point(310, 608);
+            this.tbKusur.Location = new System.Drawing.Point(310, 579);
             this.tbKusur.Name = "tbKusur";
             this.tbKusur.ReadOnly = true;
             this.tbKusur.Size = new System.Drawing.Size(107, 26);
@@ -213,7 +213,7 @@ namespace SIMS_project.view.referentView
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(38, 611);
+            this.label9.Location = new System.Drawing.Point(38, 582);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(54, 20);
             this.label9.TabIndex = 18;
@@ -221,7 +221,7 @@ namespace SIMS_project.view.referentView
             // 
             // btnZavrsi
             // 
-            this.btnZavrsi.Location = new System.Drawing.Point(191, 680);
+            this.btnZavrsi.Location = new System.Drawing.Point(191, 631);
             this.btnZavrsi.Name = "btnZavrsi";
             this.btnZavrsi.Size = new System.Drawing.Size(147, 55);
             this.btnZavrsi.TabIndex = 19;
@@ -232,7 +232,7 @@ namespace SIMS_project.view.referentView
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(38, 238);
+            this.label10.Location = new System.Drawing.Point(38, 222);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(143, 20);
             this.label10.TabIndex = 20;
@@ -241,16 +241,17 @@ namespace SIMS_project.view.referentView
             // lblTablice
             // 
             this.lblTablice.AutoSize = true;
-            this.lblTablice.Location = new System.Drawing.Point(306, 238);
+            this.lblTablice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTablice.Location = new System.Drawing.Point(306, 222);
             this.lblTablice.Name = "lblTablice";
-            this.lblTablice.Size = new System.Drawing.Size(0, 20);
+            this.lblTablice.Size = new System.Drawing.Size(0, 25);
             this.lblTablice.TabIndex = 21;
             // 
             // NaplataForma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(989, 780);
+            this.ClientSize = new System.Drawing.Size(1017, 714);
             this.Controls.Add(this.lblTablice);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnZavrsi);
@@ -273,6 +274,7 @@ namespace SIMS_project.view.referentView
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "NaplataForma";
             this.Text = "Naplata Putarine";
             this.ResumeLayout(false);

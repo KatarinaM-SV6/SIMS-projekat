@@ -25,7 +25,7 @@ namespace SIMS_project.view.referentView
 
         private void FillCBMesto()
         {
-            NaplatnaStanica radnoMesto = Program.staniceRepo.GetById(ulogovaniReferent.Korisnik.RadnoMesto.Id);
+            NaplatnaStanica radnoMesto = ulogovaniReferent.Korisnik.RadnoMesto;
             List<KeyValuePair<string, NaplatnoMesto>> data = new List<KeyValuePair<string, NaplatnoMesto>>();
             foreach (NaplatnoMesto naplatnoMesto in radnoMesto.NaplatnaMesta)
             {
@@ -44,7 +44,12 @@ namespace SIMS_project.view.referentView
 
         private void NaplataToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            if (izabranoMesto != null)
+            {
+                NaplataForma naplataForma = new NaplataForma(ulogovaniReferent, izabranoMesto);
+                naplataForma.Show();
+            }
+            else MessageBox.Show("Izaberite naplatno mesto za pocetak rada.");
         }
 
         private void DojaviKvarToolStripMenuItem_Click(object sender, EventArgs e)

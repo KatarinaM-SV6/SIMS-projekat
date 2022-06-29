@@ -16,9 +16,9 @@
         }
       },
       {
-        "CenaRSD": 400.0,
+        "CenaRSD": 500.0,
         "CenaEUR": 3.0,
-        "TipVozila": 2,
+        "TipVozila": 1,
         "Deonica": {
           "Id": 1,
           "Kilometraza": 54,

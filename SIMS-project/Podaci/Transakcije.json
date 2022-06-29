@@ -218,5 +218,93 @@
       ],
       "UFunkciji": true
     }
+  },
+  {
+    "ValueRSD": false,
+    "VremeUlaska": "2022-06-29T12:26:22.1100986+02:00",
+    "TipVozila": "III",
+    "Iznos": 1000.0,
+    "BrojTablica": "",
+    "VremeIzlaska": "2022-06-29T13:11:48.4797976+02:00",
+    "Id": 5,
+    "StanicaIzlaska": 1,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 1,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "6ceec2c5d9af46aba0236b7cf3df56b7"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "bd80b60219f6442d839b91f8731ff6eb"
+        }
+      ],
+      "UFunkciji": true
+    }
+  },
+  {
+    "ValueRSD": false,
+    "VremeUlaska": "2022-06-29T12:11:22.1100986+02:00",
+    "TipVozila": "II",
+    "Iznos": 400.0,
+    "BrojTablica": "",
+    "VremeIzlaska": "2022-06-29T13:12:52.6312235+02:00",
+    "Id": 6,
+    "StanicaIzlaska": 1,
+    "MestoUlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 0,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "48cf45cbfbf746df854e6ab7f151dc6b"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "30e618cc89ff4f0a840802117f366982"
+        }
+      ],
+      "UFunkciji": true
+    },
+    "MestoIzlaska": {
+      "ImaElektronskoNaplacivanje": false,
+      "RedniBroj": 1,
+      "Uredjaji": [
+        {
+          "VrstaUredjaja": "KAMERA",
+          "UFunkciji": true,
+          "IdUredjaja": "6ceec2c5d9af46aba0236b7cf3df56b7"
+        },
+        {
+          "VrstaUredjaja": "RAMPA",
+          "UFunkciji": true,
+          "IdUredjaja": "bd80b60219f6442d839b91f8731ff6eb"
+        }
+      ],
+      "UFunkciji": true
+    }
   }
 ]
