@@ -11,7 +11,7 @@
     "Id": 1,
     "KorisnickoIme": "JelenaRistic",
     "Lozinka": "123",
-    "TipKorisnika": 2,
+    "TipKorisnika": 1,
     "Korisnik": 1,
     "Obrisan": false
   },
@@ -19,7 +19,7 @@
     "Id": 2,
     "KorisnickoIme": "NikolaMilovanovic",
     "Lozinka": "123",
-    "TipKorisnika": 2,
+    "TipKorisnika": 0,
     "Korisnik": 2,
     "Obrisan": false
   },

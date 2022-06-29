@@ -24,7 +24,7 @@
 
         /// <summary>
         /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// the contents of this    method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -36,15 +36,21 @@
             this.updateButton = new System.Windows.Forms.Button();
             this.createButton = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.KorisnickiNaloziLB = new System.Windows.Forms.ListBox();
+            this.deleteNalogBt = new System.Windows.Forms.Button();
+            this.updateNalogBt = new System.Windows.Forms.Button();
+            this.createNalogBt = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.radnici = new System.Windows.Forms.ComboBox();
-            this.stanice = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.poruka = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.stanice = new System.Windows.Forms.ComboBox();
+            this.radnici = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,6 +131,11 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.KorisnickiNaloziLB);
+            this.tabPage2.Controls.Add(this.deleteNalogBt);
+            this.tabPage2.Controls.Add(this.updateNalogBt);
+            this.tabPage2.Controls.Add(this.createNalogBt);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -132,6 +143,57 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "CRUD Korisnicki nalozi";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(18, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(136, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Korisnicki nalozi:";
+            // 
+            // KorisnickiNaloziLB
+            // 
+            this.KorisnickiNaloziLB.Cursor = System.Windows.Forms.Cursors.Default;
+            this.KorisnickiNaloziLB.FormattingEnabled = true;
+            this.KorisnickiNaloziLB.HorizontalScrollbar = true;
+            this.KorisnickiNaloziLB.ItemHeight = 16;
+            this.KorisnickiNaloziLB.Location = new System.Drawing.Point(21, 51);
+            this.KorisnickiNaloziLB.Name = "KorisnickiNaloziLB";
+            this.KorisnickiNaloziLB.Size = new System.Drawing.Size(313, 228);
+            this.KorisnickiNaloziLB.TabIndex = 8;
+            // 
+            // deleteNalogBt
+            // 
+            this.deleteNalogBt.Location = new System.Drawing.Point(360, 109);
+            this.deleteNalogBt.Name = "deleteNalogBt";
+            this.deleteNalogBt.Size = new System.Drawing.Size(119, 35);
+            this.deleteNalogBt.TabIndex = 7;
+            this.deleteNalogBt.Text = "OBRIŠI";
+            this.deleteNalogBt.UseVisualStyleBackColor = true;
+            this.deleteNalogBt.Click += new System.EventHandler(this.deleteNalogBt_Click);
+            // 
+            // updateNalogBt
+            // 
+            this.updateNalogBt.Location = new System.Drawing.Point(360, 51);
+            this.updateNalogBt.Name = "updateNalogBt";
+            this.updateNalogBt.Size = new System.Drawing.Size(119, 31);
+            this.updateNalogBt.TabIndex = 6;
+            this.updateNalogBt.Text = "AŽURIRAJ";
+            this.updateNalogBt.UseVisualStyleBackColor = true;
+            this.updateNalogBt.Click += new System.EventHandler(this.updateNalogBt_Click);
+            // 
+            // createNalogBt
+            // 
+            this.createNalogBt.Location = new System.Drawing.Point(360, 170);
+            this.createNalogBt.Name = "createNalogBt";
+            this.createNalogBt.Size = new System.Drawing.Size(119, 39);
+            this.createNalogBt.TabIndex = 5;
+            this.createNalogBt.Text = "KREIRAJ";
+            this.createNalogBt.UseVisualStyleBackColor = true;
+            this.createNalogBt.Click += new System.EventHandler(this.createNalogBt_Click);
             // 
             // tabPage3
             // 
@@ -149,45 +211,14 @@
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Enter += new System.EventHandler(this.tabPage3_Enter);
             // 
-            // label2
+            // poruka
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(84, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Radnici";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(335, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 20);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Stanice";
-            // 
-            // radnici
-            // 
-            this.radnici.DisplayMember = "korisnickoIme";
-            this.radnici.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radnici.FormattingEnabled = true;
-            this.radnici.Location = new System.Drawing.Point(45, 53);
-            this.radnici.Name = "radnici";
-            this.radnici.Size = new System.Drawing.Size(155, 28);
-            this.radnici.TabIndex = 2;
-            // 
-            // stanice
-            // 
-            this.stanice.DisplayMember = "Mesto";
-            this.stanice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stanice.FormattingEnabled = true;
-            this.stanice.Location = new System.Drawing.Point(289, 53);
-            this.stanice.Name = "stanice";
-            this.stanice.Size = new System.Drawing.Size(149, 28);
-            this.stanice.TabIndex = 3;
+            this.poruka.AutoSize = true;
+            this.poruka.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.poruka.Location = new System.Drawing.Point(83, 130);
+            this.poruka.Name = "poruka";
+            this.poruka.Size = new System.Drawing.Size(0, 25);
+            this.poruka.TabIndex = 5;
             // 
             // button1
             // 
@@ -199,14 +230,45 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // poruka
+            // stanice
             // 
-            this.poruka.AutoSize = true;
-            this.poruka.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.poruka.Location = new System.Drawing.Point(83, 130);
-            this.poruka.Name = "poruka";
-            this.poruka.Size = new System.Drawing.Size(0, 25);
-            this.poruka.TabIndex = 5;
+            this.stanice.DisplayMember = "Mesto";
+            this.stanice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stanice.FormattingEnabled = true;
+            this.stanice.Location = new System.Drawing.Point(289, 53);
+            this.stanice.Name = "stanice";
+            this.stanice.Size = new System.Drawing.Size(149, 28);
+            this.stanice.TabIndex = 3;
+            // 
+            // radnici
+            // 
+            this.radnici.DisplayMember = "korisnickoIme";
+            this.radnici.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radnici.FormattingEnabled = true;
+            this.radnici.Location = new System.Drawing.Point(45, 53);
+            this.radnici.Name = "radnici";
+            this.radnici.Size = new System.Drawing.Size(155, 28);
+            this.radnici.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(335, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Stanice";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(84, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Radnici";
             // 
             // AdminForm
             // 
@@ -215,11 +277,14 @@
             this.ClientSize = new System.Drawing.Size(530, 353);
             this.Controls.Add(this.TabControl);
             this.Name = "AdminForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminForm";
             this.Activated += new System.EventHandler(this.AdminForm_Activated);
             this.TabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
@@ -243,5 +308,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label poruka;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ListBox KorisnickiNaloziLB;
+        private System.Windows.Forms.Button deleteNalogBt;
+        private System.Windows.Forms.Button updateNalogBt;
+        private System.Windows.Forms.Button createNalogBt;
     }
 }
