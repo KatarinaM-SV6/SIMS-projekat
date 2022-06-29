@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SIMS_project.Korisnici;
 using SIMS_project.view.vodjaView;
 
 namespace SIMS_project
@@ -23,14 +24,28 @@ namespace SIMS_project
             AdminForm adminForm = new AdminForm();
             adminForm.ShowDialog();
 
-            MainForm mainForm = new MainForm();
-            mainForm.Show();
+            //MainForm mainForm = new MainForm();
+            //mainForm.Show();
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            KorisnickiNalog nalog = Program.korisnickiNalogRepo.AttemptLogin(userName.Text, textBox1.Text);
+            if (nalog != null)
+            {
+                if (nalog.TipKorisnika == TipKorisnika.ADMINISTRATOR)
+                {
+                    AdminForm adminForm = new AdminForm();
+                    adminForm.ShowDialog();
+                }
+                /*else if (nalog.TipKorisnika == TipKorisnika.VODJA_STANICE)
+                {
+                    MainForm mainForm = new MainForm();
+                    mainForm.Show();
+                }*/
+
+            }
         }
     }
 }

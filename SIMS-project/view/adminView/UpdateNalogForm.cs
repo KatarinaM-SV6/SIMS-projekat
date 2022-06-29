@@ -18,10 +18,19 @@ namespace SIMS_project.view.adminView
         public UpdateNalogForm(KorisnickiNalog nalog)
         {
             InitializeComponent();
-            _nalog = nalog;
             comboBox1.DataSource = Enum.GetValues(typeof(TipKorisnika));
             comboBox2.DataSource = Program.staniceRepo.GetAll();
-            load();
+            if (nalog != null)
+            {
+                _nalog = nalog;
+                load();
+                button2.Enabled = false;
+            }
+            else 
+            { 
+                button1.Enabled = false;
+            }
+            
         }
         private void load()
         {
@@ -32,13 +41,15 @@ namespace SIMS_project.view.adminView
             comboBox1.SelectedItem = _nalog.TipKorisnika;
             comboBox2.SelectedItem = _nalog.Korisnik.RadnoMesto;
         }
+        // update button
         private void button1_Click(object sender, EventArgs e)
         {
             KorisnickiNalog nalog = Program.korisnickiNalogRepo.GetById(_nalog.Id);
             if (nalog != null)
             {
                 string korisnickoIme = textBox1.Text;
-                if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
+                if (korisnickoIme == nalog.KorisnickoIme) { }
+                else if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
                 { 
                     MessageBox.Show("Korisnicko ime je zauzeto");
                     return;
@@ -49,43 +60,66 @@ namespace SIMS_project.view.adminView
                 nalog.Korisnik.Prezime = textBox4.Text;
                 nalog.TipKorisnika = (TipKorisnika)comboBox1.SelectedItem;
                 nalog.Korisnik.RadnoMesto = (NaplatnaStanica)comboBox2.SelectedItem;
-            
+
+                if (nalog.TipKorisnika == TipKorisnika.ADMINISTRATOR)
+                    nalog.Korisnik.RadnoMesto = null;
+                else if (nalog.Korisnik.RadnoMesto != (NaplatnaStanica)comboBox2.SelectedItem) 
+                {
+                    nalog.Korisnik.RadnoMesto.Radnici.Remove(nalog.Korisnik);
+                }
+                    nalog.Korisnik.RadnoMesto = (NaplatnaStanica)comboBox2.SelectedItem;
+                
+                    
+
+                if (nalog.Korisnik.RadnoMesto != null)
+                {
+                    NaplatnaStanica stanica = (NaplatnaStanica)comboBox2.SelectedItem;
+                    if (nalog.TipKorisnika == TipKorisnika.VODJA_STANICE)
+                        stanica.VodjaStanice = nalog.Korisnik;
+                    stanica.Radnici.Add(nalog.Korisnik);
+                }
                 Program.korisnickiNalogRepo.Save();
                 Program.korisniciRepo.Save();
+                Program.staniceRepo.Save();
+                this.Close();
             }
             
         }
-
+        // add button
         private void button2_Click(object sender, EventArgs e)
-        {
-            KorisnickiNalog nalog = Program.korisnickiNalogRepo.GetById(_nalog.Id);
-            if (nalog == null)
+        { 
+            KorisnickiNalog nalog = new KorisnickiNalog();
+            string korisnickoIme = textBox1.Text;
+            if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
             {
-                nalog = new KorisnickiNalog();
-                string korisnickoIme = textBox1.Text;
-                if (Program.korisnickiNalogRepo.GetByUsername(korisnickoIme).Count() != 0)
-                {
-                    MessageBox.Show("Korisnicko ime je zauzeto");
-                    return;
-                }
-                nalog.KorisnickoIme = korisnickoIme;
-                nalog.Lozinka = textBox2.Text;
-                nalog.Korisnik = new Korisnik();
-                nalog.Korisnik.Ime = textBox3.Text;
-                nalog.Korisnik.Prezime = textBox4.Text;
-                nalog.TipKorisnika = (TipKorisnika)comboBox1.SelectedItem;
+                MessageBox.Show("Korisnicko ime je zauzeto");
+                return;
+            }
+            nalog.KorisnickoIme = korisnickoIme;
+            nalog.Lozinka = textBox2.Text;
+            nalog.Korisnik = new Korisnik();
+            nalog.Korisnik.Ime = textBox3.Text;
+            nalog.Korisnik.Prezime = textBox4.Text;
+            nalog.TipKorisnika = (TipKorisnika)comboBox1.SelectedItem;
+            if (nalog.TipKorisnika == TipKorisnika.ADMINISTRATOR)
+                nalog.Korisnik.RadnoMesto = null;
+            else
                 nalog.Korisnik.RadnoMesto = (NaplatnaStanica)comboBox2.SelectedItem;
                 
-                Program.korisnickiNalogRepo.Add(nalog);
-                Program.korisniciRepo.Add(nalog.Korisnik);
-
-                Program.korisnickiNalogRepo.Save();
-                Program.korisniciRepo.Save();
-            }
-            else
+            Program.korisnickiNalogRepo.Add(nalog);
+            Program.korisniciRepo.Add(nalog.Korisnik);
+            if(nalog.Korisnik.RadnoMesto != null)
             {
-                MessageBox.Show("Korisnicki nalog vec postoji");
+                NaplatnaStanica stanica = (NaplatnaStanica)comboBox2.SelectedItem;
+                if (nalog.TipKorisnika == TipKorisnika.VODJA_STANICE)
+                    stanica.VodjaStanice = nalog.Korisnik;
+                stanica.Radnici.Add(nalog.Korisnik);
             }
+
+            Program.korisnickiNalogRepo.Save();
+            Program.korisniciRepo.Save();
+            Program.staniceRepo.Save();
+            this.Close();
         }
     }
 }

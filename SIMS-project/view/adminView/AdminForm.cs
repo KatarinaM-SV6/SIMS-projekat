@@ -148,14 +148,21 @@ namespace SIMS_project
         {
             if (KorisnickiNaloziLB.SelectedItem != null)
             {
-                Program.korisnickiNalogRepo.Remove((KorisnickiNalog)KorisnickiNaloziLB.SelectedItem);
+                KorisnickiNalog nalog = (KorisnickiNalog)KorisnickiNaloziLB.SelectedItem;
+                if (nalog.Korisnik.RadnoMesto.VodjaStanice == nalog.Korisnik)
+                    nalog.Korisnik.RadnoMesto.VodjaStanice = null;
+
+
+                nalog.Korisnik.RadnoMesto.Radnici.Remove(nalog.Korisnik);
+                Program.korisnickiNalogRepo.Remove(nalog);
                 AdminForm_Load();
             }
         }
 
         private void createNalogBt_Click(object sender, EventArgs e)
         {
-
+            UpdateNalogForm createNalogForm = new UpdateNalogForm(null);
+            createNalogForm.Show();
         }
 
     }

@@ -277,6 +277,7 @@
             this.ClientSize = new System.Drawing.Size(530, 353);
             this.Controls.Add(this.TabControl);
             this.Name = "AdminForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminForm";
             this.Activated += new System.EventHandler(this.AdminForm_Activated);
             this.TabControl.ResumeLayout(false);
