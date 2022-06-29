@@ -62,6 +62,14 @@ namespace SIMS_project.Transakcije
             return transakcije.ToList();
         }
 
+        public List<Transakcija> GetForStation(int id) {
+            List<Transakcija> transakcijeZaStanicu = new List<Transakcija>();
+            foreach (Transakcija transakcija in transakcije.ToList()){
+                if (transakcija.StanicaIzlaska.Id == id) transakcijeZaStanicu.Add(transakcija);
+            }
+            return transakcijeZaStanicu;
+        }
+
         public void Remove(Transakcija stanica)
         {
             transakcije.Remove(stanica);

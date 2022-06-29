@@ -138,6 +138,12 @@
     <Compile Include="view\adminView\UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\vodjaView\IzvestajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\vodjaView\IzvestajForm.Designer.cs">
+      <DependentUpon>IzvestajForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\vodjaView\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,8 +187,14 @@
     <EmbeddedResource Include="view\adminView\UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\vodjaView\IzvestajForm.resx">
+      <DependentUpon>IzvestajForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\vodjaView\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\vodjaView\PrijaveKvarovaForm.resx">
+      <DependentUpon>PrijaveKvarovaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\vodjaView\UredajiForm.resx">
       <DependentUpon>UredajiForm.cs</DependentUpon>

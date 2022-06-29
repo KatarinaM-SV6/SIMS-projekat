@@ -45,12 +45,12 @@ namespace SIMS_project.view.vodjaView
 			this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-			this.dataGridView1.Location = new System.Drawing.Point(102, 70);
+			this.dataGridView1.Location = new System.Drawing.Point(69, 70);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.ReadOnly = true;
 			this.dataGridView1.RowHeadersWidth = 51;
 			this.dataGridView1.RowTemplate.Height = 24;
-			this.dataGridView1.Size = new System.Drawing.Size(458, 192);
+			this.dataGridView1.Size = new System.Drawing.Size(405, 229);
 			this.dataGridView1.TabIndex = 0;
 			// 
 			// Column1
@@ -71,9 +71,9 @@ namespace SIMS_project.view.vodjaView
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(272, 336);
+			this.button1.Location = new System.Drawing.Point(230, 364);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.Size = new System.Drawing.Size(94, 39);
 			this.button1.TabIndex = 1;
 			this.button1.Text = "Zatvori";
 			this.button1.UseVisualStyleBackColor = true;
@@ -83,7 +83,7 @@ namespace SIMS_project.view.vodjaView
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(652, 450);
+			this.ClientSize = new System.Drawing.Size(544, 450);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.dataGridView1);
 			this.Name = "UredajiForm";
