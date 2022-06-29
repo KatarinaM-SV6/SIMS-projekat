@@ -49,6 +49,7 @@ namespace SIMS_project.view.referentView
         {
             if (izabranUredjaj != null)
             {
+                izabranUredjaj.UFunkciji = false;
                 Program.dojaveRepo.Add(new Uredjaji.DojaveOKvaru.DojavaOKvaru(DateTime.Now, izabranUredjaj, tbOpis.Text, chbObustavi.Checked, ulogovaniReferent.Korisnik.RadnoMesto));
                 naplatnoMesto.UFunkciji = chbObustavi.Checked;
                 MessageBox.Show("Uspesno poslata dojava.");

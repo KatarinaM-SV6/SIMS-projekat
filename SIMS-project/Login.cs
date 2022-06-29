@@ -58,7 +58,10 @@ namespace SIMS_project
                     refForm.Closed += (s, args) => this.Close();
                     refForm.ShowDialog();
                 }
-
+            } else
+            {
+                MessageBox.Show("Neispravni kredencijali");
+                return;
             }
         }
     }

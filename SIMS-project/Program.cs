@@ -47,7 +47,6 @@ namespace SIMS_project
             naloziRepo.Save();
             staniceRepo.Save();
         }
-
         public static void generateStanice()
         {
             List<NaplatnaStanica> naplatneStanice = new List<NaplatnaStanica>();

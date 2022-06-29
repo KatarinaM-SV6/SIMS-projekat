@@ -58,6 +58,12 @@ namespace SIMS_project.view.adminView
                 {
                     nalog.Korisnik.RadnoMesto.VodjaStanice = -1;
                 }
+                if (korisnickoIme.Length == 0 || textBox2.Text.Length == 0 || textBox3.Text.Length == 0)
+                {
+                    MessageBox.Show("Polja ne smeju biti prazna");
+                    return ;
+                }
+
                 nalog.KorisnickoIme = korisnickoIme;
                 nalog.Lozinka = textBox2.Text;
                 nalog.Korisnik.Ime = textBox3.Text;
@@ -94,6 +100,11 @@ namespace SIMS_project.view.adminView
             {
                 MessageBox.Show("Korisnicko ime je zauzeto");
                 return;
+            }
+            if (korisnickoIme.Length == 0 || textBox2.Text.Length == 0 || textBox3.Text.Length == 0)
+            {
+                MessageBox.Show("Polja ne smeju biti prazna");
+                return ;
             }
             nalog.KorisnickoIme = korisnickoIme;
             nalog.Lozinka = textBox2.Text;
