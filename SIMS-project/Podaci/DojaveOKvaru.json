@@ -1,0 +1,80 @@
+[
+  {
+    "Id": 0,
+    "Datum": "2022-06-28T17:54:51.9900009+02:00",
+    "OpisKvara": "a",
+    "ObustsaviRadMesta": false,
+    "Obradjena": false,
+    "NaplatnaStanica": 0,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
+  },
+  {
+    "Id": 1,
+    "Datum": "2022-06-28T17:54:52.0040015+02:00",
+    "OpisKvara": "b",
+    "ObustsaviRadMesta": false,
+    "Obradjena": true,
+    "NaplatnaStanica": 1,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
+  },
+  {
+    "Id": 2,
+    "Datum": "2022-06-28T17:54:52.0040015+02:00",
+    "OpisKvara": "ccc",
+    "ObustsaviRadMesta": true,
+    "Obradjena": false,
+    "NaplatnaStanica": 2,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
+  },
+  {
+    "Id": 3,
+    "Datum": "2022-06-28T17:54:52.0040015+02:00",
+    "OpisKvara": "d",
+    "ObustsaviRadMesta": false,
+    "Obradjena": false,
+    "NaplatnaStanica": 3,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
+  },
+  {
+    "Id": 4,
+    "Datum": "2022-06-28T17:55:09.9466889+02:00",
+    "OpisKvara": "eee",
+    "ObustsaviRadMesta": true,
+    "Obradjena": true,
+    "NaplatnaStanica": 2,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "aa713f187bd74116a94d2a53fe1131c7"
+    }
+  },
+  {
+    "Id": 5,
+    "Datum": "2022-06-29T13:21:15.4298291+02:00",
+    "OpisKvara": "g",
+    "ObustsaviRadMesta": true,
+    "Obradjena": false,
+    "NaplatnaStanica": 1,
+    "Uredjaj": {
+      "VrstaUredjaja": "KAMERA",
+      "UFunkciji": true,
+      "IdUredjaja": "6ceec2c5d9af46aba0236b7cf3df56b7"
+    }
+  }
+]

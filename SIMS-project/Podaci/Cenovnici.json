@@ -1,0 +1,64 @@
+[
+  {
+    "PocetakVazenja": "2022-06-28T20:20:02.7534361+02:00",
+    "KrajVazenja": "2022-06-28T20:20:02.7534361+02:00",
+    "Id": 0,
+    "Stavke": [
+      {
+        "CenaRSD": 400.0,
+        "CenaEUR": 3.0,
+        "TipVozila": 2,
+        "Deonica": {
+          "Id": 1,
+          "Kilometraza": 54,
+          "MestoUlaska": 1,
+          "MestoIzlaska": 1
+        }
+      },
+      {
+        "CenaRSD": 500.0,
+        "CenaEUR": 3.0,
+        "TipVozila": 1,
+        "Deonica": {
+          "Id": 1,
+          "Kilometraza": 54,
+          "MestoUlaska": 1,
+          "MestoIzlaska": 1
+        }
+      },
+      {
+        "CenaRSD": 400.0,
+        "CenaEUR": 3.0,
+        "TipVozila": 2,
+        "Deonica": {
+          "Id": 1,
+          "Kilometraza": 54,
+          "MestoUlaska": 1,
+          "MestoIzlaska": 1
+        }
+      },
+      {
+        "CenaRSD": 400.0,
+        "CenaEUR": 3.0,
+        "TipVozila": 2,
+        "Deonica": {
+          "Id": 1,
+          "Kilometraza": 54,
+          "MestoUlaska": 1,
+          "MestoIzlaska": 1
+        }
+      },
+      {
+        "CenaRSD": 400.0,
+        "CenaEUR": 3.0,
+        "TipVozila": 2,
+        "Deonica": {
+          "Id": 1,
+          "Kilometraza": 54,
+          "MestoUlaska": 1,
+          "MestoIzlaska": 1
+        }
+      }
+    ]
+  }
+]

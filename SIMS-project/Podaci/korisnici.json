@@ -1,0 +1,58 @@
+[
+  {
+    "Ime": "Milan",
+    "Prezime": "Milovanovic",
+    "Id": 0,
+    "Obrisan": false,
+    "RadnoMesto": 0
+  },
+  {
+    "Ime": "Jelena",
+    "Prezime": "Ristic",
+    "Id": 1,
+    "Obrisan": false,
+    "RadnoMesto": 1
+  },
+  {
+    "Ime": "Nikola",
+    "Prezime": "Milovanovic",
+    "Id": 2,
+    "Obrisan": false,
+    "RadnoMesto": 2
+  },
+  {
+    "Ime": "Milan",
+    "Prezime": "Krstic",
+    "Id": 3,
+    "Obrisan": false,
+    "RadnoMesto": 2
+  },
+  {
+    "Ime": "Sandra",
+    "Prezime": "Popovic",
+    "Id": 4,
+    "Obrisan": false,
+    "RadnoMesto": 3
+  },
+  {
+    "Ime": "Nikola",
+    "Prezime": "Ristic",
+    "Id": 5,
+    "Obrisan": false,
+    "RadnoMesto": 1
+  },
+  {
+    "Ime": "Petar",
+    "Prezime": "Petrovic",
+    "Id": 6,
+    "Obrisan": false,
+    "RadnoMesto": 3
+  },
+  {
+    "Ime": "Nikolina",
+    "Prezime": "Jokic",
+    "Id": 7,
+    "Obrisan": false,
+    "RadnoMesto": 0
+  }
+]
